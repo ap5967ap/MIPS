@@ -1,5 +1,6 @@
 .data 
     next_line:.asciiz "\n"
+
     option:.asciiz "Welcome to ROT13 Encryption - Decryption.\nEnter 1 for encryption and 2 for decryption. "
     print_input_string:.asciiz "Enter the input string to be encoded.  "
     buffer:.space 256
