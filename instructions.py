@@ -39,8 +39,90 @@ mips_instructions = {
     "div":["div"],
     "mfhi":["mfhi"],
 }
-RType=set
-opcode={
+Rtype={# this is the funct for R type instructions ; opcode is 0
+    "add":0x20,
+    "addu":0x21,
+    "and":0x24,
+    "div":0x1A,
+    "divu":0x1B,
+    "jalr":0x09,
+    "jr":0x08,
+    "mfhi":0x10,
+    "mthi":0x11,
+    "mflo":0x12,
+    "mtlo":0x13,
+    "mult":0x18,
+    "multu":0x19,
+    "nor":0x27,
+    "or":0x25,
+    "xor":0x26,
+    "slt":0x2A,
+    "sltu":0x2B,
+    "sll":0x00,
+    "srl":0x02,
+    "sra":0x03,
+    "sub":0x22,
+    "subu":0x23,
     
 }
-# def mips_instructions()
+
+# I type contains opcodes
+Itype={
+    "addiu":0x09,
+    "addi":0x08,
+    "andi":0x0C,
+    "beq":0x04,
+    "lb": 0x20,
+    "lui": 0x0F,
+    "lw": 0x23,
+    "ori": 0x0D,
+    "sb": 0x28,
+    "slti": 0x0A,
+    "sltiu": 0x0B,
+    "bne": 0x05,
+    "lbu": 0x24,
+    "sw": 0x2B
+}
+
+# j type contains opcodes
+Jtype = {
+    "j": 0x02,
+    "jal": 0x03
+}
+
+register={
+    "$zero":"$0",
+    "$at":"$1",
+    "$v0":"$2",
+    "$v1":"$3",
+    "$a0":"$4",
+    "$a1":"$5",
+    "$a2":"$6",
+    "$a3":"$7",
+    "$t0":"$8",
+    "$t1":"$9",
+    "$t2":"$10",
+    "$t3":"$11",
+    "$t4":"$12",
+    "$t5":"$13",
+    "$t6":"$14",
+    "$t7":"$15",
+    "$s0":"$16",
+    "$s1":"$17",
+    "$s2":"$18",
+    "$s3":"$19",
+    "$s4":"$20",
+    "$s5":"$21",
+    "$s6":"$22",
+    "$s7":"$23",
+    "$t8":"$24",
+    "$t9":"$25",
+    "$k0":"$26",
+    "$k1":"$27",
+    "$gp":"$28",
+    "$sp":"$29",
+    "$fp":"$30",
+    "$ra":"$31"
+}
+
+

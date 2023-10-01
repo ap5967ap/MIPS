@@ -1,7 +1,7 @@
 .data 
     next_line:.asciiz "\n"
     option:.asciiz "Welcome to ROT13 Encryption - Decryption.\nEnter 1 for encryption and 2 for decryption. "
-    print_input_string:.asciiz "Enter the input string to be encoded.  "
+    print_input_string:.asciiz "Enter the input string to be encoded. "
     buffer:.space 256
 
 .text
@@ -21,8 +21,6 @@ beq $t2, 1, encrypt
 beq $t2, 2, decrypt
 j exit
  
-
-    
 
 encrypt:
     #printing the input string
@@ -83,7 +81,7 @@ encrypt:
                 addi $t0, $t0, 96
                 sb $t0, 0($t5)
                 j update_pointers
-
+                
         update_pointers:
             addi $t7, $t7, 1
             addi $t5, $t5, 1
