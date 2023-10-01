@@ -1,5 +1,5 @@
 
-mips_instructions = {
+mips_instructions = { # this hashmap/ dictionary stores instructions and the corresponding instructions they will be reduced to, in case of basic instructions, it stores itself
     "li":["addiu"],
     "la":["lui","ori"],
     "syscall":["syscall"],
@@ -90,7 +90,7 @@ Jtype = {
     "jal": 0x03
 }
 
-register={
+register={ # this contains register numbers corresponding to every register, helpful to generate machine and basic code 
     "$zero":"$0",
     "$at":"$1",
     "$v0":"$2",
