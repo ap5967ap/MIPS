@@ -1,9 +1,13 @@
 from instructions import *
 from symbolTable import *
 import re
-def sc2bc(inst, operands):
-    bc = ['a']
-    if(inst == "li"):
+
+def sc2bc(inst, operands): # function to convert source code to basic code 
+    bc = ['a'] # this initial declaration is useful for future ammendments and testing 
+
+    # now we are gonna deal with almost all instructions used in rot13.asm individually and generate respective basic code, this is easily extendable in the future
+    # in case anyone wishes to do so. This also has basic register error handling in two instructions for demo, can be extended to more precise and proper error handling 
+    if(inst == "li"): 
         reg=operands[0]
         value= register.get(reg)
         if value is None:
@@ -14,7 +18,7 @@ def sc2bc(inst, operands):
         value = register.get(reg)
         if value is None:
             raise Exception("Invalid register name")
-        bc = ["lui $1,4097", "ori " + value + ",$1," + data_elements[operands[-1]][0]]
+        bc = ["lui $1,4097", "ori " + value + ",$1," + data_elements[operands[-1]][0]] # picking some values from the .data segment labels for basic code generation
         
     elif(inst == "move"):
         bc = ["addu " + register.get(operands[0]) + ",$0," + register.get(operands[1])]
@@ -37,7 +41,7 @@ def sc2bc(inst, operands):
     elif(inst == "lb"):
         blah = operands[1]
         result = blah.split("(")[0]
-        blah=re.findall(r'\((.*?)\)', blah)[0]
+        blah=re.findall(r'\((.*?)\)', blah)[0] # using the regular expression library for dealing with instructions like lb, sb
         bc = ["lb " + register.get(operands[0]) + "," + result +'('+ register.get(blah) + ")"]        
         
     elif(inst == "sb"):
