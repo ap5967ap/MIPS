@@ -174,4 +174,4 @@ secondPass()
 # print(symbol_table['loopend2'])
 # print()
 
-csv=code.to_csv('a.csv', index=False,sep='\t')
+csv=code.to_csv(outFile, index=False,sep='\t')
