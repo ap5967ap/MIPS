@@ -189,27 +189,27 @@ def instruction_decode(instruction):
     
 
 def alucontrol(AlUop, funct):
-    if(AlUop in [0b0100,0b0010,0b0000] or funct in [0x20,0x21]): #! may have a mistake here 
+    if(AlUop in [0b0100,0b0010,0b0000] or (funct in [0x20,0x21] and AlUop==2 )): 
         return 0b0000 #?add
-    elif funct in [0x1B,0x1A]:
+    elif funct in [0x1B,0x1A] and AlUop==2 :
         return 0b0001 #?div
-    elif funct in [0x24] or AlUop in [0b0110]:
+    elif (funct in [0x24] and AlUop==2 ) or AlUop in [0b0110]:
         return 0b0010 #?and
-    elif funct == 0x10:
+    elif funct == 0x10 and AlUop==2:
         return 0b0011 #?mfhi
-    elif funct == 0x12:
+    elif funct == 0x12 and AlUop==2:
         return 0b0100 #?mflo
-    elif funct in [0x18,0x19]:
+    elif funct in [0x18,0x19] and AlUop==2:
         return 0b0101 #?mult
-    elif funct == 0x27:
+    elif funct == 0x27 and AlUop==2:
         return 0b0110 #?nor
-    elif funct == 0x25 or AlUop in [0b1000]:
+    elif (funct == 0x25 and AlUop==2) or AlUop in [0b1000]:
         return 0b0111 #?or
-    elif funct == 0x26 or AlUop in [0b1011]:
+    elif (funct == 0x26 and AlUop==2) or AlUop in [0b1011]:
         return 0b1000 #?xor
-    elif funct in [0x2A,0x2B] or AlUop in [0b1001]:
+    elif (funct in [0x2A,0x2B] and AlUop==2) or AlUop in [0b1001]:
         return 0b1001 #?slt
-    elif funct in [0x22,0x23] or AlUop in [0b0001]:
+    elif (funct in [0x22,0x23] and AlUop==2) or AlUop in [0b0001]:
         return 0b1010 #?sub
     elif AlUop == 0b1110:
         return 0b1011 #?bne
@@ -341,7 +341,7 @@ def memory(ALUResult,writeData):
     
     
     
-def writeback(ALUResult,ReadData,rd):
+def writeback(ALUResult,ReadData,rd): # writeback cycle 
     Result=0
     if control_signals['RegWrite']==0:
         return
@@ -355,7 +355,7 @@ def writeback(ALUResult,ReadData,rd):
     return
     
     
-def print_string(start_address):
+def print_string(start_address): # print the string given the starting address 
     address = start_address
     address=(address//4)*4
     offset=start_address%4
@@ -417,7 +417,7 @@ def print_string(start_address):
     return output
 
 
-def string_input(string,address2):
+def string_input(string,address2): # storing the string given the string and the starting address
     for i in string:
         val=format(ord(i),'08b')
         address=address2
@@ -446,21 +446,28 @@ def mips_processor():
         clock+=1
         pc+=4
         
-        if instruction == "00000000000000000000000000001100": # a0 = $4
+        #? syscalls 5 stages would need to be incorporated in pipelining 
+        if instruction == "00000000000000000000000000001100": # syscalls 
             v0 = register_file['$2']
             if v0 == 1:
                 print(register_file['$4'])
             elif v0 == 4:
                 start_address = register_file['$4']
+                print_string(start_address)
                 
             elif v0 == 5:
                 register_file['$2'] = int(input())
+                
 
             elif v0 == 8:
                 address = register_file['$4']
                 max_char = register_file['$5']
 
-                while 
+                string = input()
+                string = string + '\0'
+                string_input(string, address)
+            continue
+
         #instruction decode
         opcode,rs,rt,rd,shamt,funct,imm,address,rd1,rd2=instruction_decode(instruction)
         ALUcontrol=alucontrol(control_signals['ALUOp'],funct)

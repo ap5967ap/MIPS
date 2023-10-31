@@ -104,6 +104,8 @@ def string_input(string,address2):
         
         address2+=1
         
-
-string_input("hello",0x10010129)
+string = input()
+string = string + '\0'
+string_input(string,0x10010129)
+print(data_mem)
 print(print_string(0x10010129))
