@@ -56,7 +56,7 @@
 0x004000d4  0x14200001  bne $1,$0,0x00000001       
 0x004000d8  0x08100040  j 0x00400100          72               j update_pointers
 0x004000dc  0x000c4821  addu $9,$0,$12        74                   move $t1, $t4
-0x004000e0  0x2129ffa0  addi $9,$9,0xffffffa0 75                   addi $t1, $t1, -96
+0x004000e0  addi $9,$9,0xffffffa0 75                   addi $t1, $t1, -96
 0x004000e4  0x2129000d  addi $9,$9,0x0000000d 76                   addi $t1, $t1, 13
 0x004000e8  0x2416001a  addiu $22,$0,0x000000178                   li $s6,26
 0x004000ec  0x0136001a  div $9,$22            79                   div $t1,$s6
