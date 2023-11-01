@@ -450,7 +450,7 @@ def mips_processor():
         instruction=instruction_fetch((pc))
         clock+=1
         if instruction != "00000000000000000000000000001100": # syscalls 
-            processor.append("IF  "+str(hex(pc))+" -- "+str(instruction)+"\n")
+            processor.append("IF  "+str(hex(pc))+" -- "+str(instruction)+f"\nCLOCK : {clock}\n")
         pc+=4
         
         #? syscalls 5 stages would need to be incorporated in pipelining 
@@ -483,24 +483,24 @@ def mips_processor():
         else:
             rd=rd
         clock+=1
-        processor.append("ID  ")
-        processor.append("  opcode:  "+hex(opcode))
-        processor.append("  rs:  "+str(rs))
-        processor.append("  rt:  "+str(rt))
-        processor.append("  rd:  "+str(rd))
-        processor.append("  shamt:  "+str(shamt))
-        processor.append("  funct:  "+hex(funct))
-        processor.append("  imm:  "+str(imm))
-        processor.append("  address:  "+str(address))
-        processor.append("  rd1:  "+str(rd1))
-        processor.append("  rd2:  "+str(rd2)+"\n")
+        processor.append(f"ID  ")
+        processor.append("opcode:  "+hex(opcode))
+        processor.append("rs:  "+str(rs))
+        processor.append("rt:  "+str(rt))
+        processor.append("rd:  "+str(rd))
+        processor.append("shamt:  "+str(shamt))
+        processor.append("funct:  "+hex(funct))
+        processor.append("imm:  "+str(imm))
+        processor.append("address:  "+str(address))
+        processor.append("rd1:  "+str(rd1))
+        processor.append("rd2:  "+str(rd2)+f"\nCLOCK : {clock}\n")
         
         # print(hex(pc-4),opcode,rs,rt,rd,shamt,funct,"**",imm,address,rd1,rd2)  
         
         #instruction execute
         ALUResult,zero=instr_execute(ALUcontrol,imm,rd1,rd2)
         clock+=1
-        processor.append("EX ALU = "+str(ALUResult)+"  zero = "+str(zero)+"\n")
+        processor.append("EX ALU = "+str(ALUResult)+"  zero = "+str(zero)+f"\nCLOCK : {clock}\n")
         #memory access
         if control_signals['Jump'] == 1:
             pc = address_after_jump(pc, address)
@@ -515,19 +515,19 @@ def mips_processor():
         processor.append("MEM readData = "+str(readData))
         processor.append("ADDRESS = "+str(ALUResult))
         if control_signals['MemWrite']!=0:
-            processor.append("VALUE  "+str(data_mem[(ALUResult//4)*4])+"  ")
+            processor.append("VALUE  "+str(data_mem[(ALUResult//4)*4])+f"  \nCLOCK : {clock}")
         else:
-            processor.append("NOT WRITTEN IN MEMORY")
+            processor.append(f"NOT WRITTEN IN MEMORY,  \nCLOCK : {clock}")
         #write back
         writeback(ALUResult,readData,rd)
-        processor.append("  WB  ")
-        processor.append("  rd = " + str(rd))
-        processor.append("  ALUresult = " + str(ALUResult))
-        processor.append("  readData = " + str(readData))
-        processor.append("  value = " + str(register_file['$'+str(rd)]))
-        processor.append("\n")
+        processor.append("WB  ")
+        processor.append("rd = " + str(rd))
+        processor.append("ALUresult = " + str(ALUResult))
+        processor.append("readData = " + str(readData))
+        processor.append("value = " + str(register_file['$'+str(rd)]))
         clock+=1
-        processor.append("________________________________________________________________________________________________________________\nCLock = "+str(clock)+"\n")
+        processor.append(f"\nCLOCK : {clock}\n")
+        processor.append("________________________________________________________________________________________________________________\n")
 mips_processor()
 # def cc(binary:str):
 #     return hex(int(binary,2))
