@@ -43,7 +43,7 @@ encrypt:
     li $t4,65
 
     #while loop    
-    jal whileencrypt
+    j whileencrypt
     whileencrypt:
         lb $t4 , 0($t7)
         beq $t4 , 0x0A, loopend
@@ -113,7 +113,7 @@ decrypt:
     move $t9,$a0
     li $t4,65
     #while loop
-    jal whiledecrypt
+    j whiledecrypt
     whiledecrypt:
         lb $t4 , 0($t7)
         beq $t4 , 0x0A, loopend2
