@@ -1,4 +1,0 @@
-ALUOp
-Rtype - 0010
-LW/SW - 0000
-BEQ/BNE - 0001

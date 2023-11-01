@@ -4,7 +4,7 @@ Rtype={# this is the funct for R type instructions ; opcode is 0
     0x24:"and",    
     0x1A:"div",
     0x1B:"divu",
-    0x08:"jr",#?TODO: check 
+    0x08:"jr",
     0x10:"mfhi",
     0x12:"mflo",
     0x18:"mult",

@@ -1,5 +1,4 @@
 import sys
-import pandas as pd
 from opcodes import *
 binFile=sys.argv[1]
 dataMem=sys.argv[2]
@@ -459,10 +458,10 @@ def mips_processor():
             clock-=1 
             v0 = register_file['$2']
             if v0 == 1:
-                print(register_file['$4'])
+                print(register_file['$4'],end=' ')
             elif v0 == 4:
                 start_address = register_file['$4']
-                print(print_string(start_address))
+                print(print_string(start_address),end=' ')
                 
             if v0 == 5:
                 register_file['$2'] = int(input()) 
@@ -528,7 +527,7 @@ def mips_processor():
         processor.append("  value = " + str(register_file['$'+str(rd)]))
         processor.append("\n")
         clock+=1
-        processor.append("________________________________________________________________________________________________________________"+str(clock)+"\n")
+        processor.append("________________________________________________________________________________________________________________\nCLock = "+str(clock)+"\n")
 mips_processor()
 # def cc(binary:str):
 #     return hex(int(binary,2))
@@ -544,4 +543,3 @@ for i in data_mem.keys():
         s+=j
         s+=' '
     print(hex(i),s,file=ff)
-
