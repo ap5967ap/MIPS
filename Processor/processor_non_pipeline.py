@@ -462,8 +462,7 @@ def mips_processor():
                 print(register_file['$4'])
             elif v0 == 4:
                 start_address = register_file['$4']
-                # prin
-                print_string(start_address)
+                print(print_string(start_address))
                 
             if v0 == 5:
                 register_file['$2'] = int(input()) 
