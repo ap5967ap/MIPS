@@ -21,6 +21,7 @@ MEM readData = 0
 ADDRESS = 4
 NOT WRITTEN IN MEMORY,  
 CLOCK : 4
+
 WB  
 rd = 2
 ALUresult = 4
@@ -54,6 +55,7 @@ MEM readData = 0
 ADDRESS = 268500992
 NOT WRITTEN IN MEMORY,  
 CLOCK : 9
+
 WB  
 rd = 1
 ALUresult = 268500992
@@ -87,6 +89,7 @@ MEM readData = 0
 ADDRESS = 268500994
 NOT WRITTEN IN MEMORY,  
 CLOCK : 14
+
 WB  
 rd = 4
 ALUresult = 268500994
@@ -120,6 +123,7 @@ MEM readData = 0
 ADDRESS = 5
 NOT WRITTEN IN MEMORY,  
 CLOCK : 19
+
 WB  
 rd = 2
 ALUresult = 5
@@ -153,6 +157,7 @@ MEM readData = 0
 ADDRESS = 1
 NOT WRITTEN IN MEMORY,  
 CLOCK : 24
+
 WB  
 rd = 10
 ALUresult = 1
@@ -186,6 +191,7 @@ MEM readData = 0
 ADDRESS = 1
 NOT WRITTEN IN MEMORY,  
 CLOCK : 29
+
 WB  
 rd = 1
 ALUresult = 1
@@ -219,6 +225,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 34
+
 WB  
 rd = 10
 ALUresult = 0
@@ -252,6 +259,7 @@ MEM readData = 0
 ADDRESS = 4
 NOT WRITTEN IN MEMORY,  
 CLOCK : 39
+
 WB  
 rd = 2
 ALUresult = 4
@@ -285,6 +293,7 @@ MEM readData = 0
 ADDRESS = 268500992
 NOT WRITTEN IN MEMORY,  
 CLOCK : 44
+
 WB  
 rd = 1
 ALUresult = 268500992
@@ -318,6 +327,7 @@ MEM readData = 0
 ADDRESS = 268501082
 NOT WRITTEN IN MEMORY,  
 CLOCK : 49
+
 WB  
 rd = 4
 ALUresult = 268501082
@@ -351,6 +361,7 @@ MEM readData = 0
 ADDRESS = 8
 NOT WRITTEN IN MEMORY,  
 CLOCK : 54
+
 WB  
 rd = 2
 ALUresult = 8
@@ -384,6 +395,7 @@ MEM readData = 0
 ADDRESS = 268500992
 NOT WRITTEN IN MEMORY,  
 CLOCK : 59
+
 WB  
 rd = 1
 ALUresult = 268500992
@@ -417,6 +429,7 @@ MEM readData = 0
 ADDRESS = 268501121
 NOT WRITTEN IN MEMORY,  
 CLOCK : 64
+
 WB  
 rd = 4
 ALUresult = 268501121
@@ -450,6 +463,7 @@ MEM readData = 0
 ADDRESS = 256
 NOT WRITTEN IN MEMORY,  
 CLOCK : 69
+
 WB  
 rd = 5
 ALUresult = 256
@@ -483,6 +497,7 @@ MEM readData = 0
 ADDRESS = 268501121
 NOT WRITTEN IN MEMORY,  
 CLOCK : 74
+
 WB  
 rd = 15
 ALUresult = 268501121
@@ -516,6 +531,7 @@ MEM readData = 0
 ADDRESS = 268501121
 NOT WRITTEN IN MEMORY,  
 CLOCK : 79
+
 WB  
 rd = 13
 ALUresult = 268501121
@@ -549,6 +565,7 @@ MEM readData = 0
 ADDRESS = 268501121
 NOT WRITTEN IN MEMORY,  
 CLOCK : 84
+
 WB  
 rd = 25
 ALUresult = 268501121
@@ -582,6 +599,7 @@ MEM readData = 0
 ADDRESS = 65
 NOT WRITTEN IN MEMORY,  
 CLOCK : 89
+
 WB  
 rd = 12
 ALUresult = 65
@@ -616,6 +634,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 94
+
 WB  
 rd = 16
 ALUresult = 0
@@ -649,6 +668,7 @@ MEM readData = 104
 ADDRESS = 268501121
 NOT WRITTEN IN MEMORY,  
 CLOCK : 99
+
 WB  
 rd = 12
 ALUresult = 268501121
@@ -682,6 +702,7 @@ MEM readData = 0
 ADDRESS = 10
 NOT WRITTEN IN MEMORY,  
 CLOCK : 104
+
 WB  
 rd = 1
 ALUresult = 10
@@ -715,6 +736,7 @@ MEM readData = 0
 ADDRESS = -94
 NOT WRITTEN IN MEMORY,  
 CLOCK : 109
+
 WB  
 rd = 12
 ALUresult = -94
@@ -748,6 +770,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 114
+
 WB  
 rd = 1
 ALUresult = 0
@@ -781,6 +804,7 @@ MEM readData = 0
 ADDRESS = -104
 NOT WRITTEN IN MEMORY,  
 CLOCK : 119
+
 WB  
 rd = 12
 ALUresult = -104
@@ -814,6 +838,7 @@ MEM readData = 0
 ADDRESS = 32
 NOT WRITTEN IN MEMORY,  
 CLOCK : 124
+
 WB  
 rd = 1
 ALUresult = 32
@@ -847,6 +872,7 @@ MEM readData = 0
 ADDRESS = -72
 NOT WRITTEN IN MEMORY,  
 CLOCK : 129
+
 WB  
 rd = 12
 ALUresult = -72
@@ -880,6 +906,7 @@ MEM readData = 0
 ADDRESS = 96
 NOT WRITTEN IN MEMORY,  
 CLOCK : 134
+
 WB  
 rd = 1
 ALUresult = 96
@@ -913,6 +940,7 @@ MEM readData = 0
 ADDRESS = 1
 NOT WRITTEN IN MEMORY,  
 CLOCK : 139
+
 WB  
 rd = 1
 ALUresult = 1
@@ -946,6 +974,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 144
+
 WB  
 rd = 0
 ALUresult = 0
@@ -979,6 +1008,7 @@ MEM readData = 0
 ADDRESS = 1
 NOT WRITTEN IN MEMORY,  
 CLOCK : 149
+
 WB  
 rd = 1
 ALUresult = 1
@@ -1012,6 +1042,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 154
+
 WB  
 rd = 0
 ALUresult = 0
@@ -1045,6 +1076,7 @@ MEM readData = 0
 ADDRESS = 104
 NOT WRITTEN IN MEMORY,  
 CLOCK : 159
+
 WB  
 rd = 9
 ALUresult = 104
@@ -1078,6 +1110,7 @@ MEM readData = 0
 ADDRESS = 8
 NOT WRITTEN IN MEMORY,  
 CLOCK : 164
+
 WB  
 rd = 9
 ALUresult = 8
@@ -1111,6 +1144,7 @@ MEM readData = 0
 ADDRESS = 21
 NOT WRITTEN IN MEMORY,  
 CLOCK : 169
+
 WB  
 rd = 9
 ALUresult = 21
@@ -1144,6 +1178,7 @@ MEM readData = 0
 ADDRESS = 26
 NOT WRITTEN IN MEMORY,  
 CLOCK : 174
+
 WB  
 rd = 22
 ALUresult = 26
@@ -1177,6 +1212,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 179
+
 WB  
 rd = 0
 ALUresult = 0
@@ -1210,6 +1246,7 @@ MEM readData = 0
 ADDRESS = 21
 NOT WRITTEN IN MEMORY,  
 CLOCK : 184
+
 WB  
 rd = 8
 ALUresult = 21
@@ -1243,6 +1280,7 @@ MEM readData = 0
 ADDRESS = 117
 NOT WRITTEN IN MEMORY,  
 CLOCK : 189
+
 WB  
 rd = 8
 ALUresult = 117
@@ -1276,6 +1314,7 @@ MEM readData = 0
 ADDRESS = 268501121
 VALUE  01101100011001010111010100000000  
 CLOCK : 194
+
 WB  
 rd = 8
 ALUresult = 268501121
@@ -1310,6 +1349,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 199
+
 WB  
 rd = 16
 ALUresult = 0
@@ -1343,6 +1383,7 @@ MEM readData = 0
 ADDRESS = 268501122
 NOT WRITTEN IN MEMORY,  
 CLOCK : 204
+
 WB  
 rd = 15
 ALUresult = 268501122
@@ -1376,6 +1417,7 @@ MEM readData = 0
 ADDRESS = 268501122
 NOT WRITTEN IN MEMORY,  
 CLOCK : 209
+
 WB  
 rd = 13
 ALUresult = 268501122
@@ -1410,6 +1452,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 214
+
 WB  
 rd = 16
 ALUresult = 0
@@ -1443,6 +1486,7 @@ MEM readData = 101
 ADDRESS = 268501122
 NOT WRITTEN IN MEMORY,  
 CLOCK : 219
+
 WB  
 rd = 12
 ALUresult = 268501122
@@ -1476,6 +1520,7 @@ MEM readData = 0
 ADDRESS = 10
 NOT WRITTEN IN MEMORY,  
 CLOCK : 224
+
 WB  
 rd = 1
 ALUresult = 10
@@ -1509,6 +1554,7 @@ MEM readData = 0
 ADDRESS = -91
 NOT WRITTEN IN MEMORY,  
 CLOCK : 229
+
 WB  
 rd = 12
 ALUresult = -91
@@ -1542,6 +1588,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 234
+
 WB  
 rd = 1
 ALUresult = 0
@@ -1575,6 +1622,7 @@ MEM readData = 0
 ADDRESS = -101
 NOT WRITTEN IN MEMORY,  
 CLOCK : 239
+
 WB  
 rd = 12
 ALUresult = -101
@@ -1608,6 +1656,7 @@ MEM readData = 0
 ADDRESS = 32
 NOT WRITTEN IN MEMORY,  
 CLOCK : 244
+
 WB  
 rd = 1
 ALUresult = 32
@@ -1641,6 +1690,7 @@ MEM readData = 0
 ADDRESS = -69
 NOT WRITTEN IN MEMORY,  
 CLOCK : 249
+
 WB  
 rd = 12
 ALUresult = -69
@@ -1674,6 +1724,7 @@ MEM readData = 0
 ADDRESS = 96
 NOT WRITTEN IN MEMORY,  
 CLOCK : 254
+
 WB  
 rd = 1
 ALUresult = 96
@@ -1707,6 +1758,7 @@ MEM readData = 0
 ADDRESS = 1
 NOT WRITTEN IN MEMORY,  
 CLOCK : 259
+
 WB  
 rd = 1
 ALUresult = 1
@@ -1740,6 +1792,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 264
+
 WB  
 rd = 0
 ALUresult = 0
@@ -1773,6 +1826,7 @@ MEM readData = 0
 ADDRESS = 1
 NOT WRITTEN IN MEMORY,  
 CLOCK : 269
+
 WB  
 rd = 1
 ALUresult = 1
@@ -1806,6 +1860,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 274
+
 WB  
 rd = 0
 ALUresult = 0
@@ -1839,6 +1894,7 @@ MEM readData = 0
 ADDRESS = 101
 NOT WRITTEN IN MEMORY,  
 CLOCK : 279
+
 WB  
 rd = 9
 ALUresult = 101
@@ -1872,6 +1928,7 @@ MEM readData = 0
 ADDRESS = 5
 NOT WRITTEN IN MEMORY,  
 CLOCK : 284
+
 WB  
 rd = 9
 ALUresult = 5
@@ -1905,6 +1962,7 @@ MEM readData = 0
 ADDRESS = 18
 NOT WRITTEN IN MEMORY,  
 CLOCK : 289
+
 WB  
 rd = 9
 ALUresult = 18
@@ -1938,6 +1996,7 @@ MEM readData = 0
 ADDRESS = 26
 NOT WRITTEN IN MEMORY,  
 CLOCK : 294
+
 WB  
 rd = 22
 ALUresult = 26
@@ -1971,6 +2030,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 299
+
 WB  
 rd = 0
 ALUresult = 0
@@ -2004,6 +2064,7 @@ MEM readData = 0
 ADDRESS = 18
 NOT WRITTEN IN MEMORY,  
 CLOCK : 304
+
 WB  
 rd = 8
 ALUresult = 18
@@ -2037,6 +2098,7 @@ MEM readData = 0
 ADDRESS = 114
 NOT WRITTEN IN MEMORY,  
 CLOCK : 309
+
 WB  
 rd = 8
 ALUresult = 114
@@ -2070,6 +2132,7 @@ MEM readData = 0
 ADDRESS = 268501122
 VALUE  01101100011100100111010100000000  
 CLOCK : 314
+
 WB  
 rd = 8
 ALUresult = 268501122
@@ -2104,6 +2167,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 319
+
 WB  
 rd = 16
 ALUresult = 0
@@ -2137,6 +2201,7 @@ MEM readData = 0
 ADDRESS = 268501123
 NOT WRITTEN IN MEMORY,  
 CLOCK : 324
+
 WB  
 rd = 15
 ALUresult = 268501123
@@ -2170,6 +2235,7 @@ MEM readData = 0
 ADDRESS = 268501123
 NOT WRITTEN IN MEMORY,  
 CLOCK : 329
+
 WB  
 rd = 13
 ALUresult = 268501123
@@ -2204,6 +2270,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 334
+
 WB  
 rd = 16
 ALUresult = 0
@@ -2237,6 +2304,7 @@ MEM readData = 108
 ADDRESS = 268501123
 NOT WRITTEN IN MEMORY,  
 CLOCK : 339
+
 WB  
 rd = 12
 ALUresult = 268501123
@@ -2270,6 +2338,7 @@ MEM readData = 0
 ADDRESS = 10
 NOT WRITTEN IN MEMORY,  
 CLOCK : 344
+
 WB  
 rd = 1
 ALUresult = 10
@@ -2303,6 +2372,7 @@ MEM readData = 0
 ADDRESS = -98
 NOT WRITTEN IN MEMORY,  
 CLOCK : 349
+
 WB  
 rd = 12
 ALUresult = -98
@@ -2336,6 +2406,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 354
+
 WB  
 rd = 1
 ALUresult = 0
@@ -2369,6 +2440,7 @@ MEM readData = 0
 ADDRESS = -108
 NOT WRITTEN IN MEMORY,  
 CLOCK : 359
+
 WB  
 rd = 12
 ALUresult = -108
@@ -2402,6 +2474,7 @@ MEM readData = 0
 ADDRESS = 32
 NOT WRITTEN IN MEMORY,  
 CLOCK : 364
+
 WB  
 rd = 1
 ALUresult = 32
@@ -2435,6 +2508,7 @@ MEM readData = 0
 ADDRESS = -76
 NOT WRITTEN IN MEMORY,  
 CLOCK : 369
+
 WB  
 rd = 12
 ALUresult = -76
@@ -2468,6 +2542,7 @@ MEM readData = 0
 ADDRESS = 96
 NOT WRITTEN IN MEMORY,  
 CLOCK : 374
+
 WB  
 rd = 1
 ALUresult = 96
@@ -2501,6 +2576,7 @@ MEM readData = 0
 ADDRESS = 1
 NOT WRITTEN IN MEMORY,  
 CLOCK : 379
+
 WB  
 rd = 1
 ALUresult = 1
@@ -2534,6 +2610,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 384
+
 WB  
 rd = 0
 ALUresult = 0
@@ -2567,6 +2644,7 @@ MEM readData = 0
 ADDRESS = 1
 NOT WRITTEN IN MEMORY,  
 CLOCK : 389
+
 WB  
 rd = 1
 ALUresult = 1
@@ -2600,6 +2678,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 394
+
 WB  
 rd = 0
 ALUresult = 0
@@ -2633,6 +2712,7 @@ MEM readData = 0
 ADDRESS = 108
 NOT WRITTEN IN MEMORY,  
 CLOCK : 399
+
 WB  
 rd = 9
 ALUresult = 108
@@ -2666,6 +2746,7 @@ MEM readData = 0
 ADDRESS = 12
 NOT WRITTEN IN MEMORY,  
 CLOCK : 404
+
 WB  
 rd = 9
 ALUresult = 12
@@ -2699,6 +2780,7 @@ MEM readData = 0
 ADDRESS = 25
 NOT WRITTEN IN MEMORY,  
 CLOCK : 409
+
 WB  
 rd = 9
 ALUresult = 25
@@ -2732,6 +2814,7 @@ MEM readData = 0
 ADDRESS = 26
 NOT WRITTEN IN MEMORY,  
 CLOCK : 414
+
 WB  
 rd = 22
 ALUresult = 26
@@ -2765,6 +2848,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 419
+
 WB  
 rd = 0
 ALUresult = 0
@@ -2798,6 +2882,7 @@ MEM readData = 0
 ADDRESS = 25
 NOT WRITTEN IN MEMORY,  
 CLOCK : 424
+
 WB  
 rd = 8
 ALUresult = 25
@@ -2831,6 +2916,7 @@ MEM readData = 0
 ADDRESS = 121
 NOT WRITTEN IN MEMORY,  
 CLOCK : 429
+
 WB  
 rd = 8
 ALUresult = 121
@@ -2864,6 +2950,7 @@ MEM readData = 0
 ADDRESS = 268501123
 VALUE  01111001011100100111010100000000  
 CLOCK : 434
+
 WB  
 rd = 8
 ALUresult = 268501123
@@ -2898,6 +2985,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 439
+
 WB  
 rd = 16
 ALUresult = 0
@@ -2931,6 +3019,7 @@ MEM readData = 0
 ADDRESS = 268501124
 NOT WRITTEN IN MEMORY,  
 CLOCK : 444
+
 WB  
 rd = 15
 ALUresult = 268501124
@@ -2964,6 +3053,7 @@ MEM readData = 0
 ADDRESS = 268501124
 NOT WRITTEN IN MEMORY,  
 CLOCK : 449
+
 WB  
 rd = 13
 ALUresult = 268501124
@@ -2998,6 +3088,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 454
+
 WB  
 rd = 16
 ALUresult = 0
@@ -3031,6 +3122,7 @@ MEM readData = 108
 ADDRESS = 268501124
 NOT WRITTEN IN MEMORY,  
 CLOCK : 459
+
 WB  
 rd = 12
 ALUresult = 268501124
@@ -3064,6 +3156,7 @@ MEM readData = 0
 ADDRESS = 10
 NOT WRITTEN IN MEMORY,  
 CLOCK : 464
+
 WB  
 rd = 1
 ALUresult = 10
@@ -3097,6 +3190,7 @@ MEM readData = 0
 ADDRESS = -98
 NOT WRITTEN IN MEMORY,  
 CLOCK : 469
+
 WB  
 rd = 12
 ALUresult = -98
@@ -3130,6 +3224,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 474
+
 WB  
 rd = 1
 ALUresult = 0
@@ -3163,6 +3258,7 @@ MEM readData = 0
 ADDRESS = -108
 NOT WRITTEN IN MEMORY,  
 CLOCK : 479
+
 WB  
 rd = 12
 ALUresult = -108
@@ -3196,6 +3292,7 @@ MEM readData = 0
 ADDRESS = 32
 NOT WRITTEN IN MEMORY,  
 CLOCK : 484
+
 WB  
 rd = 1
 ALUresult = 32
@@ -3229,6 +3326,7 @@ MEM readData = 0
 ADDRESS = -76
 NOT WRITTEN IN MEMORY,  
 CLOCK : 489
+
 WB  
 rd = 12
 ALUresult = -76
@@ -3262,6 +3360,7 @@ MEM readData = 0
 ADDRESS = 96
 NOT WRITTEN IN MEMORY,  
 CLOCK : 494
+
 WB  
 rd = 1
 ALUresult = 96
@@ -3295,6 +3394,7 @@ MEM readData = 0
 ADDRESS = 1
 NOT WRITTEN IN MEMORY,  
 CLOCK : 499
+
 WB  
 rd = 1
 ALUresult = 1
@@ -3328,6 +3428,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 504
+
 WB  
 rd = 0
 ALUresult = 0
@@ -3361,6 +3462,7 @@ MEM readData = 0
 ADDRESS = 1
 NOT WRITTEN IN MEMORY,  
 CLOCK : 509
+
 WB  
 rd = 1
 ALUresult = 1
@@ -3394,6 +3496,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 514
+
 WB  
 rd = 0
 ALUresult = 0
@@ -3427,6 +3530,7 @@ MEM readData = 0
 ADDRESS = 108
 NOT WRITTEN IN MEMORY,  
 CLOCK : 519
+
 WB  
 rd = 9
 ALUresult = 108
@@ -3460,6 +3564,7 @@ MEM readData = 0
 ADDRESS = 12
 NOT WRITTEN IN MEMORY,  
 CLOCK : 524
+
 WB  
 rd = 9
 ALUresult = 12
@@ -3493,6 +3598,7 @@ MEM readData = 0
 ADDRESS = 25
 NOT WRITTEN IN MEMORY,  
 CLOCK : 529
+
 WB  
 rd = 9
 ALUresult = 25
@@ -3526,6 +3632,7 @@ MEM readData = 0
 ADDRESS = 26
 NOT WRITTEN IN MEMORY,  
 CLOCK : 534
+
 WB  
 rd = 22
 ALUresult = 26
@@ -3559,6 +3666,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 539
+
 WB  
 rd = 0
 ALUresult = 0
@@ -3592,6 +3700,7 @@ MEM readData = 0
 ADDRESS = 25
 NOT WRITTEN IN MEMORY,  
 CLOCK : 544
+
 WB  
 rd = 8
 ALUresult = 25
@@ -3625,6 +3734,7 @@ MEM readData = 0
 ADDRESS = 121
 NOT WRITTEN IN MEMORY,  
 CLOCK : 549
+
 WB  
 rd = 8
 ALUresult = 121
@@ -3656,8 +3766,9 @@ CLOCK : 553
 
 MEM readData = 0
 ADDRESS = 268501124
-VALUE  00000000001000000110111101111001  
+VALUE  00000000000000000110111101111001  
 CLOCK : 554
+
 WB  
 rd = 8
 ALUresult = 268501124
@@ -3692,6 +3803,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 559
+
 WB  
 rd = 16
 ALUresult = 0
@@ -3725,6 +3837,7 @@ MEM readData = 0
 ADDRESS = 268501125
 NOT WRITTEN IN MEMORY,  
 CLOCK : 564
+
 WB  
 rd = 15
 ALUresult = 268501125
@@ -3758,6 +3871,7 @@ MEM readData = 0
 ADDRESS = 268501125
 NOT WRITTEN IN MEMORY,  
 CLOCK : 569
+
 WB  
 rd = 13
 ALUresult = 268501125
@@ -3792,6 +3906,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 574
+
 WB  
 rd = 16
 ALUresult = 0
@@ -3825,6 +3940,7 @@ MEM readData = 111
 ADDRESS = 268501125
 NOT WRITTEN IN MEMORY,  
 CLOCK : 579
+
 WB  
 rd = 12
 ALUresult = 268501125
@@ -3858,6 +3974,7 @@ MEM readData = 0
 ADDRESS = 10
 NOT WRITTEN IN MEMORY,  
 CLOCK : 584
+
 WB  
 rd = 1
 ALUresult = 10
@@ -3891,6 +4008,7 @@ MEM readData = 0
 ADDRESS = -101
 NOT WRITTEN IN MEMORY,  
 CLOCK : 589
+
 WB  
 rd = 12
 ALUresult = -101
@@ -3924,6 +4042,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 594
+
 WB  
 rd = 1
 ALUresult = 0
@@ -3957,6 +4076,7 @@ MEM readData = 0
 ADDRESS = -111
 NOT WRITTEN IN MEMORY,  
 CLOCK : 599
+
 WB  
 rd = 12
 ALUresult = -111
@@ -3990,6 +4110,7 @@ MEM readData = 0
 ADDRESS = 32
 NOT WRITTEN IN MEMORY,  
 CLOCK : 604
+
 WB  
 rd = 1
 ALUresult = 32
@@ -4023,6 +4144,7 @@ MEM readData = 0
 ADDRESS = -79
 NOT WRITTEN IN MEMORY,  
 CLOCK : 609
+
 WB  
 rd = 12
 ALUresult = -79
@@ -4056,6 +4178,7 @@ MEM readData = 0
 ADDRESS = 96
 NOT WRITTEN IN MEMORY,  
 CLOCK : 614
+
 WB  
 rd = 1
 ALUresult = 96
@@ -4089,6 +4212,7 @@ MEM readData = 0
 ADDRESS = 1
 NOT WRITTEN IN MEMORY,  
 CLOCK : 619
+
 WB  
 rd = 1
 ALUresult = 1
@@ -4122,6 +4246,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 624
+
 WB  
 rd = 0
 ALUresult = 0
@@ -4155,6 +4280,7 @@ MEM readData = 0
 ADDRESS = 1
 NOT WRITTEN IN MEMORY,  
 CLOCK : 629
+
 WB  
 rd = 1
 ALUresult = 1
@@ -4188,6 +4314,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 634
+
 WB  
 rd = 0
 ALUresult = 0
@@ -4221,6 +4348,7 @@ MEM readData = 0
 ADDRESS = 111
 NOT WRITTEN IN MEMORY,  
 CLOCK : 639
+
 WB  
 rd = 9
 ALUresult = 111
@@ -4254,6 +4382,7 @@ MEM readData = 0
 ADDRESS = 15
 NOT WRITTEN IN MEMORY,  
 CLOCK : 644
+
 WB  
 rd = 9
 ALUresult = 15
@@ -4287,6 +4416,7 @@ MEM readData = 0
 ADDRESS = 28
 NOT WRITTEN IN MEMORY,  
 CLOCK : 649
+
 WB  
 rd = 9
 ALUresult = 28
@@ -4320,6 +4450,7 @@ MEM readData = 0
 ADDRESS = 26
 NOT WRITTEN IN MEMORY,  
 CLOCK : 654
+
 WB  
 rd = 22
 ALUresult = 26
@@ -4353,6 +4484,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 659
+
 WB  
 rd = 0
 ALUresult = 0
@@ -4386,6 +4518,7 @@ MEM readData = 0
 ADDRESS = 2
 NOT WRITTEN IN MEMORY,  
 CLOCK : 664
+
 WB  
 rd = 8
 ALUresult = 2
@@ -4419,6 +4552,7 @@ MEM readData = 0
 ADDRESS = 98
 NOT WRITTEN IN MEMORY,  
 CLOCK : 669
+
 WB  
 rd = 8
 ALUresult = 98
@@ -4450,8 +4584,9 @@ CLOCK : 673
 
 MEM readData = 0
 ADDRESS = 268501125
-VALUE  00000000001000000110001001111001  
+VALUE  00000000000000000110001001111001  
 CLOCK : 674
+
 WB  
 rd = 8
 ALUresult = 268501125
@@ -4486,6 +4621,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 679
+
 WB  
 rd = 16
 ALUresult = 0
@@ -4519,6 +4655,7 @@ MEM readData = 0
 ADDRESS = 268501126
 NOT WRITTEN IN MEMORY,  
 CLOCK : 684
+
 WB  
 rd = 15
 ALUresult = 268501126
@@ -4552,6 +4689,7 @@ MEM readData = 0
 ADDRESS = 268501126
 NOT WRITTEN IN MEMORY,  
 CLOCK : 689
+
 WB  
 rd = 13
 ALUresult = 268501126
@@ -4586,6 +4724,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 694
+
 WB  
 rd = 16
 ALUresult = 0
@@ -4615,15 +4754,16 @@ CLOCK : 697
 EX ALU = 268501126  zero = 0
 CLOCK : 698
 
-MEM readData = 32
+MEM readData = 0
 ADDRESS = 268501126
 NOT WRITTEN IN MEMORY,  
 CLOCK : 699
+
 WB  
 rd = 12
 ALUresult = 268501126
-readData = 32
-value = 32
+readData = 0
+value = 0
 
 CLOCK : 700
 
@@ -4652,6 +4792,7 @@ MEM readData = 0
 ADDRESS = 10
 NOT WRITTEN IN MEMORY,  
 CLOCK : 704
+
 WB  
 rd = 1
 ALUresult = 10
@@ -4675,21 +4816,22 @@ funct:  0x26
 imm:  38
 address:  2883622
 rd1:  10
-rd2:  32
+rd2:  0
 CLOCK : 707
 
-EX ALU = -22  zero = False
+EX ALU = 10  zero = False
 CLOCK : 708
 
 MEM readData = 0
-ADDRESS = -22
+ADDRESS = 10
 NOT WRITTEN IN MEMORY,  
 CLOCK : 709
+
 WB  
 rd = 12
-ALUresult = -22
+ALUresult = 10
 readData = 0
-value = 32
+value = 0
 
 CLOCK : 710
 
@@ -4718,6 +4860,7 @@ MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 714
+
 WB  
 rd = 1
 ALUresult = 0
@@ -4741,359 +4884,29 @@ funct:  0x24
 imm:  36
 address:  2883620
 rd1:  0
-rd2:  32
+rd2:  0
 CLOCK : 717
 
-EX ALU = -32  zero = False
+EX ALU = 0  zero = True
 CLOCK : 718
 
 MEM readData = 0
-ADDRESS = -32
+ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
 CLOCK : 719
+
 WB  
 rd = 12
-ALUresult = -32
+ALUresult = 0
 readData = 0
-value = 32
+value = 0
 
 CLOCK : 720
 
 ________________________________________________________________________________________________________________
 
-IF  0x40007c -- 00100000000000010000000000100000
-CLOCK : 721
-
-ID  
-opcode:  0x8
-rs:  0
-rt:  1
-rd:  1
-shamt:  0
-funct:  0x20
-imm:  32
-address:  65568
-rd1:  0
-rd2:  0
-CLOCK : 722
-
-EX ALU = 32  zero = 0
-CLOCK : 723
-
-MEM readData = 0
-ADDRESS = 32
-NOT WRITTEN IN MEMORY,  
-CLOCK : 724
-WB  
-rd = 1
-ALUresult = 32
-readData = 0
-value = 32
-
-CLOCK : 725
-
-________________________________________________________________________________________________________________
-
-IF  0x400080 -- 00010000001011000000000000011111
-CLOCK : 726
-
-ID  
-opcode:  0x4
-rs:  1
-rt:  12
-rd:  12
-shamt:  0
-funct:  0x1f
-imm:  31
-address:  2883615
-rd1:  32
-rd2:  32
-CLOCK : 727
-
-EX ALU = 0  zero = True
-CLOCK : 728
-
-MEM readData = 0
-ADDRESS = 0
-NOT WRITTEN IN MEMORY,  
-CLOCK : 729
-WB  
-rd = 12
-ALUresult = 0
-readData = 0
-value = 32
-
-CLOCK : 730
-
-________________________________________________________________________________________________________________
-
-IF  0x400100 -- 00100001111011110000000000000001
-CLOCK : 731
-
-ID  
-opcode:  0x8
-rs:  15
-rt:  15
-rd:  15
-shamt:  0
-funct:  0x1
-imm:  1
-address:  32440321
-rd1:  268501126
-rd2:  268501126
-CLOCK : 732
-
-EX ALU = 268501127  zero = 0
-CLOCK : 733
-
-MEM readData = 0
-ADDRESS = 268501127
-NOT WRITTEN IN MEMORY,  
-CLOCK : 734
-WB  
-rd = 15
-ALUresult = 268501127
-readData = 0
-value = 268501127
-
-CLOCK : 735
-
-________________________________________________________________________________________________________________
-
-IF  0x400104 -- 00100001101011010000000000000001
-CLOCK : 736
-
-ID  
-opcode:  0x8
-rs:  13
-rt:  13
-rd:  13
-shamt:  0
-funct:  0x1
-imm:  1
-address:  28114945
-rd1:  268501126
-rd2:  268501126
-CLOCK : 737
-
-EX ALU = 268501127  zero = 0
-CLOCK : 738
-
-MEM readData = 0
-ADDRESS = 268501127
-NOT WRITTEN IN MEMORY,  
-CLOCK : 739
-WB  
-rd = 13
-ALUresult = 268501127
-readData = 0
-value = 268501127
-
-CLOCK : 740
-
-________________________________________________________________________________________________________________
-
-IF  0x400108 -- 00001000000100000000000000011010
-CLOCK : 741
-
-ID  
-opcode:  0x2
-rs:  0
-rt:  16
-rd:  16
-shamt:  0
-funct:  0x1a
-imm:  26
-address:  1048602
-rd1:  0
-rd2:  0
-CLOCK : 742
-
-EX ALU = 0  zero = 0
-CLOCK : 743
-
-JUMPING TO 0x400068
-MEM readData = 0
-ADDRESS = 0
-NOT WRITTEN IN MEMORY,  
-CLOCK : 744
-WB  
-rd = 16
-ALUresult = 0
-readData = 0
-value = 0
-
-CLOCK : 745
-
-________________________________________________________________________________________________________________
-
-IF  0x400068 -- 10000001111011000000000000000000
-CLOCK : 746
-
-ID  
-opcode:  0x20
-rs:  15
-rt:  12
-rd:  12
-shamt:  0
-funct:  0x0
-imm:  0
-address:  32243712
-rd1:  268501127
-rd2:  32
-CLOCK : 747
-
-EX ALU = 268501127  zero = 0
-CLOCK : 748
-
-MEM readData = 0
-ADDRESS = 268501127
-NOT WRITTEN IN MEMORY,  
-CLOCK : 749
-WB  
-rd = 12
-ALUresult = 268501127
-readData = 0
-value = 0
-
-CLOCK : 750
-
-________________________________________________________________________________________________________________
-
-IF  0x40006c -- 00100000000000010000000000001010
-CLOCK : 751
-
-ID  
-opcode:  0x8
-rs:  0
-rt:  1
-rd:  1
-shamt:  0
-funct:  0xa
-imm:  10
-address:  65546
-rd1:  0
-rd2:  32
-CLOCK : 752
-
-EX ALU = 10  zero = 0
-CLOCK : 753
-
-MEM readData = 0
-ADDRESS = 10
-NOT WRITTEN IN MEMORY,  
-CLOCK : 754
-WB  
-rd = 1
-ALUresult = 10
-readData = 0
-value = 10
-
-CLOCK : 755
-
-________________________________________________________________________________________________________________
-
-IF  0x400070 -- 00010000001011000000000000100110
-CLOCK : 756
-
-ID  
-opcode:  0x4
-rs:  1
-rt:  12
-rd:  12
-shamt:  0
-funct:  0x26
-imm:  38
-address:  2883622
-rd1:  10
-rd2:  0
-CLOCK : 757
-
-EX ALU = 10  zero = False
-CLOCK : 758
-
-MEM readData = 0
-ADDRESS = 10
-NOT WRITTEN IN MEMORY,  
-CLOCK : 759
-WB  
-rd = 12
-ALUresult = 10
-readData = 0
-value = 0
-
-CLOCK : 760
-
-________________________________________________________________________________________________________________
-
-IF  0x400074 -- 00100000000000010000000000000000
-CLOCK : 761
-
-ID  
-opcode:  0x8
-rs:  0
-rt:  1
-rd:  1
-shamt:  0
-funct:  0x0
-imm:  0
-address:  65536
-rd1:  0
-rd2:  10
-CLOCK : 762
-
-EX ALU = 0  zero = 0
-CLOCK : 763
-
-MEM readData = 0
-ADDRESS = 0
-NOT WRITTEN IN MEMORY,  
-CLOCK : 764
-WB  
-rd = 1
-ALUresult = 0
-readData = 0
-value = 0
-
-CLOCK : 765
-
-________________________________________________________________________________________________________________
-
-IF  0x400078 -- 00010000001011000000000000100100
-CLOCK : 766
-
-ID  
-opcode:  0x4
-rs:  1
-rt:  12
-rd:  12
-shamt:  0
-funct:  0x24
-imm:  36
-address:  2883620
-rd1:  0
-rd2:  0
-CLOCK : 767
-
-EX ALU = 0  zero = True
-CLOCK : 768
-
-MEM readData = 0
-ADDRESS = 0
-NOT WRITTEN IN MEMORY,  
-CLOCK : 769
-WB  
-rd = 12
-ALUresult = 0
-readData = 0
-value = 0
-
-CLOCK : 770
-
-________________________________________________________________________________________________________________
-
 IF  0x40010c -- 00001000000100000000000001111110
-CLOCK : 771
+CLOCK : 721
 
 ID  
 opcode:  0x2
@@ -5106,28 +4919,29 @@ imm:  126
 address:  1048702
 rd1:  0
 rd2:  0
-CLOCK : 772
+CLOCK : 722
 
 EX ALU = 0  zero = 0
-CLOCK : 773
+CLOCK : 723
 
 JUMPING TO 0x4001f8
 MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
-CLOCK : 774
+CLOCK : 724
+
 WB  
 rd = 16
 ALUresult = 0
 readData = 0
 value = 0
 
-CLOCK : 775
+CLOCK : 725
 
 ________________________________________________________________________________________________________________
 
 IF  0x4001f8 -- 00100100000000100000000000000100
-CLOCK : 776
+CLOCK : 726
 
 ID  
 opcode:  0x9
@@ -5140,27 +4954,28 @@ imm:  4
 address:  131076
 rd1:  0
 rd2:  8
-CLOCK : 777
+CLOCK : 727
 
 EX ALU = 4  zero = 0
-CLOCK : 778
+CLOCK : 728
 
 MEM readData = 0
 ADDRESS = 4
 NOT WRITTEN IN MEMORY,  
-CLOCK : 779
+CLOCK : 729
+
 WB  
 rd = 2
 ALUresult = 4
 readData = 0
 value = 4
 
-CLOCK : 780
+CLOCK : 730
 
 ________________________________________________________________________________________________________________
 
 IF  0x4001fc -- 00000000000110010010000000100001
-CLOCK : 781
+CLOCK : 731
 
 ID  
 opcode:  0x0
@@ -5173,27 +4988,28 @@ imm:  8225
 address:  1646625
 rd1:  0
 rd2:  268501121
-CLOCK : 782
+CLOCK : 732
 
 EX ALU = 268501121  zero = 0
-CLOCK : 783
+CLOCK : 733
 
 MEM readData = 0
 ADDRESS = 268501121
 NOT WRITTEN IN MEMORY,  
-CLOCK : 784
+CLOCK : 734
+
 WB  
 rd = 4
 ALUresult = 268501121
 readData = 0
 value = 268501121
 
-CLOCK : 785
+CLOCK : 735
 
 ________________________________________________________________________________________________________________
 
 IF  0x400204 -- 00001000000100000000000010000010
-CLOCK : 786
+CLOCK : 736
 
 ID  
 opcode:  0x2
@@ -5206,28 +5022,29 @@ imm:  130
 address:  1048706
 rd1:  0
 rd2:  0
-CLOCK : 787
+CLOCK : 737
 
 EX ALU = 0  zero = 0
-CLOCK : 788
+CLOCK : 738
 
 JUMPING TO 0x400208
 MEM readData = 0
 ADDRESS = 0
 NOT WRITTEN IN MEMORY,  
-CLOCK : 789
+CLOCK : 739
+
 WB  
 rd = 16
 ALUresult = 0
 readData = 0
 value = 0
 
-CLOCK : 790
+CLOCK : 740
 
 ________________________________________________________________________________________________________________
 
 IF  0x400208 -- 00100100000000100000000000001010
-CLOCK : 791
+CLOCK : 741
 
 ID  
 opcode:  0x9
@@ -5240,22 +5057,23 @@ imm:  10
 address:  131082
 rd1:  0
 rd2:  4
-CLOCK : 792
+CLOCK : 742
 
 EX ALU = 10  zero = 0
-CLOCK : 793
+CLOCK : 743
 
 MEM readData = 0
 ADDRESS = 10
 NOT WRITTEN IN MEMORY,  
-CLOCK : 794
+CLOCK : 744
+
 WB  
 rd = 2
 ALUresult = 10
 readData = 0
 value = 10
 
-CLOCK : 795
+CLOCK : 745
 
 ________________________________________________________________________________________________________________
 

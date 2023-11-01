@@ -520,7 +520,7 @@ def mips_processor():
             processor.append(f"NOT WRITTEN IN MEMORY,  \nCLOCK : {clock}")
         #write back
         writeback(ALUResult,readData,rd)
-        processor.append("WB  ")
+        processor.append("\nWB  ")
         processor.append("rd = " + str(rd))
         processor.append("ALUresult = " + str(ALUResult))
         processor.append("readData = " + str(readData))
