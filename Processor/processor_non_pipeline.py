@@ -526,7 +526,7 @@ def mips_processor():
         processor.append("readData = " + str(readData))
         processor.append("value = " + str(register_file['$'+str(rd)]))
         clock+=1
-        processor.append(f"\nCLOCK : {clock}\n")
+        processor.append(f"CLOCK : {clock}\n")
         processor.append("________________________________________________________________________________________________________________\n")
 mips_processor()
 # def cc(binary:str):
