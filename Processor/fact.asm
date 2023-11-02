@@ -14,7 +14,8 @@ main:
     li $t1, 1
     li $t2, 1
     factorial_loop:
-        mul $t1, $t1, $t0
+        mult $t1, $t0
+        mflo $t1
         addi $t0, $t0, -1
         bgt $t0, $t2, factorial_loop
         
