@@ -274,11 +274,16 @@ def address_after_jump(pc,imm):
 def memory(ALUResult,writeData):
     if control_signals['MemRead']==0b00 and control_signals['MemWrite']==0b00:
         return 0
+    start=(ALUResult//4)*4
+    try:
+        data_mem[start]
+    except KeyError:
+        data_mem[start]="0"*32
     if control_signals['MemRead']==0b01:
         start=(ALUResult//4)*4
         try:
-            data_mem[start]
-        except KeyError:
+            x=data_mem[start]
+        except:
             data_mem[start]="0"*32
         offset=ALUResult%4
         if offset==0:
@@ -290,10 +295,6 @@ def memory(ALUResult,writeData):
         elif offset==3:
             return int_(sign_extend(data_mem[start][0:8],32))
     elif control_signals['MemRead']==0b10:
-        try:
-            data_mem[start]
-        except KeyError:
-            data_mem[start]="0"*32
         start=(ALUResult//4)*4
         offset=ALUResult%4
         if offset==1 or offset==3:
@@ -303,10 +304,6 @@ def memory(ALUResult,writeData):
         elif offset ==2:
             return int_(sign_extend(data_mem[start][0:16],32))
     elif control_signals['MemRead']==0b11:
-        try:
-            data_mem[start]
-        except KeyError:
-            data_mem[start]="0"*32
         if ALUResult%4!=0:
             raise Exception("fetch address not aligned on word boundary")
         else:
