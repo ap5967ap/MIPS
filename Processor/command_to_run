@@ -1,2 +1,3 @@
 python .\processor_non_pipeline.py .\code_rot.txt .\data_rot.txt .\proc_rot.txt .\mem_rot.txt
 python .\processor_non_pipeline.py .\code_fact.txt .\data_fact.txt .\proc_fact.txt .\mem_fact.txt
+python .\processor_non_pipeline.py .\code_rot_without_syscall.txt .\empty.txt proc_rot_without_syscall.txt mem_rot_without_syscall.txt
