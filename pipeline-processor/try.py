@@ -1,7 +1,6 @@
 d={}
 pc=0x400000
 import random
-import threading
 for i in range(15):
     d[pc]=i
     pc+=4
@@ -56,19 +55,8 @@ class Pipeline:
         while Pipeline.pc<max(d.keys()) or self.pipeline:
             self.refresh()
             instr=Pipe_instruction()    
-            flag=0        
-            c=5
             for i in self.pipeline[::-1]:
-                x=random.random()
-                if x>=xx:
-                    flag=1
-                    print("STALL\n"*c)
-                    print('_________________________')
-                    break
                 i.run(Pipeline.pc)
-                c-=1
-            if flag:
-                continue
             if Pipeline.pc<=max(d.keys()):
                 self.append(instr)
                 self.pipeline[0].run(Pipeline.pc)

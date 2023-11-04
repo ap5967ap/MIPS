@@ -9,44 +9,6 @@ from processor_pipeline import data_mem
 
 
 
-def sign_extend(imm, imm_len=32): # sign extending the immediate value
-    if len(imm) == 32:
-        return imm
-    else:
-        return imm[0] * (imm_len - len(imm)) + imm
-
-
-def int_(binary_str):
-    if binary_str[0] == "0":
-        return int(binary_str, 2)
-    elif binary_str[0] == "1":
-        flipped_bits = "".join("1" if bit == "0" else "0" for bit in binary_str[1:])
-        return -(int(flipped_bits, 2) + 1)
-
-
-def bin_(num):
-    if num >= 0:
-        binary = bin(num)[2:]
-        binary = binary.zfill(32)
-    else:
-        binary = bin(num & 0xFFFFFFFF)[2:]
-
-    return binary
-
-
-
-
-
-
-
-
-
-
-
-
-def address_after_jump(imm):
-    return int(imm) * 4
-
 
 
 
@@ -140,8 +102,6 @@ def string_input(string, address2):  # storing the string given the string and t
         address2 += 1
 
 
-def binary_to_string(bits):  # convert binary to ascii value
-    return "".join([chr(int(i, 2)) for i in bits])
 
 
 
