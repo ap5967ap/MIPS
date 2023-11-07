@@ -1,0 +1,11057 @@
+IF  0x400000 -- 00111100000000010001000000000001
+CLOCK : 1
+
+ID  
+opcode:  0xf
+rs:  0
+rt:  1
+rd:  1
+shamt:  0
+funct:  0x1
+imm:  4097
+address:  69633
+rd1:  0
+rd2:  0
+CLOCK : 2
+
+EX ALU = 268500992  zero = 0
+CLOCK : 3
+
+MEM readData = 0
+ADDRESS = 268500992
+NOT WRITTEN IN MEMORY,  
+CLOCK : 4
+
+WB  
+rd = 1
+ALUresult = 268500992
+readData = 0
+value = 268500992
+CLOCK : 5
+
+________________________________________________________________________________________________________________
+
+IF  0x400004 -- 00110100001010010000000000000000
+CLOCK : 6
+
+ID  
+opcode:  0xd
+rs:  1
+rt:  9
+rd:  9
+shamt:  0
+funct:  0x0
+imm:  0
+address:  2686976
+rd1:  268500992
+rd2:  0
+CLOCK : 7
+
+EX ALU = 268500992  zero = 0
+CLOCK : 8
+
+MEM readData = 0
+ADDRESS = 268500992
+NOT WRITTEN IN MEMORY,  
+CLOCK : 9
+
+WB  
+rd = 9
+ALUresult = 268500992
+readData = 0
+value = 268500992
+CLOCK : 10
+
+________________________________________________________________________________________________________________
+
+IF  0x400008 -- 00100100000110000000000000000111
+CLOCK : 11
+
+ID  
+opcode:  0x9
+rs:  0
+rt:  24
+rd:  24
+shamt:  0
+funct:  0x7
+imm:  7
+address:  1572871
+rd1:  0
+rd2:  0
+CLOCK : 12
+
+EX ALU = 7  zero = 0
+CLOCK : 13
+
+MEM readData = 0
+ADDRESS = 7
+NOT WRITTEN IN MEMORY,  
+CLOCK : 14
+
+WB  
+rd = 24
+ALUresult = 7
+readData = 0
+value = 7
+CLOCK : 15
+
+________________________________________________________________________________________________________________
+
+IF  0x40000c -- 00100100000110010000000000000000
+CLOCK : 16
+
+ID  
+opcode:  0x9
+rs:  0
+rt:  25
+rd:  25
+shamt:  0
+funct:  0x0
+imm:  0
+address:  1638400
+rd1:  0
+rd2:  0
+CLOCK : 17
+
+EX ALU = 0  zero = 0
+CLOCK : 18
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 19
+
+WB  
+rd = 25
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 20
+
+________________________________________________________________________________________________________________
+
+IF  0x400010 -- 00100100000011010000000000000000
+CLOCK : 21
+
+ID  
+opcode:  0x9
+rs:  0
+rt:  13
+rd:  13
+shamt:  0
+funct:  0x0
+imm:  0
+address:  851968
+rd1:  0
+rd2:  0
+CLOCK : 22
+
+EX ALU = 0  zero = 0
+CLOCK : 23
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 24
+
+WB  
+rd = 13
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 25
+
+________________________________________________________________________________________________________________
+
+IF  0x400014 -- 00100100000101011111111111111111
+CLOCK : 26
+
+ID  
+opcode:  0x9
+rs:  0
+rt:  21
+rd:  21
+shamt:  -1
+funct:  0x3f
+imm:  -1
+address:  1441791
+rd1:  0
+rd2:  0
+CLOCK : 27
+
+EX ALU = -1  zero = 0
+CLOCK : 28
+
+MEM readData = 0
+ADDRESS = -1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 29
+
+WB  
+rd = 21
+ALUresult = -1
+readData = 0
+value = -1
+CLOCK : 30
+
+________________________________________________________________________________________________________________
+
+IF  0x400018 -- 00010001101110000000000000001111
+CLOCK : 31
+
+ID  
+opcode:  0x4
+rs:  13
+rt:  24
+rd:  24
+shamt:  0
+funct:  0xf
+imm:  15
+address:  28835855
+rd1:  0
+rd2:  7
+CLOCK : 32
+
+EX ALU = -7  zero = False
+CLOCK : 33
+
+MEM readData = 0
+ADDRESS = -7
+NOT WRITTEN IN MEMORY,  
+CLOCK : 34
+
+WB  
+rd = 24
+ALUresult = -7
+readData = 0
+value = 7
+CLOCK : 35
+
+________________________________________________________________________________________________________________
+
+IF  0x40001c -- 00000011000011010110000000100010
+CLOCK : 36
+
+ID  
+opcode:  0x0
+rs:  24
+rt:  13
+rd:  12
+shamt:  0
+funct:  0x22
+imm:  24610
+address:  51208226
+rd1:  7
+rd2:  0
+CLOCK : 37
+
+EX ALU = 7  zero = False
+CLOCK : 38
+
+MEM readData = 0
+ADDRESS = 7
+NOT WRITTEN IN MEMORY,  
+CLOCK : 39
+
+WB  
+rd = 12
+ALUresult = 7
+readData = 0
+value = 7
+CLOCK : 40
+
+________________________________________________________________________________________________________________
+
+IF  0x400020 -- 00000000000000000111000000100000
+CLOCK : 41
+
+ID  
+opcode:  0x0
+rs:  0
+rt:  0
+rd:  14
+shamt:  0
+funct:  0x20
+imm:  28704
+address:  28704
+rd1:  0
+rd2:  0
+CLOCK : 42
+
+EX ALU = 0  zero = 0
+CLOCK : 43
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 44
+
+WB  
+rd = 14
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 45
+
+________________________________________________________________________________________________________________
+
+IF  0x400024 -- 00000001001000000101100000100000
+CLOCK : 46
+
+ID  
+opcode:  0x0
+rs:  9
+rt:  0
+rd:  11
+shamt:  0
+funct:  0x20
+imm:  22560
+address:  18896928
+rd1:  268500992
+rd2:  0
+CLOCK : 47
+
+EX ALU = 268500992  zero = 0
+CLOCK : 48
+
+MEM readData = 0
+ADDRESS = 268500992
+NOT WRITTEN IN MEMORY,  
+CLOCK : 49
+
+WB  
+rd = 11
+ALUresult = 268500992
+readData = 0
+value = 268500992
+CLOCK : 50
+
+________________________________________________________________________________________________________________
+
+IF  0x400028 -- 00100001101011010000000000000001
+CLOCK : 51
+
+ID  
+opcode:  0x8
+rs:  13
+rt:  13
+rd:  13
+shamt:  0
+funct:  0x1
+imm:  1
+address:  28114945
+rd1:  0
+rd2:  0
+CLOCK : 52
+
+EX ALU = 1  zero = 0
+CLOCK : 53
+
+MEM readData = 0
+ADDRESS = 1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 54
+
+WB  
+rd = 13
+ALUresult = 1
+readData = 0
+value = 1
+CLOCK : 55
+
+________________________________________________________________________________________________________________
+
+IF  0x40002c -- 00001000000100000000000000001100
+CLOCK : 56
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 57
+
+EX ALU = 0  zero = 0
+CLOCK : 58
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 59
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 60
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 61
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  0
+rd2:  7
+CLOCK : 62
+
+EX ALU = -7  zero = False
+CLOCK : 63
+
+MEM readData = 0
+ADDRESS = -7
+NOT WRITTEN IN MEMORY,  
+CLOCK : 64
+
+WB  
+rd = 12
+ALUresult = -7
+readData = 0
+value = 7
+CLOCK : 65
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 66
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500992
+rd2:  0
+CLOCK : 67
+
+EX ALU = 268500992  zero = 0
+CLOCK : 68
+
+MEM readData = 9
+ADDRESS = 268500992
+NOT WRITTEN IN MEMORY,  
+CLOCK : 69
+
+WB  
+rd = 17
+ALUresult = 268500992
+readData = 9
+value = 9
+CLOCK : 70
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 71
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268500992
+rd2:  268500992
+CLOCK : 72
+
+EX ALU = 268500996  zero = 0
+CLOCK : 73
+
+MEM readData = 0
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 74
+
+WB  
+rd = 11
+ALUresult = 268500996
+readData = 0
+value = 268500996
+CLOCK : 75
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 76
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268500996
+rd2:  0
+CLOCK : 77
+
+EX ALU = 268500996  zero = 0
+CLOCK : 78
+
+MEM readData = 15
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 79
+
+WB  
+rd = 18
+ALUresult = 268500996
+readData = 15
+value = 15
+CLOCK : 80
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 81
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  0
+rd2:  0
+CLOCK : 82
+
+EX ALU = 1  zero = 0
+CLOCK : 83
+
+MEM readData = 0
+ADDRESS = 1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 84
+
+WB  
+rd = 14
+ALUresult = 1
+readData = 0
+value = 1
+CLOCK : 85
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 86
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  9
+rd2:  15
+CLOCK : 87
+
+EX ALU = 1  zero = 0
+CLOCK : 88
+
+MEM readData = 0
+ADDRESS = 1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 89
+
+WB  
+rd = 1
+ALUresult = 1
+readData = 0
+value = 1
+CLOCK : 90
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 91
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  1
+rd2:  0
+CLOCK : 92
+
+EX ALU = 0  zero = True
+CLOCK : 93
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 94
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 95
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 96
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  1
+rd2:  7
+CLOCK : 97
+
+EX ALU = -6  zero = False
+CLOCK : 98
+
+MEM readData = 0
+ADDRESS = -6
+NOT WRITTEN IN MEMORY,  
+CLOCK : 99
+
+WB  
+rd = 12
+ALUresult = -6
+readData = 0
+value = 7
+CLOCK : 100
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 101
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500996
+rd2:  9
+CLOCK : 102
+
+EX ALU = 268500996  zero = 0
+CLOCK : 103
+
+MEM readData = 15
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 104
+
+WB  
+rd = 17
+ALUresult = 268500996
+readData = 15
+value = 15
+CLOCK : 105
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 106
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268500996
+rd2:  268500996
+CLOCK : 107
+
+EX ALU = 268501000  zero = 0
+CLOCK : 108
+
+MEM readData = 0
+ADDRESS = 268501000
+NOT WRITTEN IN MEMORY,  
+CLOCK : 109
+
+WB  
+rd = 11
+ALUresult = 268501000
+readData = 0
+value = 268501000
+CLOCK : 110
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 111
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501000
+rd2:  15
+CLOCK : 112
+
+EX ALU = 268501000  zero = 0
+CLOCK : 113
+
+MEM readData = 6
+ADDRESS = 268501000
+NOT WRITTEN IN MEMORY,  
+CLOCK : 114
+
+WB  
+rd = 18
+ALUresult = 268501000
+readData = 6
+value = 6
+CLOCK : 115
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 116
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  1
+rd2:  1
+CLOCK : 117
+
+EX ALU = 2  zero = 0
+CLOCK : 118
+
+MEM readData = 0
+ADDRESS = 2
+NOT WRITTEN IN MEMORY,  
+CLOCK : 119
+
+WB  
+rd = 14
+ALUresult = 2
+readData = 0
+value = 2
+CLOCK : 120
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 121
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  15
+rd2:  6
+CLOCK : 122
+
+EX ALU = 0  zero = 0
+CLOCK : 123
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 124
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 125
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 126
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 127
+
+EX ALU = 0  zero = False
+CLOCK : 128
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 129
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 130
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 131
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501000
+rd2:  15
+CLOCK : 132
+
+EX ALU = 268501000  zero = 0
+CLOCK : 133
+
+MEM readData = 0
+ADDRESS = 268501000
+VALUE  00000000000000000000000000001111  
+CLOCK : 134
+
+WB  
+rd = 17
+ALUresult = 268501000
+readData = 0
+value = 15
+CLOCK : 135
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 136
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501000
+rd2:  6
+CLOCK : 137
+
+EX ALU = 268500996  zero = 0
+CLOCK : 138
+
+MEM readData = 0
+ADDRESS = 268500996
+VALUE  00000000000000000000000000000110  
+CLOCK : 139
+
+WB  
+rd = 18
+ALUresult = 268500996
+readData = 0
+value = 6
+CLOCK : 140
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 141
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 142
+
+EX ALU = 0  zero = 0
+CLOCK : 143
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 144
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 145
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 146
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  2
+rd2:  7
+CLOCK : 147
+
+EX ALU = -5  zero = False
+CLOCK : 148
+
+MEM readData = 0
+ADDRESS = -5
+NOT WRITTEN IN MEMORY,  
+CLOCK : 149
+
+WB  
+rd = 12
+ALUresult = -5
+readData = 0
+value = 7
+CLOCK : 150
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 151
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501000
+rd2:  15
+CLOCK : 152
+
+EX ALU = 268501000  zero = 0
+CLOCK : 153
+
+MEM readData = 15
+ADDRESS = 268501000
+NOT WRITTEN IN MEMORY,  
+CLOCK : 154
+
+WB  
+rd = 17
+ALUresult = 268501000
+readData = 15
+value = 15
+CLOCK : 155
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 156
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268501000
+rd2:  268501000
+CLOCK : 157
+
+EX ALU = 268501004  zero = 0
+CLOCK : 158
+
+MEM readData = 0
+ADDRESS = 268501004
+NOT WRITTEN IN MEMORY,  
+CLOCK : 159
+
+WB  
+rd = 11
+ALUresult = 268501004
+readData = 0
+value = 268501004
+CLOCK : 160
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 161
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501004
+rd2:  6
+CLOCK : 162
+
+EX ALU = 268501004  zero = 0
+CLOCK : 163
+
+MEM readData = 5
+ADDRESS = 268501004
+NOT WRITTEN IN MEMORY,  
+CLOCK : 164
+
+WB  
+rd = 18
+ALUresult = 268501004
+readData = 5
+value = 5
+CLOCK : 165
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 166
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  2
+rd2:  2
+CLOCK : 167
+
+EX ALU = 3  zero = 0
+CLOCK : 168
+
+MEM readData = 0
+ADDRESS = 3
+NOT WRITTEN IN MEMORY,  
+CLOCK : 169
+
+WB  
+rd = 14
+ALUresult = 3
+readData = 0
+value = 3
+CLOCK : 170
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 171
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  15
+rd2:  5
+CLOCK : 172
+
+EX ALU = 0  zero = 0
+CLOCK : 173
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 174
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 175
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 176
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 177
+
+EX ALU = 0  zero = False
+CLOCK : 178
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 179
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 180
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 181
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501004
+rd2:  15
+CLOCK : 182
+
+EX ALU = 268501004  zero = 0
+CLOCK : 183
+
+MEM readData = 0
+ADDRESS = 268501004
+VALUE  00000000000000000000000000001111  
+CLOCK : 184
+
+WB  
+rd = 17
+ALUresult = 268501004
+readData = 0
+value = 15
+CLOCK : 185
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 186
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501004
+rd2:  5
+CLOCK : 187
+
+EX ALU = 268501000  zero = 0
+CLOCK : 188
+
+MEM readData = 0
+ADDRESS = 268501000
+VALUE  00000000000000000000000000000101  
+CLOCK : 189
+
+WB  
+rd = 18
+ALUresult = 268501000
+readData = 0
+value = 5
+CLOCK : 190
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 191
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 192
+
+EX ALU = 0  zero = 0
+CLOCK : 193
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 194
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 195
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 196
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  3
+rd2:  7
+CLOCK : 197
+
+EX ALU = -4  zero = False
+CLOCK : 198
+
+MEM readData = 0
+ADDRESS = -4
+NOT WRITTEN IN MEMORY,  
+CLOCK : 199
+
+WB  
+rd = 12
+ALUresult = -4
+readData = 0
+value = 7
+CLOCK : 200
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 201
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501004
+rd2:  15
+CLOCK : 202
+
+EX ALU = 268501004  zero = 0
+CLOCK : 203
+
+MEM readData = 15
+ADDRESS = 268501004
+NOT WRITTEN IN MEMORY,  
+CLOCK : 204
+
+WB  
+rd = 17
+ALUresult = 268501004
+readData = 15
+value = 15
+CLOCK : 205
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 206
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268501004
+rd2:  268501004
+CLOCK : 207
+
+EX ALU = 268501008  zero = 0
+CLOCK : 208
+
+MEM readData = 0
+ADDRESS = 268501008
+NOT WRITTEN IN MEMORY,  
+CLOCK : 209
+
+WB  
+rd = 11
+ALUresult = 268501008
+readData = 0
+value = 268501008
+CLOCK : 210
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 211
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501008
+rd2:  5
+CLOCK : 212
+
+EX ALU = 268501008  zero = 0
+CLOCK : 213
+
+MEM readData = 4
+ADDRESS = 268501008
+NOT WRITTEN IN MEMORY,  
+CLOCK : 214
+
+WB  
+rd = 18
+ALUresult = 268501008
+readData = 4
+value = 4
+CLOCK : 215
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 216
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  3
+rd2:  3
+CLOCK : 217
+
+EX ALU = 4  zero = 0
+CLOCK : 218
+
+MEM readData = 0
+ADDRESS = 4
+NOT WRITTEN IN MEMORY,  
+CLOCK : 219
+
+WB  
+rd = 14
+ALUresult = 4
+readData = 0
+value = 4
+CLOCK : 220
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 221
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  15
+rd2:  4
+CLOCK : 222
+
+EX ALU = 0  zero = 0
+CLOCK : 223
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 224
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 225
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 226
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 227
+
+EX ALU = 0  zero = False
+CLOCK : 228
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 229
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 230
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 231
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501008
+rd2:  15
+CLOCK : 232
+
+EX ALU = 268501008  zero = 0
+CLOCK : 233
+
+MEM readData = 0
+ADDRESS = 268501008
+VALUE  00000000000000000000000000001111  
+CLOCK : 234
+
+WB  
+rd = 17
+ALUresult = 268501008
+readData = 0
+value = 15
+CLOCK : 235
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 236
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501008
+rd2:  4
+CLOCK : 237
+
+EX ALU = 268501004  zero = 0
+CLOCK : 238
+
+MEM readData = 0
+ADDRESS = 268501004
+VALUE  00000000000000000000000000000100  
+CLOCK : 239
+
+WB  
+rd = 18
+ALUresult = 268501004
+readData = 0
+value = 4
+CLOCK : 240
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 241
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 242
+
+EX ALU = 0  zero = 0
+CLOCK : 243
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 244
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 245
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 246
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  4
+rd2:  7
+CLOCK : 247
+
+EX ALU = -3  zero = False
+CLOCK : 248
+
+MEM readData = 0
+ADDRESS = -3
+NOT WRITTEN IN MEMORY,  
+CLOCK : 249
+
+WB  
+rd = 12
+ALUresult = -3
+readData = 0
+value = 7
+CLOCK : 250
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 251
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501008
+rd2:  15
+CLOCK : 252
+
+EX ALU = 268501008  zero = 0
+CLOCK : 253
+
+MEM readData = 15
+ADDRESS = 268501008
+NOT WRITTEN IN MEMORY,  
+CLOCK : 254
+
+WB  
+rd = 17
+ALUresult = 268501008
+readData = 15
+value = 15
+CLOCK : 255
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 256
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268501008
+rd2:  268501008
+CLOCK : 257
+
+EX ALU = 268501012  zero = 0
+CLOCK : 258
+
+MEM readData = 0
+ADDRESS = 268501012
+NOT WRITTEN IN MEMORY,  
+CLOCK : 259
+
+WB  
+rd = 11
+ALUresult = 268501012
+readData = 0
+value = 268501012
+CLOCK : 260
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 261
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501012
+rd2:  4
+CLOCK : 262
+
+EX ALU = 268501012  zero = 0
+CLOCK : 263
+
+MEM readData = 3
+ADDRESS = 268501012
+NOT WRITTEN IN MEMORY,  
+CLOCK : 264
+
+WB  
+rd = 18
+ALUresult = 268501012
+readData = 3
+value = 3
+CLOCK : 265
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 266
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  4
+rd2:  4
+CLOCK : 267
+
+EX ALU = 5  zero = 0
+CLOCK : 268
+
+MEM readData = 0
+ADDRESS = 5
+NOT WRITTEN IN MEMORY,  
+CLOCK : 269
+
+WB  
+rd = 14
+ALUresult = 5
+readData = 0
+value = 5
+CLOCK : 270
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 271
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  15
+rd2:  3
+CLOCK : 272
+
+EX ALU = 0  zero = 0
+CLOCK : 273
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 274
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 275
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 276
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 277
+
+EX ALU = 0  zero = False
+CLOCK : 278
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 279
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 280
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 281
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501012
+rd2:  15
+CLOCK : 282
+
+EX ALU = 268501012  zero = 0
+CLOCK : 283
+
+MEM readData = 0
+ADDRESS = 268501012
+VALUE  00000000000000000000000000001111  
+CLOCK : 284
+
+WB  
+rd = 17
+ALUresult = 268501012
+readData = 0
+value = 15
+CLOCK : 285
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 286
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501012
+rd2:  3
+CLOCK : 287
+
+EX ALU = 268501008  zero = 0
+CLOCK : 288
+
+MEM readData = 0
+ADDRESS = 268501008
+VALUE  00000000000000000000000000000011  
+CLOCK : 289
+
+WB  
+rd = 18
+ALUresult = 268501008
+readData = 0
+value = 3
+CLOCK : 290
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 291
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 292
+
+EX ALU = 0  zero = 0
+CLOCK : 293
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 294
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 295
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 296
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  5
+rd2:  7
+CLOCK : 297
+
+EX ALU = -2  zero = False
+CLOCK : 298
+
+MEM readData = 0
+ADDRESS = -2
+NOT WRITTEN IN MEMORY,  
+CLOCK : 299
+
+WB  
+rd = 12
+ALUresult = -2
+readData = 0
+value = 7
+CLOCK : 300
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 301
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501012
+rd2:  15
+CLOCK : 302
+
+EX ALU = 268501012  zero = 0
+CLOCK : 303
+
+MEM readData = 15
+ADDRESS = 268501012
+NOT WRITTEN IN MEMORY,  
+CLOCK : 304
+
+WB  
+rd = 17
+ALUresult = 268501012
+readData = 15
+value = 15
+CLOCK : 305
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 306
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268501012
+rd2:  268501012
+CLOCK : 307
+
+EX ALU = 268501016  zero = 0
+CLOCK : 308
+
+MEM readData = 0
+ADDRESS = 268501016
+NOT WRITTEN IN MEMORY,  
+CLOCK : 309
+
+WB  
+rd = 11
+ALUresult = 268501016
+readData = 0
+value = 268501016
+CLOCK : 310
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 311
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501016
+rd2:  3
+CLOCK : 312
+
+EX ALU = 268501016  zero = 0
+CLOCK : 313
+
+MEM readData = 2
+ADDRESS = 268501016
+NOT WRITTEN IN MEMORY,  
+CLOCK : 314
+
+WB  
+rd = 18
+ALUresult = 268501016
+readData = 2
+value = 2
+CLOCK : 315
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 316
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  5
+rd2:  5
+CLOCK : 317
+
+EX ALU = 6  zero = 0
+CLOCK : 318
+
+MEM readData = 0
+ADDRESS = 6
+NOT WRITTEN IN MEMORY,  
+CLOCK : 319
+
+WB  
+rd = 14
+ALUresult = 6
+readData = 0
+value = 6
+CLOCK : 320
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 321
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  15
+rd2:  2
+CLOCK : 322
+
+EX ALU = 0  zero = 0
+CLOCK : 323
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 324
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 325
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 326
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 327
+
+EX ALU = 0  zero = False
+CLOCK : 328
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 329
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 330
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 331
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501016
+rd2:  15
+CLOCK : 332
+
+EX ALU = 268501016  zero = 0
+CLOCK : 333
+
+MEM readData = 0
+ADDRESS = 268501016
+VALUE  00000000000000000000000000001111  
+CLOCK : 334
+
+WB  
+rd = 17
+ALUresult = 268501016
+readData = 0
+value = 15
+CLOCK : 335
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 336
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501016
+rd2:  2
+CLOCK : 337
+
+EX ALU = 268501012  zero = 0
+CLOCK : 338
+
+MEM readData = 0
+ADDRESS = 268501012
+VALUE  00000000000000000000000000000010  
+CLOCK : 339
+
+WB  
+rd = 18
+ALUresult = 268501012
+readData = 0
+value = 2
+CLOCK : 340
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 341
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 342
+
+EX ALU = 0  zero = 0
+CLOCK : 343
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 344
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 345
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 346
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  6
+rd2:  7
+CLOCK : 347
+
+EX ALU = -1  zero = False
+CLOCK : 348
+
+MEM readData = 0
+ADDRESS = -1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 349
+
+WB  
+rd = 12
+ALUresult = -1
+readData = 0
+value = 7
+CLOCK : 350
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 351
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501016
+rd2:  15
+CLOCK : 352
+
+EX ALU = 268501016  zero = 0
+CLOCK : 353
+
+MEM readData = 15
+ADDRESS = 268501016
+NOT WRITTEN IN MEMORY,  
+CLOCK : 354
+
+WB  
+rd = 17
+ALUresult = 268501016
+readData = 15
+value = 15
+CLOCK : 355
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 356
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268501016
+rd2:  268501016
+CLOCK : 357
+
+EX ALU = 268501020  zero = 0
+CLOCK : 358
+
+MEM readData = 0
+ADDRESS = 268501020
+NOT WRITTEN IN MEMORY,  
+CLOCK : 359
+
+WB  
+rd = 11
+ALUresult = 268501020
+readData = 0
+value = 268501020
+CLOCK : 360
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 361
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501020
+rd2:  2
+CLOCK : 362
+
+EX ALU = 268501020  zero = 0
+CLOCK : 363
+
+MEM readData = 1
+ADDRESS = 268501020
+NOT WRITTEN IN MEMORY,  
+CLOCK : 364
+
+WB  
+rd = 18
+ALUresult = 268501020
+readData = 1
+value = 1
+CLOCK : 365
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 366
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  6
+rd2:  6
+CLOCK : 367
+
+EX ALU = 7  zero = 0
+CLOCK : 368
+
+MEM readData = 0
+ADDRESS = 7
+NOT WRITTEN IN MEMORY,  
+CLOCK : 369
+
+WB  
+rd = 14
+ALUresult = 7
+readData = 0
+value = 7
+CLOCK : 370
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 371
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  15
+rd2:  1
+CLOCK : 372
+
+EX ALU = 0  zero = 0
+CLOCK : 373
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 374
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 375
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 376
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 377
+
+EX ALU = 0  zero = False
+CLOCK : 378
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 379
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 380
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 381
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501020
+rd2:  15
+CLOCK : 382
+
+EX ALU = 268501020  zero = 0
+CLOCK : 383
+
+MEM readData = 0
+ADDRESS = 268501020
+VALUE  00000000000000000000000000001111  
+CLOCK : 384
+
+WB  
+rd = 17
+ALUresult = 268501020
+readData = 0
+value = 15
+CLOCK : 385
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 386
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501020
+rd2:  1
+CLOCK : 387
+
+EX ALU = 268501016  zero = 0
+CLOCK : 388
+
+MEM readData = 0
+ADDRESS = 268501016
+VALUE  00000000000000000000000000000001  
+CLOCK : 389
+
+WB  
+rd = 18
+ALUresult = 268501016
+readData = 0
+value = 1
+CLOCK : 390
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 391
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 392
+
+EX ALU = 0  zero = 0
+CLOCK : 393
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 394
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 395
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 396
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  7
+rd2:  7
+CLOCK : 397
+
+EX ALU = 0  zero = True
+CLOCK : 398
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 399
+
+WB  
+rd = 12
+ALUresult = 0
+readData = 0
+value = 7
+CLOCK : 400
+
+________________________________________________________________________________________________________________
+
+IF  0x400018 -- 00010001101110000000000000001111
+CLOCK : 401
+
+ID  
+opcode:  0x4
+rs:  13
+rt:  24
+rd:  24
+shamt:  0
+funct:  0xf
+imm:  15
+address:  28835855
+rd1:  1
+rd2:  7
+CLOCK : 402
+
+EX ALU = -6  zero = False
+CLOCK : 403
+
+MEM readData = 0
+ADDRESS = -6
+NOT WRITTEN IN MEMORY,  
+CLOCK : 404
+
+WB  
+rd = 24
+ALUresult = -6
+readData = 0
+value = 7
+CLOCK : 405
+
+________________________________________________________________________________________________________________
+
+IF  0x40001c -- 00000011000011010110000000100010
+CLOCK : 406
+
+ID  
+opcode:  0x0
+rs:  24
+rt:  13
+rd:  12
+shamt:  0
+funct:  0x22
+imm:  24610
+address:  51208226
+rd1:  7
+rd2:  1
+CLOCK : 407
+
+EX ALU = 6  zero = False
+CLOCK : 408
+
+MEM readData = 0
+ADDRESS = 6
+NOT WRITTEN IN MEMORY,  
+CLOCK : 409
+
+WB  
+rd = 12
+ALUresult = 6
+readData = 0
+value = 6
+CLOCK : 410
+
+________________________________________________________________________________________________________________
+
+IF  0x400020 -- 00000000000000000111000000100000
+CLOCK : 411
+
+ID  
+opcode:  0x0
+rs:  0
+rt:  0
+rd:  14
+shamt:  0
+funct:  0x20
+imm:  28704
+address:  28704
+rd1:  0
+rd2:  0
+CLOCK : 412
+
+EX ALU = 0  zero = 0
+CLOCK : 413
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 414
+
+WB  
+rd = 14
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 415
+
+________________________________________________________________________________________________________________
+
+IF  0x400024 -- 00000001001000000101100000100000
+CLOCK : 416
+
+ID  
+opcode:  0x0
+rs:  9
+rt:  0
+rd:  11
+shamt:  0
+funct:  0x20
+imm:  22560
+address:  18896928
+rd1:  268500992
+rd2:  0
+CLOCK : 417
+
+EX ALU = 268500992  zero = 0
+CLOCK : 418
+
+MEM readData = 0
+ADDRESS = 268500992
+NOT WRITTEN IN MEMORY,  
+CLOCK : 419
+
+WB  
+rd = 11
+ALUresult = 268500992
+readData = 0
+value = 268500992
+CLOCK : 420
+
+________________________________________________________________________________________________________________
+
+IF  0x400028 -- 00100001101011010000000000000001
+CLOCK : 421
+
+ID  
+opcode:  0x8
+rs:  13
+rt:  13
+rd:  13
+shamt:  0
+funct:  0x1
+imm:  1
+address:  28114945
+rd1:  1
+rd2:  1
+CLOCK : 422
+
+EX ALU = 2  zero = 0
+CLOCK : 423
+
+MEM readData = 0
+ADDRESS = 2
+NOT WRITTEN IN MEMORY,  
+CLOCK : 424
+
+WB  
+rd = 13
+ALUresult = 2
+readData = 0
+value = 2
+CLOCK : 425
+
+________________________________________________________________________________________________________________
+
+IF  0x40002c -- 00001000000100000000000000001100
+CLOCK : 426
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 427
+
+EX ALU = 0  zero = 0
+CLOCK : 428
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 429
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 430
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 431
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  0
+rd2:  6
+CLOCK : 432
+
+EX ALU = -6  zero = False
+CLOCK : 433
+
+MEM readData = 0
+ADDRESS = -6
+NOT WRITTEN IN MEMORY,  
+CLOCK : 434
+
+WB  
+rd = 12
+ALUresult = -6
+readData = 0
+value = 6
+CLOCK : 435
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 436
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500992
+rd2:  15
+CLOCK : 437
+
+EX ALU = 268500992  zero = 0
+CLOCK : 438
+
+MEM readData = 9
+ADDRESS = 268500992
+NOT WRITTEN IN MEMORY,  
+CLOCK : 439
+
+WB  
+rd = 17
+ALUresult = 268500992
+readData = 9
+value = 9
+CLOCK : 440
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 441
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268500992
+rd2:  268500992
+CLOCK : 442
+
+EX ALU = 268500996  zero = 0
+CLOCK : 443
+
+MEM readData = 0
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 444
+
+WB  
+rd = 11
+ALUresult = 268500996
+readData = 0
+value = 268500996
+CLOCK : 445
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 446
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268500996
+rd2:  1
+CLOCK : 447
+
+EX ALU = 268500996  zero = 0
+CLOCK : 448
+
+MEM readData = 6
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 449
+
+WB  
+rd = 18
+ALUresult = 268500996
+readData = 6
+value = 6
+CLOCK : 450
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 451
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  0
+rd2:  0
+CLOCK : 452
+
+EX ALU = 1  zero = 0
+CLOCK : 453
+
+MEM readData = 0
+ADDRESS = 1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 454
+
+WB  
+rd = 14
+ALUresult = 1
+readData = 0
+value = 1
+CLOCK : 455
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 456
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  9
+rd2:  6
+CLOCK : 457
+
+EX ALU = 0  zero = 0
+CLOCK : 458
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 459
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 460
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 461
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 462
+
+EX ALU = 0  zero = False
+CLOCK : 463
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 464
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 465
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 466
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500996
+rd2:  9
+CLOCK : 467
+
+EX ALU = 268500996  zero = 0
+CLOCK : 468
+
+MEM readData = 0
+ADDRESS = 268500996
+VALUE  00000000000000000000000000001001  
+CLOCK : 469
+
+WB  
+rd = 17
+ALUresult = 268500996
+readData = 0
+value = 9
+CLOCK : 470
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 471
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268500996
+rd2:  6
+CLOCK : 472
+
+EX ALU = 268500992  zero = 0
+CLOCK : 473
+
+MEM readData = 0
+ADDRESS = 268500992
+VALUE  00000000000000000000000000000110  
+CLOCK : 474
+
+WB  
+rd = 18
+ALUresult = 268500992
+readData = 0
+value = 6
+CLOCK : 475
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 476
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 477
+
+EX ALU = 0  zero = 0
+CLOCK : 478
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 479
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 480
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 481
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  1
+rd2:  6
+CLOCK : 482
+
+EX ALU = -5  zero = False
+CLOCK : 483
+
+MEM readData = 0
+ADDRESS = -5
+NOT WRITTEN IN MEMORY,  
+CLOCK : 484
+
+WB  
+rd = 12
+ALUresult = -5
+readData = 0
+value = 6
+CLOCK : 485
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 486
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500996
+rd2:  9
+CLOCK : 487
+
+EX ALU = 268500996  zero = 0
+CLOCK : 488
+
+MEM readData = 9
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 489
+
+WB  
+rd = 17
+ALUresult = 268500996
+readData = 9
+value = 9
+CLOCK : 490
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 491
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268500996
+rd2:  268500996
+CLOCK : 492
+
+EX ALU = 268501000  zero = 0
+CLOCK : 493
+
+MEM readData = 0
+ADDRESS = 268501000
+NOT WRITTEN IN MEMORY,  
+CLOCK : 494
+
+WB  
+rd = 11
+ALUresult = 268501000
+readData = 0
+value = 268501000
+CLOCK : 495
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 496
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501000
+rd2:  6
+CLOCK : 497
+
+EX ALU = 268501000  zero = 0
+CLOCK : 498
+
+MEM readData = 5
+ADDRESS = 268501000
+NOT WRITTEN IN MEMORY,  
+CLOCK : 499
+
+WB  
+rd = 18
+ALUresult = 268501000
+readData = 5
+value = 5
+CLOCK : 500
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 501
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  1
+rd2:  1
+CLOCK : 502
+
+EX ALU = 2  zero = 0
+CLOCK : 503
+
+MEM readData = 0
+ADDRESS = 2
+NOT WRITTEN IN MEMORY,  
+CLOCK : 504
+
+WB  
+rd = 14
+ALUresult = 2
+readData = 0
+value = 2
+CLOCK : 505
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 506
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  9
+rd2:  5
+CLOCK : 507
+
+EX ALU = 0  zero = 0
+CLOCK : 508
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 509
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 510
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 511
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 512
+
+EX ALU = 0  zero = False
+CLOCK : 513
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 514
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 515
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 516
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501000
+rd2:  9
+CLOCK : 517
+
+EX ALU = 268501000  zero = 0
+CLOCK : 518
+
+MEM readData = 0
+ADDRESS = 268501000
+VALUE  00000000000000000000000000001001  
+CLOCK : 519
+
+WB  
+rd = 17
+ALUresult = 268501000
+readData = 0
+value = 9
+CLOCK : 520
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 521
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501000
+rd2:  5
+CLOCK : 522
+
+EX ALU = 268500996  zero = 0
+CLOCK : 523
+
+MEM readData = 0
+ADDRESS = 268500996
+VALUE  00000000000000000000000000000101  
+CLOCK : 524
+
+WB  
+rd = 18
+ALUresult = 268500996
+readData = 0
+value = 5
+CLOCK : 525
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 526
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 527
+
+EX ALU = 0  zero = 0
+CLOCK : 528
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 529
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 530
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 531
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  2
+rd2:  6
+CLOCK : 532
+
+EX ALU = -4  zero = False
+CLOCK : 533
+
+MEM readData = 0
+ADDRESS = -4
+NOT WRITTEN IN MEMORY,  
+CLOCK : 534
+
+WB  
+rd = 12
+ALUresult = -4
+readData = 0
+value = 6
+CLOCK : 535
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 536
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501000
+rd2:  9
+CLOCK : 537
+
+EX ALU = 268501000  zero = 0
+CLOCK : 538
+
+MEM readData = 9
+ADDRESS = 268501000
+NOT WRITTEN IN MEMORY,  
+CLOCK : 539
+
+WB  
+rd = 17
+ALUresult = 268501000
+readData = 9
+value = 9
+CLOCK : 540
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 541
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268501000
+rd2:  268501000
+CLOCK : 542
+
+EX ALU = 268501004  zero = 0
+CLOCK : 543
+
+MEM readData = 0
+ADDRESS = 268501004
+NOT WRITTEN IN MEMORY,  
+CLOCK : 544
+
+WB  
+rd = 11
+ALUresult = 268501004
+readData = 0
+value = 268501004
+CLOCK : 545
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 546
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501004
+rd2:  5
+CLOCK : 547
+
+EX ALU = 268501004  zero = 0
+CLOCK : 548
+
+MEM readData = 4
+ADDRESS = 268501004
+NOT WRITTEN IN MEMORY,  
+CLOCK : 549
+
+WB  
+rd = 18
+ALUresult = 268501004
+readData = 4
+value = 4
+CLOCK : 550
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 551
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  2
+rd2:  2
+CLOCK : 552
+
+EX ALU = 3  zero = 0
+CLOCK : 553
+
+MEM readData = 0
+ADDRESS = 3
+NOT WRITTEN IN MEMORY,  
+CLOCK : 554
+
+WB  
+rd = 14
+ALUresult = 3
+readData = 0
+value = 3
+CLOCK : 555
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 556
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  9
+rd2:  4
+CLOCK : 557
+
+EX ALU = 0  zero = 0
+CLOCK : 558
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 559
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 560
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 561
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 562
+
+EX ALU = 0  zero = False
+CLOCK : 563
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 564
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 565
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 566
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501004
+rd2:  9
+CLOCK : 567
+
+EX ALU = 268501004  zero = 0
+CLOCK : 568
+
+MEM readData = 0
+ADDRESS = 268501004
+VALUE  00000000000000000000000000001001  
+CLOCK : 569
+
+WB  
+rd = 17
+ALUresult = 268501004
+readData = 0
+value = 9
+CLOCK : 570
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 571
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501004
+rd2:  4
+CLOCK : 572
+
+EX ALU = 268501000  zero = 0
+CLOCK : 573
+
+MEM readData = 0
+ADDRESS = 268501000
+VALUE  00000000000000000000000000000100  
+CLOCK : 574
+
+WB  
+rd = 18
+ALUresult = 268501000
+readData = 0
+value = 4
+CLOCK : 575
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 576
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 577
+
+EX ALU = 0  zero = 0
+CLOCK : 578
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 579
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 580
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 581
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  3
+rd2:  6
+CLOCK : 582
+
+EX ALU = -3  zero = False
+CLOCK : 583
+
+MEM readData = 0
+ADDRESS = -3
+NOT WRITTEN IN MEMORY,  
+CLOCK : 584
+
+WB  
+rd = 12
+ALUresult = -3
+readData = 0
+value = 6
+CLOCK : 585
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 586
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501004
+rd2:  9
+CLOCK : 587
+
+EX ALU = 268501004  zero = 0
+CLOCK : 588
+
+MEM readData = 9
+ADDRESS = 268501004
+NOT WRITTEN IN MEMORY,  
+CLOCK : 589
+
+WB  
+rd = 17
+ALUresult = 268501004
+readData = 9
+value = 9
+CLOCK : 590
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 591
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268501004
+rd2:  268501004
+CLOCK : 592
+
+EX ALU = 268501008  zero = 0
+CLOCK : 593
+
+MEM readData = 0
+ADDRESS = 268501008
+NOT WRITTEN IN MEMORY,  
+CLOCK : 594
+
+WB  
+rd = 11
+ALUresult = 268501008
+readData = 0
+value = 268501008
+CLOCK : 595
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 596
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501008
+rd2:  4
+CLOCK : 597
+
+EX ALU = 268501008  zero = 0
+CLOCK : 598
+
+MEM readData = 3
+ADDRESS = 268501008
+NOT WRITTEN IN MEMORY,  
+CLOCK : 599
+
+WB  
+rd = 18
+ALUresult = 268501008
+readData = 3
+value = 3
+CLOCK : 600
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 601
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  3
+rd2:  3
+CLOCK : 602
+
+EX ALU = 4  zero = 0
+CLOCK : 603
+
+MEM readData = 0
+ADDRESS = 4
+NOT WRITTEN IN MEMORY,  
+CLOCK : 604
+
+WB  
+rd = 14
+ALUresult = 4
+readData = 0
+value = 4
+CLOCK : 605
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 606
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  9
+rd2:  3
+CLOCK : 607
+
+EX ALU = 0  zero = 0
+CLOCK : 608
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 609
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 610
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 611
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 612
+
+EX ALU = 0  zero = False
+CLOCK : 613
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 614
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 615
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 616
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501008
+rd2:  9
+CLOCK : 617
+
+EX ALU = 268501008  zero = 0
+CLOCK : 618
+
+MEM readData = 0
+ADDRESS = 268501008
+VALUE  00000000000000000000000000001001  
+CLOCK : 619
+
+WB  
+rd = 17
+ALUresult = 268501008
+readData = 0
+value = 9
+CLOCK : 620
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 621
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501008
+rd2:  3
+CLOCK : 622
+
+EX ALU = 268501004  zero = 0
+CLOCK : 623
+
+MEM readData = 0
+ADDRESS = 268501004
+VALUE  00000000000000000000000000000011  
+CLOCK : 624
+
+WB  
+rd = 18
+ALUresult = 268501004
+readData = 0
+value = 3
+CLOCK : 625
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 626
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 627
+
+EX ALU = 0  zero = 0
+CLOCK : 628
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 629
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 630
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 631
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  4
+rd2:  6
+CLOCK : 632
+
+EX ALU = -2  zero = False
+CLOCK : 633
+
+MEM readData = 0
+ADDRESS = -2
+NOT WRITTEN IN MEMORY,  
+CLOCK : 634
+
+WB  
+rd = 12
+ALUresult = -2
+readData = 0
+value = 6
+CLOCK : 635
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 636
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501008
+rd2:  9
+CLOCK : 637
+
+EX ALU = 268501008  zero = 0
+CLOCK : 638
+
+MEM readData = 9
+ADDRESS = 268501008
+NOT WRITTEN IN MEMORY,  
+CLOCK : 639
+
+WB  
+rd = 17
+ALUresult = 268501008
+readData = 9
+value = 9
+CLOCK : 640
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 641
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268501008
+rd2:  268501008
+CLOCK : 642
+
+EX ALU = 268501012  zero = 0
+CLOCK : 643
+
+MEM readData = 0
+ADDRESS = 268501012
+NOT WRITTEN IN MEMORY,  
+CLOCK : 644
+
+WB  
+rd = 11
+ALUresult = 268501012
+readData = 0
+value = 268501012
+CLOCK : 645
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 646
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501012
+rd2:  3
+CLOCK : 647
+
+EX ALU = 268501012  zero = 0
+CLOCK : 648
+
+MEM readData = 2
+ADDRESS = 268501012
+NOT WRITTEN IN MEMORY,  
+CLOCK : 649
+
+WB  
+rd = 18
+ALUresult = 268501012
+readData = 2
+value = 2
+CLOCK : 650
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 651
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  4
+rd2:  4
+CLOCK : 652
+
+EX ALU = 5  zero = 0
+CLOCK : 653
+
+MEM readData = 0
+ADDRESS = 5
+NOT WRITTEN IN MEMORY,  
+CLOCK : 654
+
+WB  
+rd = 14
+ALUresult = 5
+readData = 0
+value = 5
+CLOCK : 655
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 656
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  9
+rd2:  2
+CLOCK : 657
+
+EX ALU = 0  zero = 0
+CLOCK : 658
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 659
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 660
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 661
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 662
+
+EX ALU = 0  zero = False
+CLOCK : 663
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 664
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 665
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 666
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501012
+rd2:  9
+CLOCK : 667
+
+EX ALU = 268501012  zero = 0
+CLOCK : 668
+
+MEM readData = 0
+ADDRESS = 268501012
+VALUE  00000000000000000000000000001001  
+CLOCK : 669
+
+WB  
+rd = 17
+ALUresult = 268501012
+readData = 0
+value = 9
+CLOCK : 670
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 671
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501012
+rd2:  2
+CLOCK : 672
+
+EX ALU = 268501008  zero = 0
+CLOCK : 673
+
+MEM readData = 0
+ADDRESS = 268501008
+VALUE  00000000000000000000000000000010  
+CLOCK : 674
+
+WB  
+rd = 18
+ALUresult = 268501008
+readData = 0
+value = 2
+CLOCK : 675
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 676
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 677
+
+EX ALU = 0  zero = 0
+CLOCK : 678
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 679
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 680
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 681
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  5
+rd2:  6
+CLOCK : 682
+
+EX ALU = -1  zero = False
+CLOCK : 683
+
+MEM readData = 0
+ADDRESS = -1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 684
+
+WB  
+rd = 12
+ALUresult = -1
+readData = 0
+value = 6
+CLOCK : 685
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 686
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501012
+rd2:  9
+CLOCK : 687
+
+EX ALU = 268501012  zero = 0
+CLOCK : 688
+
+MEM readData = 9
+ADDRESS = 268501012
+NOT WRITTEN IN MEMORY,  
+CLOCK : 689
+
+WB  
+rd = 17
+ALUresult = 268501012
+readData = 9
+value = 9
+CLOCK : 690
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 691
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268501012
+rd2:  268501012
+CLOCK : 692
+
+EX ALU = 268501016  zero = 0
+CLOCK : 693
+
+MEM readData = 0
+ADDRESS = 268501016
+NOT WRITTEN IN MEMORY,  
+CLOCK : 694
+
+WB  
+rd = 11
+ALUresult = 268501016
+readData = 0
+value = 268501016
+CLOCK : 695
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 696
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501016
+rd2:  2
+CLOCK : 697
+
+EX ALU = 268501016  zero = 0
+CLOCK : 698
+
+MEM readData = 1
+ADDRESS = 268501016
+NOT WRITTEN IN MEMORY,  
+CLOCK : 699
+
+WB  
+rd = 18
+ALUresult = 268501016
+readData = 1
+value = 1
+CLOCK : 700
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 701
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  5
+rd2:  5
+CLOCK : 702
+
+EX ALU = 6  zero = 0
+CLOCK : 703
+
+MEM readData = 0
+ADDRESS = 6
+NOT WRITTEN IN MEMORY,  
+CLOCK : 704
+
+WB  
+rd = 14
+ALUresult = 6
+readData = 0
+value = 6
+CLOCK : 705
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 706
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  9
+rd2:  1
+CLOCK : 707
+
+EX ALU = 0  zero = 0
+CLOCK : 708
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 709
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 710
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 711
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 712
+
+EX ALU = 0  zero = False
+CLOCK : 713
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 714
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 715
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 716
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501016
+rd2:  9
+CLOCK : 717
+
+EX ALU = 268501016  zero = 0
+CLOCK : 718
+
+MEM readData = 0
+ADDRESS = 268501016
+VALUE  00000000000000000000000000001001  
+CLOCK : 719
+
+WB  
+rd = 17
+ALUresult = 268501016
+readData = 0
+value = 9
+CLOCK : 720
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 721
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501016
+rd2:  1
+CLOCK : 722
+
+EX ALU = 268501012  zero = 0
+CLOCK : 723
+
+MEM readData = 0
+ADDRESS = 268501012
+VALUE  00000000000000000000000000000001  
+CLOCK : 724
+
+WB  
+rd = 18
+ALUresult = 268501012
+readData = 0
+value = 1
+CLOCK : 725
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 726
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 727
+
+EX ALU = 0  zero = 0
+CLOCK : 728
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 729
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 730
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 731
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  6
+rd2:  6
+CLOCK : 732
+
+EX ALU = 0  zero = True
+CLOCK : 733
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 734
+
+WB  
+rd = 12
+ALUresult = 0
+readData = 0
+value = 6
+CLOCK : 735
+
+________________________________________________________________________________________________________________
+
+IF  0x400018 -- 00010001101110000000000000001111
+CLOCK : 736
+
+ID  
+opcode:  0x4
+rs:  13
+rt:  24
+rd:  24
+shamt:  0
+funct:  0xf
+imm:  15
+address:  28835855
+rd1:  2
+rd2:  7
+CLOCK : 737
+
+EX ALU = -5  zero = False
+CLOCK : 738
+
+MEM readData = 0
+ADDRESS = -5
+NOT WRITTEN IN MEMORY,  
+CLOCK : 739
+
+WB  
+rd = 24
+ALUresult = -5
+readData = 0
+value = 7
+CLOCK : 740
+
+________________________________________________________________________________________________________________
+
+IF  0x40001c -- 00000011000011010110000000100010
+CLOCK : 741
+
+ID  
+opcode:  0x0
+rs:  24
+rt:  13
+rd:  12
+shamt:  0
+funct:  0x22
+imm:  24610
+address:  51208226
+rd1:  7
+rd2:  2
+CLOCK : 742
+
+EX ALU = 5  zero = False
+CLOCK : 743
+
+MEM readData = 0
+ADDRESS = 5
+NOT WRITTEN IN MEMORY,  
+CLOCK : 744
+
+WB  
+rd = 12
+ALUresult = 5
+readData = 0
+value = 5
+CLOCK : 745
+
+________________________________________________________________________________________________________________
+
+IF  0x400020 -- 00000000000000000111000000100000
+CLOCK : 746
+
+ID  
+opcode:  0x0
+rs:  0
+rt:  0
+rd:  14
+shamt:  0
+funct:  0x20
+imm:  28704
+address:  28704
+rd1:  0
+rd2:  0
+CLOCK : 747
+
+EX ALU = 0  zero = 0
+CLOCK : 748
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 749
+
+WB  
+rd = 14
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 750
+
+________________________________________________________________________________________________________________
+
+IF  0x400024 -- 00000001001000000101100000100000
+CLOCK : 751
+
+ID  
+opcode:  0x0
+rs:  9
+rt:  0
+rd:  11
+shamt:  0
+funct:  0x20
+imm:  22560
+address:  18896928
+rd1:  268500992
+rd2:  0
+CLOCK : 752
+
+EX ALU = 268500992  zero = 0
+CLOCK : 753
+
+MEM readData = 0
+ADDRESS = 268500992
+NOT WRITTEN IN MEMORY,  
+CLOCK : 754
+
+WB  
+rd = 11
+ALUresult = 268500992
+readData = 0
+value = 268500992
+CLOCK : 755
+
+________________________________________________________________________________________________________________
+
+IF  0x400028 -- 00100001101011010000000000000001
+CLOCK : 756
+
+ID  
+opcode:  0x8
+rs:  13
+rt:  13
+rd:  13
+shamt:  0
+funct:  0x1
+imm:  1
+address:  28114945
+rd1:  2
+rd2:  2
+CLOCK : 757
+
+EX ALU = 3  zero = 0
+CLOCK : 758
+
+MEM readData = 0
+ADDRESS = 3
+NOT WRITTEN IN MEMORY,  
+CLOCK : 759
+
+WB  
+rd = 13
+ALUresult = 3
+readData = 0
+value = 3
+CLOCK : 760
+
+________________________________________________________________________________________________________________
+
+IF  0x40002c -- 00001000000100000000000000001100
+CLOCK : 761
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 762
+
+EX ALU = 0  zero = 0
+CLOCK : 763
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 764
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 765
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 766
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  0
+rd2:  5
+CLOCK : 767
+
+EX ALU = -5  zero = False
+CLOCK : 768
+
+MEM readData = 0
+ADDRESS = -5
+NOT WRITTEN IN MEMORY,  
+CLOCK : 769
+
+WB  
+rd = 12
+ALUresult = -5
+readData = 0
+value = 5
+CLOCK : 770
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 771
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500992
+rd2:  9
+CLOCK : 772
+
+EX ALU = 268500992  zero = 0
+CLOCK : 773
+
+MEM readData = 6
+ADDRESS = 268500992
+NOT WRITTEN IN MEMORY,  
+CLOCK : 774
+
+WB  
+rd = 17
+ALUresult = 268500992
+readData = 6
+value = 6
+CLOCK : 775
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 776
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268500992
+rd2:  268500992
+CLOCK : 777
+
+EX ALU = 268500996  zero = 0
+CLOCK : 778
+
+MEM readData = 0
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 779
+
+WB  
+rd = 11
+ALUresult = 268500996
+readData = 0
+value = 268500996
+CLOCK : 780
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 781
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268500996
+rd2:  1
+CLOCK : 782
+
+EX ALU = 268500996  zero = 0
+CLOCK : 783
+
+MEM readData = 5
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 784
+
+WB  
+rd = 18
+ALUresult = 268500996
+readData = 5
+value = 5
+CLOCK : 785
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 786
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  0
+rd2:  0
+CLOCK : 787
+
+EX ALU = 1  zero = 0
+CLOCK : 788
+
+MEM readData = 0
+ADDRESS = 1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 789
+
+WB  
+rd = 14
+ALUresult = 1
+readData = 0
+value = 1
+CLOCK : 790
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 791
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  6
+rd2:  5
+CLOCK : 792
+
+EX ALU = 0  zero = 0
+CLOCK : 793
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 794
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 795
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 796
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 797
+
+EX ALU = 0  zero = False
+CLOCK : 798
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 799
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 800
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 801
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500996
+rd2:  6
+CLOCK : 802
+
+EX ALU = 268500996  zero = 0
+CLOCK : 803
+
+MEM readData = 0
+ADDRESS = 268500996
+VALUE  00000000000000000000000000000110  
+CLOCK : 804
+
+WB  
+rd = 17
+ALUresult = 268500996
+readData = 0
+value = 6
+CLOCK : 805
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 806
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268500996
+rd2:  5
+CLOCK : 807
+
+EX ALU = 268500992  zero = 0
+CLOCK : 808
+
+MEM readData = 0
+ADDRESS = 268500992
+VALUE  00000000000000000000000000000101  
+CLOCK : 809
+
+WB  
+rd = 18
+ALUresult = 268500992
+readData = 0
+value = 5
+CLOCK : 810
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 811
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 812
+
+EX ALU = 0  zero = 0
+CLOCK : 813
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 814
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 815
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 816
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  1
+rd2:  5
+CLOCK : 817
+
+EX ALU = -4  zero = False
+CLOCK : 818
+
+MEM readData = 0
+ADDRESS = -4
+NOT WRITTEN IN MEMORY,  
+CLOCK : 819
+
+WB  
+rd = 12
+ALUresult = -4
+readData = 0
+value = 5
+CLOCK : 820
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 821
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500996
+rd2:  6
+CLOCK : 822
+
+EX ALU = 268500996  zero = 0
+CLOCK : 823
+
+MEM readData = 6
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 824
+
+WB  
+rd = 17
+ALUresult = 268500996
+readData = 6
+value = 6
+CLOCK : 825
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 826
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268500996
+rd2:  268500996
+CLOCK : 827
+
+EX ALU = 268501000  zero = 0
+CLOCK : 828
+
+MEM readData = 0
+ADDRESS = 268501000
+NOT WRITTEN IN MEMORY,  
+CLOCK : 829
+
+WB  
+rd = 11
+ALUresult = 268501000
+readData = 0
+value = 268501000
+CLOCK : 830
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 831
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501000
+rd2:  5
+CLOCK : 832
+
+EX ALU = 268501000  zero = 0
+CLOCK : 833
+
+MEM readData = 4
+ADDRESS = 268501000
+NOT WRITTEN IN MEMORY,  
+CLOCK : 834
+
+WB  
+rd = 18
+ALUresult = 268501000
+readData = 4
+value = 4
+CLOCK : 835
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 836
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  1
+rd2:  1
+CLOCK : 837
+
+EX ALU = 2  zero = 0
+CLOCK : 838
+
+MEM readData = 0
+ADDRESS = 2
+NOT WRITTEN IN MEMORY,  
+CLOCK : 839
+
+WB  
+rd = 14
+ALUresult = 2
+readData = 0
+value = 2
+CLOCK : 840
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 841
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  6
+rd2:  4
+CLOCK : 842
+
+EX ALU = 0  zero = 0
+CLOCK : 843
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 844
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 845
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 846
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 847
+
+EX ALU = 0  zero = False
+CLOCK : 848
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 849
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 850
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 851
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501000
+rd2:  6
+CLOCK : 852
+
+EX ALU = 268501000  zero = 0
+CLOCK : 853
+
+MEM readData = 0
+ADDRESS = 268501000
+VALUE  00000000000000000000000000000110  
+CLOCK : 854
+
+WB  
+rd = 17
+ALUresult = 268501000
+readData = 0
+value = 6
+CLOCK : 855
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 856
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501000
+rd2:  4
+CLOCK : 857
+
+EX ALU = 268500996  zero = 0
+CLOCK : 858
+
+MEM readData = 0
+ADDRESS = 268500996
+VALUE  00000000000000000000000000000100  
+CLOCK : 859
+
+WB  
+rd = 18
+ALUresult = 268500996
+readData = 0
+value = 4
+CLOCK : 860
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 861
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 862
+
+EX ALU = 0  zero = 0
+CLOCK : 863
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 864
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 865
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 866
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  2
+rd2:  5
+CLOCK : 867
+
+EX ALU = -3  zero = False
+CLOCK : 868
+
+MEM readData = 0
+ADDRESS = -3
+NOT WRITTEN IN MEMORY,  
+CLOCK : 869
+
+WB  
+rd = 12
+ALUresult = -3
+readData = 0
+value = 5
+CLOCK : 870
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 871
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501000
+rd2:  6
+CLOCK : 872
+
+EX ALU = 268501000  zero = 0
+CLOCK : 873
+
+MEM readData = 6
+ADDRESS = 268501000
+NOT WRITTEN IN MEMORY,  
+CLOCK : 874
+
+WB  
+rd = 17
+ALUresult = 268501000
+readData = 6
+value = 6
+CLOCK : 875
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 876
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268501000
+rd2:  268501000
+CLOCK : 877
+
+EX ALU = 268501004  zero = 0
+CLOCK : 878
+
+MEM readData = 0
+ADDRESS = 268501004
+NOT WRITTEN IN MEMORY,  
+CLOCK : 879
+
+WB  
+rd = 11
+ALUresult = 268501004
+readData = 0
+value = 268501004
+CLOCK : 880
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 881
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501004
+rd2:  4
+CLOCK : 882
+
+EX ALU = 268501004  zero = 0
+CLOCK : 883
+
+MEM readData = 3
+ADDRESS = 268501004
+NOT WRITTEN IN MEMORY,  
+CLOCK : 884
+
+WB  
+rd = 18
+ALUresult = 268501004
+readData = 3
+value = 3
+CLOCK : 885
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 886
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  2
+rd2:  2
+CLOCK : 887
+
+EX ALU = 3  zero = 0
+CLOCK : 888
+
+MEM readData = 0
+ADDRESS = 3
+NOT WRITTEN IN MEMORY,  
+CLOCK : 889
+
+WB  
+rd = 14
+ALUresult = 3
+readData = 0
+value = 3
+CLOCK : 890
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 891
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  6
+rd2:  3
+CLOCK : 892
+
+EX ALU = 0  zero = 0
+CLOCK : 893
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 894
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 895
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 896
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 897
+
+EX ALU = 0  zero = False
+CLOCK : 898
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 899
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 900
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 901
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501004
+rd2:  6
+CLOCK : 902
+
+EX ALU = 268501004  zero = 0
+CLOCK : 903
+
+MEM readData = 0
+ADDRESS = 268501004
+VALUE  00000000000000000000000000000110  
+CLOCK : 904
+
+WB  
+rd = 17
+ALUresult = 268501004
+readData = 0
+value = 6
+CLOCK : 905
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 906
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501004
+rd2:  3
+CLOCK : 907
+
+EX ALU = 268501000  zero = 0
+CLOCK : 908
+
+MEM readData = 0
+ADDRESS = 268501000
+VALUE  00000000000000000000000000000011  
+CLOCK : 909
+
+WB  
+rd = 18
+ALUresult = 268501000
+readData = 0
+value = 3
+CLOCK : 910
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 911
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 912
+
+EX ALU = 0  zero = 0
+CLOCK : 913
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 914
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 915
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 916
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  3
+rd2:  5
+CLOCK : 917
+
+EX ALU = -2  zero = False
+CLOCK : 918
+
+MEM readData = 0
+ADDRESS = -2
+NOT WRITTEN IN MEMORY,  
+CLOCK : 919
+
+WB  
+rd = 12
+ALUresult = -2
+readData = 0
+value = 5
+CLOCK : 920
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 921
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501004
+rd2:  6
+CLOCK : 922
+
+EX ALU = 268501004  zero = 0
+CLOCK : 923
+
+MEM readData = 6
+ADDRESS = 268501004
+NOT WRITTEN IN MEMORY,  
+CLOCK : 924
+
+WB  
+rd = 17
+ALUresult = 268501004
+readData = 6
+value = 6
+CLOCK : 925
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 926
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268501004
+rd2:  268501004
+CLOCK : 927
+
+EX ALU = 268501008  zero = 0
+CLOCK : 928
+
+MEM readData = 0
+ADDRESS = 268501008
+NOT WRITTEN IN MEMORY,  
+CLOCK : 929
+
+WB  
+rd = 11
+ALUresult = 268501008
+readData = 0
+value = 268501008
+CLOCK : 930
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 931
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501008
+rd2:  3
+CLOCK : 932
+
+EX ALU = 268501008  zero = 0
+CLOCK : 933
+
+MEM readData = 2
+ADDRESS = 268501008
+NOT WRITTEN IN MEMORY,  
+CLOCK : 934
+
+WB  
+rd = 18
+ALUresult = 268501008
+readData = 2
+value = 2
+CLOCK : 935
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 936
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  3
+rd2:  3
+CLOCK : 937
+
+EX ALU = 4  zero = 0
+CLOCK : 938
+
+MEM readData = 0
+ADDRESS = 4
+NOT WRITTEN IN MEMORY,  
+CLOCK : 939
+
+WB  
+rd = 14
+ALUresult = 4
+readData = 0
+value = 4
+CLOCK : 940
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 941
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  6
+rd2:  2
+CLOCK : 942
+
+EX ALU = 0  zero = 0
+CLOCK : 943
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 944
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 945
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 946
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 947
+
+EX ALU = 0  zero = False
+CLOCK : 948
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 949
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 950
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 951
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501008
+rd2:  6
+CLOCK : 952
+
+EX ALU = 268501008  zero = 0
+CLOCK : 953
+
+MEM readData = 0
+ADDRESS = 268501008
+VALUE  00000000000000000000000000000110  
+CLOCK : 954
+
+WB  
+rd = 17
+ALUresult = 268501008
+readData = 0
+value = 6
+CLOCK : 955
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 956
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501008
+rd2:  2
+CLOCK : 957
+
+EX ALU = 268501004  zero = 0
+CLOCK : 958
+
+MEM readData = 0
+ADDRESS = 268501004
+VALUE  00000000000000000000000000000010  
+CLOCK : 959
+
+WB  
+rd = 18
+ALUresult = 268501004
+readData = 0
+value = 2
+CLOCK : 960
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 961
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 962
+
+EX ALU = 0  zero = 0
+CLOCK : 963
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 964
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 965
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 966
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  4
+rd2:  5
+CLOCK : 967
+
+EX ALU = -1  zero = False
+CLOCK : 968
+
+MEM readData = 0
+ADDRESS = -1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 969
+
+WB  
+rd = 12
+ALUresult = -1
+readData = 0
+value = 5
+CLOCK : 970
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 971
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501008
+rd2:  6
+CLOCK : 972
+
+EX ALU = 268501008  zero = 0
+CLOCK : 973
+
+MEM readData = 6
+ADDRESS = 268501008
+NOT WRITTEN IN MEMORY,  
+CLOCK : 974
+
+WB  
+rd = 17
+ALUresult = 268501008
+readData = 6
+value = 6
+CLOCK : 975
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 976
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268501008
+rd2:  268501008
+CLOCK : 977
+
+EX ALU = 268501012  zero = 0
+CLOCK : 978
+
+MEM readData = 0
+ADDRESS = 268501012
+NOT WRITTEN IN MEMORY,  
+CLOCK : 979
+
+WB  
+rd = 11
+ALUresult = 268501012
+readData = 0
+value = 268501012
+CLOCK : 980
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 981
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501012
+rd2:  2
+CLOCK : 982
+
+EX ALU = 268501012  zero = 0
+CLOCK : 983
+
+MEM readData = 1
+ADDRESS = 268501012
+NOT WRITTEN IN MEMORY,  
+CLOCK : 984
+
+WB  
+rd = 18
+ALUresult = 268501012
+readData = 1
+value = 1
+CLOCK : 985
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 986
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  4
+rd2:  4
+CLOCK : 987
+
+EX ALU = 5  zero = 0
+CLOCK : 988
+
+MEM readData = 0
+ADDRESS = 5
+NOT WRITTEN IN MEMORY,  
+CLOCK : 989
+
+WB  
+rd = 14
+ALUresult = 5
+readData = 0
+value = 5
+CLOCK : 990
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 991
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  6
+rd2:  1
+CLOCK : 992
+
+EX ALU = 0  zero = 0
+CLOCK : 993
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 994
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 995
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 996
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 997
+
+EX ALU = 0  zero = False
+CLOCK : 998
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 999
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1000
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 1001
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501012
+rd2:  6
+CLOCK : 1002
+
+EX ALU = 268501012  zero = 0
+CLOCK : 1003
+
+MEM readData = 0
+ADDRESS = 268501012
+VALUE  00000000000000000000000000000110  
+CLOCK : 1004
+
+WB  
+rd = 17
+ALUresult = 268501012
+readData = 0
+value = 6
+CLOCK : 1005
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 1006
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501012
+rd2:  1
+CLOCK : 1007
+
+EX ALU = 268501008  zero = 0
+CLOCK : 1008
+
+MEM readData = 0
+ADDRESS = 268501008
+VALUE  00000000000000000000000000000001  
+CLOCK : 1009
+
+WB  
+rd = 18
+ALUresult = 268501008
+readData = 0
+value = 1
+CLOCK : 1010
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 1011
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 1012
+
+EX ALU = 0  zero = 0
+CLOCK : 1013
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1014
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1015
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 1016
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  5
+rd2:  5
+CLOCK : 1017
+
+EX ALU = 0  zero = True
+CLOCK : 1018
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1019
+
+WB  
+rd = 12
+ALUresult = 0
+readData = 0
+value = 5
+CLOCK : 1020
+
+________________________________________________________________________________________________________________
+
+IF  0x400018 -- 00010001101110000000000000001111
+CLOCK : 1021
+
+ID  
+opcode:  0x4
+rs:  13
+rt:  24
+rd:  24
+shamt:  0
+funct:  0xf
+imm:  15
+address:  28835855
+rd1:  3
+rd2:  7
+CLOCK : 1022
+
+EX ALU = -4  zero = False
+CLOCK : 1023
+
+MEM readData = 0
+ADDRESS = -4
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1024
+
+WB  
+rd = 24
+ALUresult = -4
+readData = 0
+value = 7
+CLOCK : 1025
+
+________________________________________________________________________________________________________________
+
+IF  0x40001c -- 00000011000011010110000000100010
+CLOCK : 1026
+
+ID  
+opcode:  0x0
+rs:  24
+rt:  13
+rd:  12
+shamt:  0
+funct:  0x22
+imm:  24610
+address:  51208226
+rd1:  7
+rd2:  3
+CLOCK : 1027
+
+EX ALU = 4  zero = False
+CLOCK : 1028
+
+MEM readData = 0
+ADDRESS = 4
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1029
+
+WB  
+rd = 12
+ALUresult = 4
+readData = 0
+value = 4
+CLOCK : 1030
+
+________________________________________________________________________________________________________________
+
+IF  0x400020 -- 00000000000000000111000000100000
+CLOCK : 1031
+
+ID  
+opcode:  0x0
+rs:  0
+rt:  0
+rd:  14
+shamt:  0
+funct:  0x20
+imm:  28704
+address:  28704
+rd1:  0
+rd2:  0
+CLOCK : 1032
+
+EX ALU = 0  zero = 0
+CLOCK : 1033
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1034
+
+WB  
+rd = 14
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1035
+
+________________________________________________________________________________________________________________
+
+IF  0x400024 -- 00000001001000000101100000100000
+CLOCK : 1036
+
+ID  
+opcode:  0x0
+rs:  9
+rt:  0
+rd:  11
+shamt:  0
+funct:  0x20
+imm:  22560
+address:  18896928
+rd1:  268500992
+rd2:  0
+CLOCK : 1037
+
+EX ALU = 268500992  zero = 0
+CLOCK : 1038
+
+MEM readData = 0
+ADDRESS = 268500992
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1039
+
+WB  
+rd = 11
+ALUresult = 268500992
+readData = 0
+value = 268500992
+CLOCK : 1040
+
+________________________________________________________________________________________________________________
+
+IF  0x400028 -- 00100001101011010000000000000001
+CLOCK : 1041
+
+ID  
+opcode:  0x8
+rs:  13
+rt:  13
+rd:  13
+shamt:  0
+funct:  0x1
+imm:  1
+address:  28114945
+rd1:  3
+rd2:  3
+CLOCK : 1042
+
+EX ALU = 4  zero = 0
+CLOCK : 1043
+
+MEM readData = 0
+ADDRESS = 4
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1044
+
+WB  
+rd = 13
+ALUresult = 4
+readData = 0
+value = 4
+CLOCK : 1045
+
+________________________________________________________________________________________________________________
+
+IF  0x40002c -- 00001000000100000000000000001100
+CLOCK : 1046
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 1047
+
+EX ALU = 0  zero = 0
+CLOCK : 1048
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1049
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1050
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 1051
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  0
+rd2:  4
+CLOCK : 1052
+
+EX ALU = -4  zero = False
+CLOCK : 1053
+
+MEM readData = 0
+ADDRESS = -4
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1054
+
+WB  
+rd = 12
+ALUresult = -4
+readData = 0
+value = 4
+CLOCK : 1055
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 1056
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500992
+rd2:  6
+CLOCK : 1057
+
+EX ALU = 268500992  zero = 0
+CLOCK : 1058
+
+MEM readData = 5
+ADDRESS = 268500992
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1059
+
+WB  
+rd = 17
+ALUresult = 268500992
+readData = 5
+value = 5
+CLOCK : 1060
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 1061
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268500992
+rd2:  268500992
+CLOCK : 1062
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1063
+
+MEM readData = 0
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1064
+
+WB  
+rd = 11
+ALUresult = 268500996
+readData = 0
+value = 268500996
+CLOCK : 1065
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 1066
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268500996
+rd2:  1
+CLOCK : 1067
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1068
+
+MEM readData = 4
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1069
+
+WB  
+rd = 18
+ALUresult = 268500996
+readData = 4
+value = 4
+CLOCK : 1070
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 1071
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  0
+rd2:  0
+CLOCK : 1072
+
+EX ALU = 1  zero = 0
+CLOCK : 1073
+
+MEM readData = 0
+ADDRESS = 1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1074
+
+WB  
+rd = 14
+ALUresult = 1
+readData = 0
+value = 1
+CLOCK : 1075
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 1076
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  5
+rd2:  4
+CLOCK : 1077
+
+EX ALU = 0  zero = 0
+CLOCK : 1078
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1079
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1080
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 1081
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 1082
+
+EX ALU = 0  zero = False
+CLOCK : 1083
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1084
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1085
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 1086
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500996
+rd2:  5
+CLOCK : 1087
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1088
+
+MEM readData = 0
+ADDRESS = 268500996
+VALUE  00000000000000000000000000000101  
+CLOCK : 1089
+
+WB  
+rd = 17
+ALUresult = 268500996
+readData = 0
+value = 5
+CLOCK : 1090
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 1091
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268500996
+rd2:  4
+CLOCK : 1092
+
+EX ALU = 268500992  zero = 0
+CLOCK : 1093
+
+MEM readData = 0
+ADDRESS = 268500992
+VALUE  00000000000000000000000000000100  
+CLOCK : 1094
+
+WB  
+rd = 18
+ALUresult = 268500992
+readData = 0
+value = 4
+CLOCK : 1095
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 1096
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 1097
+
+EX ALU = 0  zero = 0
+CLOCK : 1098
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1099
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1100
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 1101
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  1
+rd2:  4
+CLOCK : 1102
+
+EX ALU = -3  zero = False
+CLOCK : 1103
+
+MEM readData = 0
+ADDRESS = -3
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1104
+
+WB  
+rd = 12
+ALUresult = -3
+readData = 0
+value = 4
+CLOCK : 1105
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 1106
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500996
+rd2:  5
+CLOCK : 1107
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1108
+
+MEM readData = 5
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1109
+
+WB  
+rd = 17
+ALUresult = 268500996
+readData = 5
+value = 5
+CLOCK : 1110
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 1111
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268500996
+rd2:  268500996
+CLOCK : 1112
+
+EX ALU = 268501000  zero = 0
+CLOCK : 1113
+
+MEM readData = 0
+ADDRESS = 268501000
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1114
+
+WB  
+rd = 11
+ALUresult = 268501000
+readData = 0
+value = 268501000
+CLOCK : 1115
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 1116
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501000
+rd2:  4
+CLOCK : 1117
+
+EX ALU = 268501000  zero = 0
+CLOCK : 1118
+
+MEM readData = 3
+ADDRESS = 268501000
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1119
+
+WB  
+rd = 18
+ALUresult = 268501000
+readData = 3
+value = 3
+CLOCK : 1120
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 1121
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  1
+rd2:  1
+CLOCK : 1122
+
+EX ALU = 2  zero = 0
+CLOCK : 1123
+
+MEM readData = 0
+ADDRESS = 2
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1124
+
+WB  
+rd = 14
+ALUresult = 2
+readData = 0
+value = 2
+CLOCK : 1125
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 1126
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  5
+rd2:  3
+CLOCK : 1127
+
+EX ALU = 0  zero = 0
+CLOCK : 1128
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1129
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1130
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 1131
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 1132
+
+EX ALU = 0  zero = False
+CLOCK : 1133
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1134
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1135
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 1136
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501000
+rd2:  5
+CLOCK : 1137
+
+EX ALU = 268501000  zero = 0
+CLOCK : 1138
+
+MEM readData = 0
+ADDRESS = 268501000
+VALUE  00000000000000000000000000000101  
+CLOCK : 1139
+
+WB  
+rd = 17
+ALUresult = 268501000
+readData = 0
+value = 5
+CLOCK : 1140
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 1141
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501000
+rd2:  3
+CLOCK : 1142
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1143
+
+MEM readData = 0
+ADDRESS = 268500996
+VALUE  00000000000000000000000000000011  
+CLOCK : 1144
+
+WB  
+rd = 18
+ALUresult = 268500996
+readData = 0
+value = 3
+CLOCK : 1145
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 1146
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 1147
+
+EX ALU = 0  zero = 0
+CLOCK : 1148
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1149
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1150
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 1151
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  2
+rd2:  4
+CLOCK : 1152
+
+EX ALU = -2  zero = False
+CLOCK : 1153
+
+MEM readData = 0
+ADDRESS = -2
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1154
+
+WB  
+rd = 12
+ALUresult = -2
+readData = 0
+value = 4
+CLOCK : 1155
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 1156
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501000
+rd2:  5
+CLOCK : 1157
+
+EX ALU = 268501000  zero = 0
+CLOCK : 1158
+
+MEM readData = 5
+ADDRESS = 268501000
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1159
+
+WB  
+rd = 17
+ALUresult = 268501000
+readData = 5
+value = 5
+CLOCK : 1160
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 1161
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268501000
+rd2:  268501000
+CLOCK : 1162
+
+EX ALU = 268501004  zero = 0
+CLOCK : 1163
+
+MEM readData = 0
+ADDRESS = 268501004
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1164
+
+WB  
+rd = 11
+ALUresult = 268501004
+readData = 0
+value = 268501004
+CLOCK : 1165
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 1166
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501004
+rd2:  3
+CLOCK : 1167
+
+EX ALU = 268501004  zero = 0
+CLOCK : 1168
+
+MEM readData = 2
+ADDRESS = 268501004
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1169
+
+WB  
+rd = 18
+ALUresult = 268501004
+readData = 2
+value = 2
+CLOCK : 1170
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 1171
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  2
+rd2:  2
+CLOCK : 1172
+
+EX ALU = 3  zero = 0
+CLOCK : 1173
+
+MEM readData = 0
+ADDRESS = 3
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1174
+
+WB  
+rd = 14
+ALUresult = 3
+readData = 0
+value = 3
+CLOCK : 1175
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 1176
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  5
+rd2:  2
+CLOCK : 1177
+
+EX ALU = 0  zero = 0
+CLOCK : 1178
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1179
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1180
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 1181
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 1182
+
+EX ALU = 0  zero = False
+CLOCK : 1183
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1184
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1185
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 1186
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501004
+rd2:  5
+CLOCK : 1187
+
+EX ALU = 268501004  zero = 0
+CLOCK : 1188
+
+MEM readData = 0
+ADDRESS = 268501004
+VALUE  00000000000000000000000000000101  
+CLOCK : 1189
+
+WB  
+rd = 17
+ALUresult = 268501004
+readData = 0
+value = 5
+CLOCK : 1190
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 1191
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501004
+rd2:  2
+CLOCK : 1192
+
+EX ALU = 268501000  zero = 0
+CLOCK : 1193
+
+MEM readData = 0
+ADDRESS = 268501000
+VALUE  00000000000000000000000000000010  
+CLOCK : 1194
+
+WB  
+rd = 18
+ALUresult = 268501000
+readData = 0
+value = 2
+CLOCK : 1195
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 1196
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 1197
+
+EX ALU = 0  zero = 0
+CLOCK : 1198
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1199
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1200
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 1201
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  3
+rd2:  4
+CLOCK : 1202
+
+EX ALU = -1  zero = False
+CLOCK : 1203
+
+MEM readData = 0
+ADDRESS = -1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1204
+
+WB  
+rd = 12
+ALUresult = -1
+readData = 0
+value = 4
+CLOCK : 1205
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 1206
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501004
+rd2:  5
+CLOCK : 1207
+
+EX ALU = 268501004  zero = 0
+CLOCK : 1208
+
+MEM readData = 5
+ADDRESS = 268501004
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1209
+
+WB  
+rd = 17
+ALUresult = 268501004
+readData = 5
+value = 5
+CLOCK : 1210
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 1211
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268501004
+rd2:  268501004
+CLOCK : 1212
+
+EX ALU = 268501008  zero = 0
+CLOCK : 1213
+
+MEM readData = 0
+ADDRESS = 268501008
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1214
+
+WB  
+rd = 11
+ALUresult = 268501008
+readData = 0
+value = 268501008
+CLOCK : 1215
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 1216
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501008
+rd2:  2
+CLOCK : 1217
+
+EX ALU = 268501008  zero = 0
+CLOCK : 1218
+
+MEM readData = 1
+ADDRESS = 268501008
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1219
+
+WB  
+rd = 18
+ALUresult = 268501008
+readData = 1
+value = 1
+CLOCK : 1220
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 1221
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  3
+rd2:  3
+CLOCK : 1222
+
+EX ALU = 4  zero = 0
+CLOCK : 1223
+
+MEM readData = 0
+ADDRESS = 4
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1224
+
+WB  
+rd = 14
+ALUresult = 4
+readData = 0
+value = 4
+CLOCK : 1225
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 1226
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  5
+rd2:  1
+CLOCK : 1227
+
+EX ALU = 0  zero = 0
+CLOCK : 1228
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1229
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1230
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 1231
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 1232
+
+EX ALU = 0  zero = False
+CLOCK : 1233
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1234
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1235
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 1236
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501008
+rd2:  5
+CLOCK : 1237
+
+EX ALU = 268501008  zero = 0
+CLOCK : 1238
+
+MEM readData = 0
+ADDRESS = 268501008
+VALUE  00000000000000000000000000000101  
+CLOCK : 1239
+
+WB  
+rd = 17
+ALUresult = 268501008
+readData = 0
+value = 5
+CLOCK : 1240
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 1241
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501008
+rd2:  1
+CLOCK : 1242
+
+EX ALU = 268501004  zero = 0
+CLOCK : 1243
+
+MEM readData = 0
+ADDRESS = 268501004
+VALUE  00000000000000000000000000000001  
+CLOCK : 1244
+
+WB  
+rd = 18
+ALUresult = 268501004
+readData = 0
+value = 1
+CLOCK : 1245
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 1246
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 1247
+
+EX ALU = 0  zero = 0
+CLOCK : 1248
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1249
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1250
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 1251
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  4
+rd2:  4
+CLOCK : 1252
+
+EX ALU = 0  zero = True
+CLOCK : 1253
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1254
+
+WB  
+rd = 12
+ALUresult = 0
+readData = 0
+value = 4
+CLOCK : 1255
+
+________________________________________________________________________________________________________________
+
+IF  0x400018 -- 00010001101110000000000000001111
+CLOCK : 1256
+
+ID  
+opcode:  0x4
+rs:  13
+rt:  24
+rd:  24
+shamt:  0
+funct:  0xf
+imm:  15
+address:  28835855
+rd1:  4
+rd2:  7
+CLOCK : 1257
+
+EX ALU = -3  zero = False
+CLOCK : 1258
+
+MEM readData = 0
+ADDRESS = -3
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1259
+
+WB  
+rd = 24
+ALUresult = -3
+readData = 0
+value = 7
+CLOCK : 1260
+
+________________________________________________________________________________________________________________
+
+IF  0x40001c -- 00000011000011010110000000100010
+CLOCK : 1261
+
+ID  
+opcode:  0x0
+rs:  24
+rt:  13
+rd:  12
+shamt:  0
+funct:  0x22
+imm:  24610
+address:  51208226
+rd1:  7
+rd2:  4
+CLOCK : 1262
+
+EX ALU = 3  zero = False
+CLOCK : 1263
+
+MEM readData = 0
+ADDRESS = 3
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1264
+
+WB  
+rd = 12
+ALUresult = 3
+readData = 0
+value = 3
+CLOCK : 1265
+
+________________________________________________________________________________________________________________
+
+IF  0x400020 -- 00000000000000000111000000100000
+CLOCK : 1266
+
+ID  
+opcode:  0x0
+rs:  0
+rt:  0
+rd:  14
+shamt:  0
+funct:  0x20
+imm:  28704
+address:  28704
+rd1:  0
+rd2:  0
+CLOCK : 1267
+
+EX ALU = 0  zero = 0
+CLOCK : 1268
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1269
+
+WB  
+rd = 14
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1270
+
+________________________________________________________________________________________________________________
+
+IF  0x400024 -- 00000001001000000101100000100000
+CLOCK : 1271
+
+ID  
+opcode:  0x0
+rs:  9
+rt:  0
+rd:  11
+shamt:  0
+funct:  0x20
+imm:  22560
+address:  18896928
+rd1:  268500992
+rd2:  0
+CLOCK : 1272
+
+EX ALU = 268500992  zero = 0
+CLOCK : 1273
+
+MEM readData = 0
+ADDRESS = 268500992
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1274
+
+WB  
+rd = 11
+ALUresult = 268500992
+readData = 0
+value = 268500992
+CLOCK : 1275
+
+________________________________________________________________________________________________________________
+
+IF  0x400028 -- 00100001101011010000000000000001
+CLOCK : 1276
+
+ID  
+opcode:  0x8
+rs:  13
+rt:  13
+rd:  13
+shamt:  0
+funct:  0x1
+imm:  1
+address:  28114945
+rd1:  4
+rd2:  4
+CLOCK : 1277
+
+EX ALU = 5  zero = 0
+CLOCK : 1278
+
+MEM readData = 0
+ADDRESS = 5
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1279
+
+WB  
+rd = 13
+ALUresult = 5
+readData = 0
+value = 5
+CLOCK : 1280
+
+________________________________________________________________________________________________________________
+
+IF  0x40002c -- 00001000000100000000000000001100
+CLOCK : 1281
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 1282
+
+EX ALU = 0  zero = 0
+CLOCK : 1283
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1284
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1285
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 1286
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  0
+rd2:  3
+CLOCK : 1287
+
+EX ALU = -3  zero = False
+CLOCK : 1288
+
+MEM readData = 0
+ADDRESS = -3
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1289
+
+WB  
+rd = 12
+ALUresult = -3
+readData = 0
+value = 3
+CLOCK : 1290
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 1291
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500992
+rd2:  5
+CLOCK : 1292
+
+EX ALU = 268500992  zero = 0
+CLOCK : 1293
+
+MEM readData = 4
+ADDRESS = 268500992
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1294
+
+WB  
+rd = 17
+ALUresult = 268500992
+readData = 4
+value = 4
+CLOCK : 1295
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 1296
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268500992
+rd2:  268500992
+CLOCK : 1297
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1298
+
+MEM readData = 0
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1299
+
+WB  
+rd = 11
+ALUresult = 268500996
+readData = 0
+value = 268500996
+CLOCK : 1300
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 1301
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268500996
+rd2:  1
+CLOCK : 1302
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1303
+
+MEM readData = 3
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1304
+
+WB  
+rd = 18
+ALUresult = 268500996
+readData = 3
+value = 3
+CLOCK : 1305
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 1306
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  0
+rd2:  0
+CLOCK : 1307
+
+EX ALU = 1  zero = 0
+CLOCK : 1308
+
+MEM readData = 0
+ADDRESS = 1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1309
+
+WB  
+rd = 14
+ALUresult = 1
+readData = 0
+value = 1
+CLOCK : 1310
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 1311
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  4
+rd2:  3
+CLOCK : 1312
+
+EX ALU = 0  zero = 0
+CLOCK : 1313
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1314
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1315
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 1316
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 1317
+
+EX ALU = 0  zero = False
+CLOCK : 1318
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1319
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1320
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 1321
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500996
+rd2:  4
+CLOCK : 1322
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1323
+
+MEM readData = 0
+ADDRESS = 268500996
+VALUE  00000000000000000000000000000100  
+CLOCK : 1324
+
+WB  
+rd = 17
+ALUresult = 268500996
+readData = 0
+value = 4
+CLOCK : 1325
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 1326
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268500996
+rd2:  3
+CLOCK : 1327
+
+EX ALU = 268500992  zero = 0
+CLOCK : 1328
+
+MEM readData = 0
+ADDRESS = 268500992
+VALUE  00000000000000000000000000000011  
+CLOCK : 1329
+
+WB  
+rd = 18
+ALUresult = 268500992
+readData = 0
+value = 3
+CLOCK : 1330
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 1331
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 1332
+
+EX ALU = 0  zero = 0
+CLOCK : 1333
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1334
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1335
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 1336
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  1
+rd2:  3
+CLOCK : 1337
+
+EX ALU = -2  zero = False
+CLOCK : 1338
+
+MEM readData = 0
+ADDRESS = -2
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1339
+
+WB  
+rd = 12
+ALUresult = -2
+readData = 0
+value = 3
+CLOCK : 1340
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 1341
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500996
+rd2:  4
+CLOCK : 1342
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1343
+
+MEM readData = 4
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1344
+
+WB  
+rd = 17
+ALUresult = 268500996
+readData = 4
+value = 4
+CLOCK : 1345
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 1346
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268500996
+rd2:  268500996
+CLOCK : 1347
+
+EX ALU = 268501000  zero = 0
+CLOCK : 1348
+
+MEM readData = 0
+ADDRESS = 268501000
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1349
+
+WB  
+rd = 11
+ALUresult = 268501000
+readData = 0
+value = 268501000
+CLOCK : 1350
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 1351
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501000
+rd2:  3
+CLOCK : 1352
+
+EX ALU = 268501000  zero = 0
+CLOCK : 1353
+
+MEM readData = 2
+ADDRESS = 268501000
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1354
+
+WB  
+rd = 18
+ALUresult = 268501000
+readData = 2
+value = 2
+CLOCK : 1355
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 1356
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  1
+rd2:  1
+CLOCK : 1357
+
+EX ALU = 2  zero = 0
+CLOCK : 1358
+
+MEM readData = 0
+ADDRESS = 2
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1359
+
+WB  
+rd = 14
+ALUresult = 2
+readData = 0
+value = 2
+CLOCK : 1360
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 1361
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  4
+rd2:  2
+CLOCK : 1362
+
+EX ALU = 0  zero = 0
+CLOCK : 1363
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1364
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1365
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 1366
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 1367
+
+EX ALU = 0  zero = False
+CLOCK : 1368
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1369
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1370
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 1371
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501000
+rd2:  4
+CLOCK : 1372
+
+EX ALU = 268501000  zero = 0
+CLOCK : 1373
+
+MEM readData = 0
+ADDRESS = 268501000
+VALUE  00000000000000000000000000000100  
+CLOCK : 1374
+
+WB  
+rd = 17
+ALUresult = 268501000
+readData = 0
+value = 4
+CLOCK : 1375
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 1376
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501000
+rd2:  2
+CLOCK : 1377
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1378
+
+MEM readData = 0
+ADDRESS = 268500996
+VALUE  00000000000000000000000000000010  
+CLOCK : 1379
+
+WB  
+rd = 18
+ALUresult = 268500996
+readData = 0
+value = 2
+CLOCK : 1380
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 1381
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 1382
+
+EX ALU = 0  zero = 0
+CLOCK : 1383
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1384
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1385
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 1386
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  2
+rd2:  3
+CLOCK : 1387
+
+EX ALU = -1  zero = False
+CLOCK : 1388
+
+MEM readData = 0
+ADDRESS = -1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1389
+
+WB  
+rd = 12
+ALUresult = -1
+readData = 0
+value = 3
+CLOCK : 1390
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 1391
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501000
+rd2:  4
+CLOCK : 1392
+
+EX ALU = 268501000  zero = 0
+CLOCK : 1393
+
+MEM readData = 4
+ADDRESS = 268501000
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1394
+
+WB  
+rd = 17
+ALUresult = 268501000
+readData = 4
+value = 4
+CLOCK : 1395
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 1396
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268501000
+rd2:  268501000
+CLOCK : 1397
+
+EX ALU = 268501004  zero = 0
+CLOCK : 1398
+
+MEM readData = 0
+ADDRESS = 268501004
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1399
+
+WB  
+rd = 11
+ALUresult = 268501004
+readData = 0
+value = 268501004
+CLOCK : 1400
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 1401
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501004
+rd2:  2
+CLOCK : 1402
+
+EX ALU = 268501004  zero = 0
+CLOCK : 1403
+
+MEM readData = 1
+ADDRESS = 268501004
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1404
+
+WB  
+rd = 18
+ALUresult = 268501004
+readData = 1
+value = 1
+CLOCK : 1405
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 1406
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  2
+rd2:  2
+CLOCK : 1407
+
+EX ALU = 3  zero = 0
+CLOCK : 1408
+
+MEM readData = 0
+ADDRESS = 3
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1409
+
+WB  
+rd = 14
+ALUresult = 3
+readData = 0
+value = 3
+CLOCK : 1410
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 1411
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  4
+rd2:  1
+CLOCK : 1412
+
+EX ALU = 0  zero = 0
+CLOCK : 1413
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1414
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1415
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 1416
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 1417
+
+EX ALU = 0  zero = False
+CLOCK : 1418
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1419
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1420
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 1421
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501004
+rd2:  4
+CLOCK : 1422
+
+EX ALU = 268501004  zero = 0
+CLOCK : 1423
+
+MEM readData = 0
+ADDRESS = 268501004
+VALUE  00000000000000000000000000000100  
+CLOCK : 1424
+
+WB  
+rd = 17
+ALUresult = 268501004
+readData = 0
+value = 4
+CLOCK : 1425
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 1426
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501004
+rd2:  1
+CLOCK : 1427
+
+EX ALU = 268501000  zero = 0
+CLOCK : 1428
+
+MEM readData = 0
+ADDRESS = 268501000
+VALUE  00000000000000000000000000000001  
+CLOCK : 1429
+
+WB  
+rd = 18
+ALUresult = 268501000
+readData = 0
+value = 1
+CLOCK : 1430
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 1431
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 1432
+
+EX ALU = 0  zero = 0
+CLOCK : 1433
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1434
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1435
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 1436
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  3
+rd2:  3
+CLOCK : 1437
+
+EX ALU = 0  zero = True
+CLOCK : 1438
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1439
+
+WB  
+rd = 12
+ALUresult = 0
+readData = 0
+value = 3
+CLOCK : 1440
+
+________________________________________________________________________________________________________________
+
+IF  0x400018 -- 00010001101110000000000000001111
+CLOCK : 1441
+
+ID  
+opcode:  0x4
+rs:  13
+rt:  24
+rd:  24
+shamt:  0
+funct:  0xf
+imm:  15
+address:  28835855
+rd1:  5
+rd2:  7
+CLOCK : 1442
+
+EX ALU = -2  zero = False
+CLOCK : 1443
+
+MEM readData = 0
+ADDRESS = -2
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1444
+
+WB  
+rd = 24
+ALUresult = -2
+readData = 0
+value = 7
+CLOCK : 1445
+
+________________________________________________________________________________________________________________
+
+IF  0x40001c -- 00000011000011010110000000100010
+CLOCK : 1446
+
+ID  
+opcode:  0x0
+rs:  24
+rt:  13
+rd:  12
+shamt:  0
+funct:  0x22
+imm:  24610
+address:  51208226
+rd1:  7
+rd2:  5
+CLOCK : 1447
+
+EX ALU = 2  zero = False
+CLOCK : 1448
+
+MEM readData = 0
+ADDRESS = 2
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1449
+
+WB  
+rd = 12
+ALUresult = 2
+readData = 0
+value = 2
+CLOCK : 1450
+
+________________________________________________________________________________________________________________
+
+IF  0x400020 -- 00000000000000000111000000100000
+CLOCK : 1451
+
+ID  
+opcode:  0x0
+rs:  0
+rt:  0
+rd:  14
+shamt:  0
+funct:  0x20
+imm:  28704
+address:  28704
+rd1:  0
+rd2:  0
+CLOCK : 1452
+
+EX ALU = 0  zero = 0
+CLOCK : 1453
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1454
+
+WB  
+rd = 14
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1455
+
+________________________________________________________________________________________________________________
+
+IF  0x400024 -- 00000001001000000101100000100000
+CLOCK : 1456
+
+ID  
+opcode:  0x0
+rs:  9
+rt:  0
+rd:  11
+shamt:  0
+funct:  0x20
+imm:  22560
+address:  18896928
+rd1:  268500992
+rd2:  0
+CLOCK : 1457
+
+EX ALU = 268500992  zero = 0
+CLOCK : 1458
+
+MEM readData = 0
+ADDRESS = 268500992
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1459
+
+WB  
+rd = 11
+ALUresult = 268500992
+readData = 0
+value = 268500992
+CLOCK : 1460
+
+________________________________________________________________________________________________________________
+
+IF  0x400028 -- 00100001101011010000000000000001
+CLOCK : 1461
+
+ID  
+opcode:  0x8
+rs:  13
+rt:  13
+rd:  13
+shamt:  0
+funct:  0x1
+imm:  1
+address:  28114945
+rd1:  5
+rd2:  5
+CLOCK : 1462
+
+EX ALU = 6  zero = 0
+CLOCK : 1463
+
+MEM readData = 0
+ADDRESS = 6
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1464
+
+WB  
+rd = 13
+ALUresult = 6
+readData = 0
+value = 6
+CLOCK : 1465
+
+________________________________________________________________________________________________________________
+
+IF  0x40002c -- 00001000000100000000000000001100
+CLOCK : 1466
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 1467
+
+EX ALU = 0  zero = 0
+CLOCK : 1468
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1469
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1470
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 1471
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  0
+rd2:  2
+CLOCK : 1472
+
+EX ALU = -2  zero = False
+CLOCK : 1473
+
+MEM readData = 0
+ADDRESS = -2
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1474
+
+WB  
+rd = 12
+ALUresult = -2
+readData = 0
+value = 2
+CLOCK : 1475
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 1476
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500992
+rd2:  4
+CLOCK : 1477
+
+EX ALU = 268500992  zero = 0
+CLOCK : 1478
+
+MEM readData = 3
+ADDRESS = 268500992
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1479
+
+WB  
+rd = 17
+ALUresult = 268500992
+readData = 3
+value = 3
+CLOCK : 1480
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 1481
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268500992
+rd2:  268500992
+CLOCK : 1482
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1483
+
+MEM readData = 0
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1484
+
+WB  
+rd = 11
+ALUresult = 268500996
+readData = 0
+value = 268500996
+CLOCK : 1485
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 1486
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268500996
+rd2:  1
+CLOCK : 1487
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1488
+
+MEM readData = 2
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1489
+
+WB  
+rd = 18
+ALUresult = 268500996
+readData = 2
+value = 2
+CLOCK : 1490
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 1491
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  0
+rd2:  0
+CLOCK : 1492
+
+EX ALU = 1  zero = 0
+CLOCK : 1493
+
+MEM readData = 0
+ADDRESS = 1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1494
+
+WB  
+rd = 14
+ALUresult = 1
+readData = 0
+value = 1
+CLOCK : 1495
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 1496
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  3
+rd2:  2
+CLOCK : 1497
+
+EX ALU = 0  zero = 0
+CLOCK : 1498
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1499
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1500
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 1501
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 1502
+
+EX ALU = 0  zero = False
+CLOCK : 1503
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1504
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1505
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 1506
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500996
+rd2:  3
+CLOCK : 1507
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1508
+
+MEM readData = 0
+ADDRESS = 268500996
+VALUE  00000000000000000000000000000011  
+CLOCK : 1509
+
+WB  
+rd = 17
+ALUresult = 268500996
+readData = 0
+value = 3
+CLOCK : 1510
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 1511
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268500996
+rd2:  2
+CLOCK : 1512
+
+EX ALU = 268500992  zero = 0
+CLOCK : 1513
+
+MEM readData = 0
+ADDRESS = 268500992
+VALUE  00000000000000000000000000000010  
+CLOCK : 1514
+
+WB  
+rd = 18
+ALUresult = 268500992
+readData = 0
+value = 2
+CLOCK : 1515
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 1516
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 1517
+
+EX ALU = 0  zero = 0
+CLOCK : 1518
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1519
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1520
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 1521
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  1
+rd2:  2
+CLOCK : 1522
+
+EX ALU = -1  zero = False
+CLOCK : 1523
+
+MEM readData = 0
+ADDRESS = -1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1524
+
+WB  
+rd = 12
+ALUresult = -1
+readData = 0
+value = 2
+CLOCK : 1525
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 1526
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500996
+rd2:  3
+CLOCK : 1527
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1528
+
+MEM readData = 3
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1529
+
+WB  
+rd = 17
+ALUresult = 268500996
+readData = 3
+value = 3
+CLOCK : 1530
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 1531
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268500996
+rd2:  268500996
+CLOCK : 1532
+
+EX ALU = 268501000  zero = 0
+CLOCK : 1533
+
+MEM readData = 0
+ADDRESS = 268501000
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1534
+
+WB  
+rd = 11
+ALUresult = 268501000
+readData = 0
+value = 268501000
+CLOCK : 1535
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 1536
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268501000
+rd2:  2
+CLOCK : 1537
+
+EX ALU = 268501000  zero = 0
+CLOCK : 1538
+
+MEM readData = 1
+ADDRESS = 268501000
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1539
+
+WB  
+rd = 18
+ALUresult = 268501000
+readData = 1
+value = 1
+CLOCK : 1540
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 1541
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  1
+rd2:  1
+CLOCK : 1542
+
+EX ALU = 2  zero = 0
+CLOCK : 1543
+
+MEM readData = 0
+ADDRESS = 2
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1544
+
+WB  
+rd = 14
+ALUresult = 2
+readData = 0
+value = 2
+CLOCK : 1545
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 1546
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  3
+rd2:  1
+CLOCK : 1547
+
+EX ALU = 0  zero = 0
+CLOCK : 1548
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1549
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1550
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 1551
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 1552
+
+EX ALU = 0  zero = False
+CLOCK : 1553
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1554
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1555
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 1556
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268501000
+rd2:  3
+CLOCK : 1557
+
+EX ALU = 268501000  zero = 0
+CLOCK : 1558
+
+MEM readData = 0
+ADDRESS = 268501000
+VALUE  00000000000000000000000000000011  
+CLOCK : 1559
+
+WB  
+rd = 17
+ALUresult = 268501000
+readData = 0
+value = 3
+CLOCK : 1560
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 1561
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268501000
+rd2:  1
+CLOCK : 1562
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1563
+
+MEM readData = 0
+ADDRESS = 268500996
+VALUE  00000000000000000000000000000001  
+CLOCK : 1564
+
+WB  
+rd = 18
+ALUresult = 268500996
+readData = 0
+value = 1
+CLOCK : 1565
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 1566
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 1567
+
+EX ALU = 0  zero = 0
+CLOCK : 1568
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1569
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1570
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 1571
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  2
+rd2:  2
+CLOCK : 1572
+
+EX ALU = 0  zero = True
+CLOCK : 1573
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1574
+
+WB  
+rd = 12
+ALUresult = 0
+readData = 0
+value = 2
+CLOCK : 1575
+
+________________________________________________________________________________________________________________
+
+IF  0x400018 -- 00010001101110000000000000001111
+CLOCK : 1576
+
+ID  
+opcode:  0x4
+rs:  13
+rt:  24
+rd:  24
+shamt:  0
+funct:  0xf
+imm:  15
+address:  28835855
+rd1:  6
+rd2:  7
+CLOCK : 1577
+
+EX ALU = -1  zero = False
+CLOCK : 1578
+
+MEM readData = 0
+ADDRESS = -1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1579
+
+WB  
+rd = 24
+ALUresult = -1
+readData = 0
+value = 7
+CLOCK : 1580
+
+________________________________________________________________________________________________________________
+
+IF  0x40001c -- 00000011000011010110000000100010
+CLOCK : 1581
+
+ID  
+opcode:  0x0
+rs:  24
+rt:  13
+rd:  12
+shamt:  0
+funct:  0x22
+imm:  24610
+address:  51208226
+rd1:  7
+rd2:  6
+CLOCK : 1582
+
+EX ALU = 1  zero = False
+CLOCK : 1583
+
+MEM readData = 0
+ADDRESS = 1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1584
+
+WB  
+rd = 12
+ALUresult = 1
+readData = 0
+value = 1
+CLOCK : 1585
+
+________________________________________________________________________________________________________________
+
+IF  0x400020 -- 00000000000000000111000000100000
+CLOCK : 1586
+
+ID  
+opcode:  0x0
+rs:  0
+rt:  0
+rd:  14
+shamt:  0
+funct:  0x20
+imm:  28704
+address:  28704
+rd1:  0
+rd2:  0
+CLOCK : 1587
+
+EX ALU = 0  zero = 0
+CLOCK : 1588
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1589
+
+WB  
+rd = 14
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1590
+
+________________________________________________________________________________________________________________
+
+IF  0x400024 -- 00000001001000000101100000100000
+CLOCK : 1591
+
+ID  
+opcode:  0x0
+rs:  9
+rt:  0
+rd:  11
+shamt:  0
+funct:  0x20
+imm:  22560
+address:  18896928
+rd1:  268500992
+rd2:  0
+CLOCK : 1592
+
+EX ALU = 268500992  zero = 0
+CLOCK : 1593
+
+MEM readData = 0
+ADDRESS = 268500992
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1594
+
+WB  
+rd = 11
+ALUresult = 268500992
+readData = 0
+value = 268500992
+CLOCK : 1595
+
+________________________________________________________________________________________________________________
+
+IF  0x400028 -- 00100001101011010000000000000001
+CLOCK : 1596
+
+ID  
+opcode:  0x8
+rs:  13
+rt:  13
+rd:  13
+shamt:  0
+funct:  0x1
+imm:  1
+address:  28114945
+rd1:  6
+rd2:  6
+CLOCK : 1597
+
+EX ALU = 7  zero = 0
+CLOCK : 1598
+
+MEM readData = 0
+ADDRESS = 7
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1599
+
+WB  
+rd = 13
+ALUresult = 7
+readData = 0
+value = 7
+CLOCK : 1600
+
+________________________________________________________________________________________________________________
+
+IF  0x40002c -- 00001000000100000000000000001100
+CLOCK : 1601
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 1602
+
+EX ALU = 0  zero = 0
+CLOCK : 1603
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1604
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1605
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 1606
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  0
+rd2:  1
+CLOCK : 1607
+
+EX ALU = -1  zero = False
+CLOCK : 1608
+
+MEM readData = 0
+ADDRESS = -1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1609
+
+WB  
+rd = 12
+ALUresult = -1
+readData = 0
+value = 1
+CLOCK : 1610
+
+________________________________________________________________________________________________________________
+
+IF  0x400034 -- 10001101011100010000000000000000
+CLOCK : 1611
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500992
+rd2:  3
+CLOCK : 1612
+
+EX ALU = 268500992  zero = 0
+CLOCK : 1613
+
+MEM readData = 2
+ADDRESS = 268500992
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1614
+
+WB  
+rd = 17
+ALUresult = 268500992
+readData = 2
+value = 2
+CLOCK : 1615
+
+________________________________________________________________________________________________________________
+
+IF  0x400038 -- 00100001011010110000000000000100
+CLOCK : 1616
+
+ID  
+opcode:  0x8
+rs:  11
+rt:  11
+rd:  11
+shamt:  0
+funct:  0x4
+imm:  4
+address:  23789572
+rd1:  268500992
+rd2:  268500992
+CLOCK : 1617
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1618
+
+MEM readData = 0
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1619
+
+WB  
+rd = 11
+ALUresult = 268500996
+readData = 0
+value = 268500996
+CLOCK : 1620
+
+________________________________________________________________________________________________________________
+
+IF  0x40003c -- 10001101011100100000000000000000
+CLOCK : 1621
+
+ID  
+opcode:  0x23
+rs:  11
+rt:  18
+rd:  18
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24248320
+rd1:  268500996
+rd2:  1
+CLOCK : 1622
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1623
+
+MEM readData = 1
+ADDRESS = 268500996
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1624
+
+WB  
+rd = 18
+ALUresult = 268500996
+readData = 1
+value = 1
+CLOCK : 1625
+
+________________________________________________________________________________________________________________
+
+IF  0x400040 -- 00100001110011100000000000000001
+CLOCK : 1626
+
+ID  
+opcode:  0x8
+rs:  14
+rt:  14
+rd:  14
+shamt:  0
+funct:  0x1
+imm:  1
+address:  30277633
+rd1:  0
+rd2:  0
+CLOCK : 1627
+
+EX ALU = 1  zero = 0
+CLOCK : 1628
+
+MEM readData = 0
+ADDRESS = 1
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1629
+
+WB  
+rd = 14
+ALUresult = 1
+readData = 0
+value = 1
+CLOCK : 1630
+
+________________________________________________________________________________________________________________
+
+IF  0x400044 -- 00000010001100100000100000101010
+CLOCK : 1631
+
+ID  
+opcode:  0x0
+rs:  17
+rt:  18
+rd:  1
+shamt:  0
+funct:  0x2a
+imm:  2090
+address:  36833322
+rd1:  2
+rd2:  1
+CLOCK : 1632
+
+EX ALU = 0  zero = 0
+CLOCK : 1633
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1634
+
+WB  
+rd = 1
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1635
+
+________________________________________________________________________________________________________________
+
+IF  0x400048 -- 00010100001000001111111111111001
+CLOCK : 1636
+
+ID  
+opcode:  0x5
+rs:  1
+rt:  0
+rd:  0
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  2162681
+rd1:  0
+rd2:  0
+CLOCK : 1637
+
+EX ALU = 0  zero = False
+CLOCK : 1638
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1639
+
+WB  
+rd = 0
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1640
+
+________________________________________________________________________________________________________________
+
+IF  0x40004c -- 10101101011100010000000000000000
+CLOCK : 1641
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  17
+rd:  17
+shamt:  0
+funct:  0x0
+imm:  0
+address:  24182784
+rd1:  268500996
+rd2:  2
+CLOCK : 1642
+
+EX ALU = 268500996  zero = 0
+CLOCK : 1643
+
+MEM readData = 0
+ADDRESS = 268500996
+VALUE  00000000000000000000000000000010  
+CLOCK : 1644
+
+WB  
+rd = 17
+ALUresult = 268500996
+readData = 0
+value = 2
+CLOCK : 1645
+
+________________________________________________________________________________________________________________
+
+IF  0x400050 -- 10101101011100101111111111111100
+CLOCK : 1646
+
+ID  
+opcode:  0x2b
+rs:  11
+rt:  18
+rd:  18
+shamt:  -1
+funct:  0x3c
+imm:  -4
+address:  24313852
+rd1:  268500996
+rd2:  1
+CLOCK : 1647
+
+EX ALU = 268500992  zero = 0
+CLOCK : 1648
+
+MEM readData = 0
+ADDRESS = 268500992
+VALUE  00000000000000000000000000000001  
+CLOCK : 1649
+
+WB  
+rd = 18
+ALUresult = 268500992
+readData = 0
+value = 1
+CLOCK : 1650
+
+________________________________________________________________________________________________________________
+
+IF  0x400054 -- 00001000000100000000000000001100
+CLOCK : 1651
+
+ID  
+opcode:  0x2
+rs:  0
+rt:  16
+rd:  16
+shamt:  0
+funct:  0xc
+imm:  12
+address:  1048588
+rd1:  0
+rd2:  0
+CLOCK : 1652
+
+EX ALU = 0  zero = 0
+CLOCK : 1653
+
+JUMPING TO 0x400030
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1654
+
+WB  
+rd = 16
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1655
+
+________________________________________________________________________________________________________________
+
+IF  0x400030 -- 00010001110011001111111111111001
+CLOCK : 1656
+
+ID  
+opcode:  0x4
+rs:  14
+rt:  12
+rd:  12
+shamt:  -1
+funct:  0x39
+imm:  -7
+address:  30212089
+rd1:  1
+rd2:  1
+CLOCK : 1657
+
+EX ALU = 0  zero = True
+CLOCK : 1658
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1659
+
+WB  
+rd = 12
+ALUresult = 0
+readData = 0
+value = 1
+CLOCK : 1660
+
+________________________________________________________________________________________________________________
+
+IF  0x400018 -- 00010001101110000000000000001111
+CLOCK : 1661
+
+ID  
+opcode:  0x4
+rs:  13
+rt:  24
+rd:  24
+shamt:  0
+funct:  0xf
+imm:  15
+address:  28835855
+rd1:  7
+rd2:  7
+CLOCK : 1662
+
+EX ALU = 0  zero = True
+CLOCK : 1663
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1664
+
+WB  
+rd = 24
+ALUresult = 0
+readData = 0
+value = 7
+CLOCK : 1665
+
+________________________________________________________________________________________________________________
+
+IF  0x400058 -- 00100000000011000000000000000000
+CLOCK : 1666
+
+ID  
+opcode:  0x8
+rs:  0
+rt:  12
+rd:  12
+shamt:  0
+funct:  0x0
+imm:  0
+address:  786432
+rd1:  0
+rd2:  1
+CLOCK : 1667
+
+EX ALU = 0  zero = 0
+CLOCK : 1668
+
+MEM readData = 0
+ADDRESS = 0
+NOT WRITTEN IN MEMORY,  
+CLOCK : 1669
+
+WB  
+rd = 12
+ALUresult = 0
+readData = 0
+value = 0
+CLOCK : 1670
+
+________________________________________________________________________________________________________________
+
+{'$0': 0, '$1': 0, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 268500992, '$10': 0, '$11': 268500996, '$12': 0, '$13': 7, '$14': 1, '$15': 0, '$16': 0, '$17': 2, '$18': 1, '$19': 0, '$20': 0, '$21': -1, '$22': 0, '$23': 0, '$24': 7, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}

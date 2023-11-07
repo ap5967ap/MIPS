@@ -524,19 +524,21 @@ def mips_processor():
         processor.append("value = " + str(register_file['$'+str(rd)]))
         clock+=1
         processor.append(f"CLOCK : {clock}\n")
+        
         processor.append("________________________________________________________________________________________________________________\n")
 mips_processor()
 # def cc(binary:str):
 #     return hex(int(binary,2))
+processor.append(register_file)
 with open(processor_output, 'w') as f:
     for i in processor:
         print(i,file=f)
     f.close()
 ff=open(memory11,'w')
 for i in data_mem.keys():
-    c=binary_to_string([data_mem[i][0:8],data_mem[i][8:16],data_mem[i][16:24],data_mem[i][24:32]])
-    s=''
-    for j in c:
-        s+=j
-        s+=' '
-    print(hex(i),s,file=ff)
+    # c=binary_to_string([data_mem[i][0:8],data_mem[i][8:16],data_mem[i][16:24],data_mem[i][24:32]])
+    # s=''
+    # for j in c:
+    #     s+=j
+    #     s+=' '
+    print(hex(i),int(data_mem[i],2),file=ff)
