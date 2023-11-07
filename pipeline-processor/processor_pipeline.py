@@ -1,6 +1,5 @@
 import sys
 from opcodes import *
-# from utils import *
 binFile = sys.argv[1]
 dataMem = sys.argv[2]
 processor_output = sys.argv[3]
@@ -71,95 +70,6 @@ def sign_extend(imm, imm_len=32): # sign extending the immediate value
         return imm
     else:
         return imm[0] * (imm_len - len(imm)) + imm
-
-
-
-
-# def print_string(start_address):  # print the string given the starting address
-#     address = start_address
-#     address = (address // 4) * 4
-#     offset = start_address % 4
-#     output = ""
-#     if offset == 1:
-#         a = int(data_mem[address][16:24], 2)
-#         b = int(data_mem[address][8:16], 2)
-#         c = int(data_mem[address][0:8], 2)
-#         if a == 0:
-#             return output
-#         elif b == 0:
-#             return chr(a) + output
-#         elif c == 0:
-#             return chr(a) + chr(b) + output
-#         else:
-#             output += chr(a) + chr(b) + chr(c)
-#         address += 4
-
-#     elif offset == 2:
-#         b = int(data_mem[address][8:16], 2)
-#         c = int(data_mem[address][0:8], 2)
-#         if b == 0:
-#             return output
-#         elif c == 0:
-#             return chr(b) + output
-#         else:
-#             output += chr(b) + chr(c)
-#         address += 4
-
-#     elif offset == 3:
-#         c = int(data_mem[address][0:8], 2)
-#         if c == 0:
-#             return output
-#         else:
-#             output += chr(c)
-#         address += 4
-#     while True:
-#         dat = ""
-#         try:
-#             dat = data_mem[address]
-#         except KeyError:
-#             data_mem[address] = "0" * 32
-#         dat = data_mem[address]
-#         a = int(dat[24:32], 2)
-#         b = int(dat[16:24], 2)
-#         c = int(dat[8:16], 2)
-#         d = int(dat[0:8], 2)
-#         if a == 0:
-#             return output
-#         elif b == 0:
-#             return output + chr(a)
-#         elif c == 0:
-#             return output + chr(a) + chr(b)
-#         elif d == 0:
-#             return output + chr(a) + chr(b) + chr(c)
-#         else:
-#             output += chr(a) + chr(b) + chr(c) + chr(d)
-#         address += 4
-#     return output
-
-# def string_input(string, address2):  # storing the string given the string and the starting address
-#     for i in string:
-#         val = format(ord(i), "08b")
-#         address = address2
-#         if address % 4 == 0:
-#             data_mem[address] = data_mem[address][0:24] + str(val)
-
-#         elif address % 4 == 1:
-#             address = (address // 4) * 4
-#             data_mem[address] = (
-#                 data_mem[address][0:16] + str(val) + data_mem[address][24:32]
-#             )
-#         elif address % 4 == 2:
-#             address = (address // 4) * 4
-#             data_mem[address] = (
-#                 data_mem[address][0:8] + str(val) + data_mem[address][16:32]
-#             )
-#         elif address % 4 == 3:
-#             address = (address // 4) * 4
-#             data_mem[address] = str(val) + data_mem[address][8:32]
-
-#         address2 += 1
-
-
 
 def int_(binary_str):
     if binary_str[0] == "0":
@@ -303,6 +213,15 @@ def control_path(opcode)->dict:#returns the control signals for the given opcode
     return control_signals
 
 def instruction_decode(ifid):
+    """
+    Decodes the instruction fetched in the previous stage and extracts the opcode, rs, rt, rd, shamt, funct, imm, address, rd1, rd2, control signals and ALU control signals.
+
+    Args:
+    ifid: A list containing the instruction fetched in the previous stage.
+
+    Returns:
+    A list containing the control signals, ALU control signals, 0, and a list of rs, rt, rd, imm, address, rd1, rd2.
+    """
     instruction=ifid[0]
     opcode = instruction[0:6]
     opcode = int(opcode, 2)
@@ -328,6 +247,16 @@ def instruction_decode(ifid):
     return [control_signals,alucontrol_singals,0,[rs, rt, rd, imm, address, rd1, rd2]]
 
 def alucontrol(AlUop, funct):
+    """
+    Determines the ALU control signal based on the given ALU operation and function code.
+
+    Args:
+    - AlUop (int): 4-bit ALU operation code.
+    - funct (int): 6-bit function code.
+
+    Returns:
+    - int: 4-bit ALU control signal.
+    """
     if AlUop in [0b0100, 0b0000] or (funct in [0x20, 0x21] and AlUop == 2):
         return 0b0000  # ?add
     elif funct in [0x1B, 0x1A] and AlUop == 2:
@@ -357,48 +286,68 @@ def alucontrol(AlUop, funct):
     elif (funct in [0x22, 0x23] and AlUop == 2):
         return 0b1111
 
-def ALU(control, op1, op2):  # [output,zero_flag] #control is ALUcontrol
-    if control == 0b0000:
+def ALU(control, op1, op2):
+    """
+    Performs arithmetic and logical operations based on the control signal and the operands.
+
+    Args:
+    control (int): 4-bit control signal that determines the operation to be performed.
+    op1 (int): First operand.
+    op2 (int): Second operand.
+
+    Returns:
+    int: Result of the operation.
+    """
+    if control == 0b0000:#?add
         return op1 + op2
-    elif control == 0b0001:
+    elif control == 0b0001:#?div
         register_file["hi"] = op1 % op2
         register_file["lo"] = op1 // op2
         return 0
-    elif control == 0b0010:
+    elif control == 0b0010:#?and
         return op1 & op2
-    elif control == 0b0011:
+    elif control == 0b0011:#?mfhi
         return register_file["hi"]
-    elif control == 0b0100:
+    elif control == 0b0100:#?mflo
         return register_file["lo"]
-    elif control == 0b0101:
+    elif control == 0b0101:#?mult
         res = op1 * op2
         x = format(res, "064b")
         register_file["hi"] = int_(x[0:32])
         register_file["lo"] = int_(x[32:64])
         return 0
-    elif control == 0b0110:
+    elif control == 0b0110:#?nor
         return ~(op1 | op2)
-    elif control == 0b0111:
+    elif control == 0b0111:#?or
         return op1 | op2
-    elif control == 0b1000:
+    elif control == 0b1000:#?xor
         return op1 ^ op2
-    elif control == 0b1001:
+    elif control == 0b1001:#?slt
         if op1 < op2:
             return 1
         else:
             return 0
-    elif control == 0b1111:
+    elif control == 0b1111:#?sub
         return op1 - op2
-    elif control == 0b1010:
+    elif control == 0b1010:#?beq
         return ((op1 - op2)==0)
-    elif control == 0b1011:
+    elif control == 0b1011:#?bne
         return ((op1 - op2)!=0)
-    elif control == 0b1100:
+    elif control == 0b1100:#?lui
         return op2 << 16
 
-def instruction_execute(idex): #?idex is pipeline register
-    control_signals=idex[0] #?control_signals
-    control=idex[1]  #?ALUcontrol
+def instruction_execute(idex):
+    """
+    Executes the instruction in the ID/EX pipeline register.
+
+    Args:
+    idex (list): The ID/EX pipeline register containing the control signals, control, and operands.
+
+    Returns:
+    list: A list containing the ALU result, destination register, and immediate value.
+    """
+    control_signals=idex[0]
+    control=idex[1]
 
     if(control_signals['ALUSrc']==0b1):
         op2=idex[-1][3]
@@ -414,6 +363,16 @@ def instruction_execute(idex): #?idex is pipeline register
     return [ALUResult,rd,idex[-1][-1]]
 
 def memory(exmem):
+    """
+    This function performs memory operations based on the control signals and ALU result.
+    It reads data from data memory if MemRead is set, and writes data to data memory if MemWrite is set.
+    It raises an exception if the fetch address is not aligned on the correct boundary.
+    Args:
+    - exmem: A list containing control signals, ALU result and write data.
+    Returns:
+    - 0 if no memory operation is performed.
+    - Data read from data memory if MemRead is set.
+    """
     control_signals=exmem[0]
     ALUResult=exmem[1]
     writeData=exmem[2]
@@ -479,6 +438,15 @@ def memory(exmem):
     return 0
 
 def writeback(memwb):
+    """
+    Writes the result of the executed instruction back to the register file.
+
+    Args:
+    - memwb: A list containing the control signals, ALU result, read data, and destination register.
+
+    Returns:
+    - None
+    """
     control_signals=memwb[0]
     ALUResult=memwb[1]
     ReadData=memwb[2]
@@ -496,6 +464,18 @@ def writeback(memwb):
     return
 
 class Pipe_instruction:
+    """
+    A class representing a pipeline instruction.
+
+    Attributes:
+    - l: a list of functions representing the pipeline stages
+    - done: a list of booleans representing whether each stage is done
+    - instr: the current instruction being processed
+    - i: the current stage index
+
+    Methods:
+    - run(pipeline_register, pc): runs the pipeline instruction and returns the result
+    """
     def __init__(self) -> None:
         self.l=[instruction_fetch,
                 instruction_decode,
@@ -507,6 +487,16 @@ class Pipe_instruction:
         self.i=0
         
     def run(self,pipeline_register=[0,0,0,0],pc=None):
+        """
+        Runs the pipeline instruction and returns the result.
+
+        Args:
+        - pipeline_register: a list representing the pipeline register
+        - pc: the program counter
+
+        Returns:
+        A list containing the result and the current stage index
+        """
         return_value=None
         if self.i==0:
             self.instr=self.l[self.i](pc)
@@ -519,61 +509,59 @@ class Pipe_instruction:
         return [return_value,self.i-1]
         
 class Pipeline:
+    '''This class implements the pipeline interface for MIPS Pipeline Processor.'''
     pc=0x400000
-    def __init__(self):
+    def __init__(self): #?initializing the pipeline
         self.pipeline=[]
         self.ifid=[0,0] #?pipelined registers
         self.idex=[0,0,0,0]
         self.exmem=[0,0,0,0,0]
         self.memwb=[0,0,0,0,0]
     
-    def refresh(self):
+    def refresh(self): #?removing the instructions after writeback phase from the pipeline
         if self.pipeline and self.pipeline[-1].done[-1]:
             self.pipeline.pop()
-    def append(self,inst:Pipe_instruction):
+    def append(self,inst:Pipe_instruction): #?adding the instruction to the pipeline
         self.refresh()
         if len(self.pipeline)<5:
             self.pipeline=[inst]+self.pipeline
             
-    def flush_pipeline(self,old_pc,imm):
-        self.pipeline=self.pipeline[2:] #? flushing the pipeline
-        Pipeline.pc=old_pc+imm*4+4
-        print("flushing pipeline    ",hex(Pipeline.pc),(imm),file=q)
-        for i in self.pipeline:
-            print(i.done,file=q)
+    def flush_pipeline(self,old_pc,imm): #?flushing the pipeline in case of branch
+        self.pipeline=self.pipeline[2:] #?removing the "NOT REQUIRED" instructions from the pipeline
+        Pipeline.pc=old_pc+imm*4+4 #?updating the pc
+        print("flushing pipeline, PC set to ",hex(Pipeline.pc),file=q)
         
-    def jump(self,address):
+    def jump(self,address):#?jumping to the given address
         self.pipeline=self.pipeline[1:] #? flushing the pipeline
         Pipeline.pc=address_after_jump(address)
         print("jumping to:",hex(Pipeline.pc),file=q)
         
     
-    def sw(self)->bool:
+    def sw(self)->bool: #?dependencies in case of sw
         return self.exmem[0] and self.exmem[0]['MemWrite']!=0 and self.memwb[3]==self.exmem[4]
-    def forwarding_unit(self)->bool: #?returns true if forwarding is needed 
+    def forwarding_unit(self)->bool: #?returns select lines if forwarding is needed 
             return_value=[0,0]
-            
             if self.memwb[4] and (self.memwb[0]['RegWrite'] or self.memwb[0]['MemWrite']) and self.idex[3][0]==self.memwb[4] and self.memwb[0]['MemRead']!=0: # rs == rt and memory read is there 
                 return_value[0]=1
-                print("*** 3333, lw - rs ***",file=q)
+                print("*** Forwarding, MEM->EX(rs) ***",file=q)
             if self.memwb[4] and (self.memwb[0]['RegWrite'] or self.memwb[0]['MemWrite']) and self.idex[3][1]==self.memwb[4] and self.memwb[0]['MemRead']!=0: # rt == rt and memory read is there
                 return_value[1]=1
-                print("*** 4444, lw - rt ***",file=q)
+                print("*** Forwarding, MEM->EX(rt) ***",file=q)
             if self.memwb[3] and (self.memwb[0]['RegWrite'] or self.memwb[0]['MemWrite']) and self.idex[3][0]==self.memwb[3]: # rs == rd
                 return_value[0]=1
-                print("*** 5555, 2step, mem-> ex rs ***",file=q)
+                print("*** Previous 2nd EX - forwarding, MEM->EX(rs) ***",file=q)
             if self.memwb[3] and (self.memwb[0]['RegWrite'] or self.memwb[0]['MemWrite']) and self.idex[3][1]==self.memwb[3]: # rt == rd 
                 return_value[1]=1
-                print("*** 6666, 2step, mem-> ex rt ***",file=q)
+                print("*** Previous 2nd EX - forwarding, MEM->EX(rt) ***",file=q)
             if self.exmem[3] and (self.exmem[0]['RegWrite'] or self.exmem[0]['MemWrite']) and self.exmem[3] and self.exmem[3] == self.idex[3][0]: # rd == rs
                 return_value[0]=2
-                print("*** 1111, ex->ex rs ***",file=q)
+                print("*** Forwarding EX->EX(rs) ***",file=q)
             if self.exmem[3] and (self.exmem[0]['RegWrite'] or self.exmem[0]['MemWrite']) and self.exmem[3] and self.exmem[3] == self.idex[3][1]: # rd == rt
                 return_value[1]=2
-                print("*** 2222,ex->ex, rt ***",file=q)
+                print("*** Forwarding EX->EX(rt) ***",file=q)
             return return_value
         
-    def isStall(self)->bool: # checks if stalling is required or not
+    def isStall(self)->bool: #? checks if stalling is required or not
         try:
             if self.exmem and self.exmem[0]['MemRead']!=0 and (self.idex[3][0]==self.exmem[4] or self.idex[3][1]==self.exmem[4]):
                 return True
@@ -581,16 +569,16 @@ class Pipeline:
         except:
             return False
     def run(self):
+        clock=0
         while Pipeline.pc<max(instruct_memory.keys()) or self.pipeline:
             self.refresh()
             stall=False
             flush_pipeline=False 
             jump=False  
-            
-            for i in self.pipeline[::-1]:
-                # print('***',file=q)
+            clock += 1
+            for i in self.pipeline[::-1]:#?Executing in parallel
                 return_value,x=i.run(pc=Pipeline.pc,pipeline_register=[self.ifid,self.idex,self.exmem,self.memwb])
-                if x==0:
+                if x==0:#?Executing IF stage
                     print("IF",file=q)
                     self.ifid[0]=return_value
                     self.ifid[1]=Pipeline.pc
@@ -599,7 +587,7 @@ class Pipeline:
                     print(file=q)
                     continue
                     
-                elif x==1: #*[control_signals,alucontrol_singals,take_branch,[rs, rt, rd, imm, address, rd1, rd2]]
+                elif x==1: #*[control_signals,alucontrol_singals,take_branch,[rs, rt, rd, imm, address, rd1, rd2]]#?ID
                     self.idex[0]=return_value[0] #?control_signals
                     self.idex[1]=return_value[1] #?alucontrol_singals
                     self.idex[2]=self.ifid[1]   #? storing pc for beq
@@ -616,7 +604,7 @@ class Pipeline:
                     print('rs, rt, rd, imm, address, rd1, rd2:',return_value[3],file=q)
                     print(file=q)
                     
-                elif x==2: #*[ALUResult,rd,rd2]
+                elif x==2: #*[ALUResult,rd,rd2]#?EX
                     self.exmem[0]=self.idex[0]   #?control_signals
                     self.exmem[1]=return_value[0]#?ALUResult
                     self.exmem[2]=return_value[2]#?WriteData
@@ -634,7 +622,7 @@ class Pipeline:
                     print(file=q)
                     continue
                     
-                elif x==3: #*[control_signals,ALUResult,ReadData,rd]
+                elif x==3: #*[control_signals,ALUResult,ReadData,rd]#?MEM
                     self.memwb[0]=self.exmem[0] #?control_signals
                     self.memwb[1]=self.exmem[1] #?ALUResult
                     self.memwb[2]=return_value  #?MemResult
@@ -650,36 +638,25 @@ class Pipeline:
                     print(file=q)
                     continue
                     
-                elif x==4:
+                elif x==4:#?WB
                     ...
-                if self.sw():
+                if self.sw():#?sw dependency
                         self.exmem[2]=self.memwb[1]
-                if self.isStall():
+                if self.isStall():#?lw/sw hazards dependency
                     print("stalling",file=q)
                     stall=True
                     self.exmem=[0,0,0,0,0]
                     break   
                 
                 sel0,sel1=self.forwarding_unit()
-                if sel0==1:
+                if sel0==1: #?FORWARDING unit
                     self.idex[3][5]=self.memwb[2] if self.memwb[0]['MemtoReg'] else self.memwb[1] #?forwarding from memwb register to idex register
-                    if self.memwb[0]['MemtoReg']:print(f"Forwarding from Memory to RD1 register {self.memwb[2]}",file=q)
-                    else:print(f"Forwarding from ALU/RT to RD1 register {self.memwb[1]}",file=q)
-                    print(f'FORWARDING1rd1-  {self.idex[3][5]}',file=q)
                 elif sel0==2:
                     self.idex[3][5]=self.exmem[1]
-                    print("Forwarding register from EXMEM to RD1 register",file=q)
-                    print(f'FORWARDING2rd1  {self.idex[3][5]}',file=q)
                 if sel1==1:
                     self.idex[3][6]=self.memwb[2] if self.memwb[0]['MemtoReg'] else self.memwb[1]
-                    if self.exmem[0]['MemtoReg']:print(f"Forwarding from Memory to RD2 register {self.exmem[2]}",file=q)
-                    else:print(f"Forwarding from ALU/RT to RD2 register {self.exmem[1]}",file=q)
-                    print(f'FORWARDING1rd2  {  self.idex[3][6]}',file=q)
                 elif sel1==2:
                     self.idex[3][6]=self.exmem[1]
-                    print("Forwarding register from EXMEM to RD2 register",file=q)
-                    print(f'FORWARDING2rd2  {self.idex[3][6]}',file=q)
-                
             if stall:
                 print('_________________________',file=q)
                 continue
@@ -714,18 +691,12 @@ class Pipeline:
             print('EXMEM:',self.exmem,file=q)
             print('MEMWB:',self.memwb,file=q)
             print(register_file,file=q)
+            print("CLOCK:",clock,file=q)
             print('_________________________',file=q)
-
-        # for i in data_mem.keys():
-        #     if i:print(hex(i),int(data_mem[i],2),file=ffd)      
+        print("TOTAL CLOCK CYCLES:",clock)
             
 a=Pipeline()
 a.run()
 ffd=open(memory11,'w')
 for i in data_mem.keys():
-    # c=binary_to_string([data_mem[i][0:8],data_mem[i][8:16],data_mem[i][16:24],data_mem[i][24:32]])
-    # s=''
-    # for j in c:
-    #     s+=j
-    #     s+=' '
     print(hex(i),int(data_mem[i],2),file=ffd)   

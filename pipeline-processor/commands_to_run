@@ -1,0 +1,2 @@
+python .\processor_pipeline.py .\fact.txt .\data_fact.txt pipe_fact.txt mem_fact.txt
+python .\processor_pipeline.py .\sort.txt .\data_sort.txt pipe_sort.txt mem_sort.txt
