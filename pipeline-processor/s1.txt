@@ -1,0 +1,457 @@
+IF
+pc: 0x400000
+instruction: ['00100100000010010000000000000000', 4194304]
+IFID: ['00100100000010010000000000000000', 4194304]
+IDEX: [0, 0, 0, 0]
+EXMEM: [0, 0, 0, 0, 0]
+MEMWB: [0, 0, 0, 0, 0]
+{'$0': 0, '$1': 0, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 0, '$10': 0, '$11': 0, '$12': 0, '$13': 0, '$14': 0, '$15': 0, '$16': 0, '$17': 0, '$18': 0, '$19': 0, '$20': 0, '$21': 0, '$22': 0, '$23': 0, '$24': 0, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}
+_________________________
+ID
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+alucontrol_singals: 0
+take_branch: 0
+rs, rt, rd, imm, address, rd1, rd2: [0, 9, 0, 0, 589824, 0, 0]
+
+IF
+pc: 0x400004
+instruction: ['00100000000010100000000000001000', 4194308]
+IFID: ['00100000000010100000000000001000', 4194308]
+IDEX: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 0, 4194304, [0, 9, 0, 0, 589824, 0, 0]]
+EXMEM: [0, 0, 0, 0, 0]
+MEMWB: [0, 0, 0, 0, 0]
+{'$0': 0, '$1': 0, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 0, '$10': 0, '$11': 0, '$12': 0, '$13': 0, '$14': 0, '$15': 0, '$16': 0, '$17': 0, '$18': 0, '$19': 0, '$20': 0, '$21': 0, '$22': 0, '$23': 0, '$24': 0, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}
+_________________________
+1 0 0
+EX
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+ALUResult: 0
+WriteData: 0
+rd: 9
+rt: 9
+
+ID
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+alucontrol_singals: 0
+take_branch: 0
+rs, rt, rd, imm, address, rd1, rd2: [0, 10, 0, 8, 655368, 0, 0]
+
+IF
+pc: 0x400008
+instruction: ['00010001001010100000000000001101', 4194312]
+IFID: ['00010001001010100000000000001101', 4194312]
+IDEX: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 0, 4194308, [0, 10, 0, 8, 655368, 0, 0]]
+EXMEM: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 0, 0, 9, 9]
+MEMWB: [0, 0, 0, 0, 0]
+{'$0': 0, '$1': 0, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 0, '$10': 0, '$11': 0, '$12': 0, '$13': 0, '$14': 0, '$15': 0, '$16': 0, '$17': 0, '$18': 0, '$19': 0, '$20': 0, '$21': 0, '$22': 0, '$23': 0, '$24': 0, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}
+_________________________
+MEM
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+ALUResult: 0
+ReadData: 0
+rd: 9
+rt: 9
+
+1 0 8
+EX
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+ALUResult: 8
+WriteData: 0
+rd: 10
+rt: 10
+
+ID
+control_signals: {'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 1, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}
+alucontrol_singals: 10
+take_branch: 0
+rs, rt, rd, imm, address, rd1, rd2: [9, 10, 0, 13, 19529741, 0, 0]
+
+*** 5555 ***
+*** 2222 ***
+FORWARDING1rd1
+FORWARDING2rd2
+IF
+pc: 0x40000c
+instruction: ['00000001010010010110000000100010', 4194316]
+IFID: ['00000001010010010110000000100010', 4194316]
+IDEX: [{'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 1, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}, 10, 4194312, [9, 10, 0, 13, 19529741, 0, 8]]
+EXMEM: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 8, 0, 10, 10]
+MEMWB: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 0, 0, 9, 9]
+{'$0': 0, '$1': 0, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 0, '$10': 0, '$11': 0, '$12': 0, '$13': 0, '$14': 0, '$15': 0, '$16': 0, '$17': 0, '$18': 0, '$19': 0, '$20': 0, '$21': 0, '$22': 0, '$23': 0, '$24': 0, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}
+_________________________
+MEM
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+ALUResult: 8
+ReadData: 0
+rd: 10
+rt: 10
+
+0 0 8
+EX
+control_signals: {'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 1, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}
+ALUResult: False
+WriteData: 8
+rd: 10
+rt: 10
+
+ID
+control_signals: {'RegDst': 1, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 2, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 1, 'Jump': 0}
+alucontrol_singals: 10
+take_branch: 0
+rs, rt, rd, imm, address, rd1, rd2: [10, 9, 12, 24610, 21585954, 0, 0]
+
+*** 5555 ***
+*** 1111 ***
+FORWARDING2rd1
+IF
+pc: 0x400010
+instruction: ['00100001001010010000000000000001', 4194320]
+IFID: ['00100001001010010000000000000001', 4194320]
+IDEX: [{'RegDst': 1, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 2, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 1, 'Jump': 0}, 10, 4194316, [10, 9, 12, 24610, 21585954, False, 0]]
+EXMEM: [{'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 1, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}, False, 8, 10, 10]
+MEMWB: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 8, 0, 10, 10]
+{'$0': 0, '$1': 0, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 0, '$10': 0, '$11': 0, '$12': 0, '$13': 0, '$14': 0, '$15': 0, '$16': 0, '$17': 0, '$18': 0, '$19': 0, '$20': 0, '$21': 0, '$22': 0, '$23': 0, '$24': 0, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}
+_________________________
+MEM
+control_signals: {'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 1, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}
+ALUResult: False
+ReadData: 0
+rd: 10
+rt: 10
+
+0 False 0
+EX
+control_signals: {'RegDst': 1, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 2, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 1, 'Jump': 0}
+ALUResult: True
+WriteData: 0
+rd: 12
+rt: 9
+
+ID
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+alucontrol_singals: 0
+take_branch: 0
+rs, rt, rd, imm, address, rd1, rd2: [9, 9, 0, 1, 19464193, 0, 0]
+
+IF
+pc: 0x400014
+instruction: ['00100000000010110000000000000000', 4194324]
+IFID: ['00100000000010110000000000000000', 4194324]
+IDEX: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 0, 4194320, [9, 9, 0, 1, 19464193, 0, 0]]
+EXMEM: [{'RegDst': 1, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 2, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 1, 'Jump': 0}, True, 0, 12, 9]
+MEMWB: [{'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 1, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}, False, 0, 10, 10]
+{'$0': 0, '$1': 0, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 0, '$10': 8, '$11': 0, '$12': 0, '$13': 0, '$14': 0, '$15': 0, '$16': 0, '$17': 0, '$18': 0, '$19': 0, '$20': 0, '$21': 0, '$22': 0, '$23': 0, '$24': 0, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}
+_________________________
+MEM
+control_signals: {'RegDst': 1, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 2, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 1, 'Jump': 0}
+ALUResult: True
+ReadData: 0
+rd: 12
+rt: 9
+
+1 0 1
+EX
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+ALUResult: 1
+WriteData: 0
+rd: 9
+rt: 9
+
+ID
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+alucontrol_singals: 0
+take_branch: 0
+rs, rt, rd, imm, address, rd1, rd2: [0, 11, 0, 0, 720896, 0, 0]
+
+IF
+pc: 0x400018
+instruction: ['00001000000100000000000000000111', 4194328]
+IFID: ['00001000000100000000000000000111', 4194328]
+IDEX: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 0, 4194324, [0, 11, 0, 0, 720896, 0, 0]]
+EXMEM: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 1, 0, 9, 9]
+MEMWB: [{'RegDst': 1, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 2, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 1, 'Jump': 0}, True, 0, 12, 9]
+{'$0': 0, '$1': 0, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 0, '$10': 8, '$11': 0, '$12': 0, '$13': 0, '$14': 0, '$15': 0, '$16': 0, '$17': 0, '$18': 0, '$19': 0, '$20': 0, '$21': 0, '$22': 0, '$23': 0, '$24': 0, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}
+_________________________
+MEM
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+ALUResult: 1
+ReadData: 0
+rd: 9
+rt: 9
+
+1 0 0
+EX
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+ALUResult: 0
+WriteData: 0
+rd: 11
+rt: 11
+
+ID
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 1}
+alucontrol_singals: 0
+take_branch: 0
+rs, rt, rd, imm, address, rd1, rd2: [0, 16, 0, 7, 1048583, 0, 0]
+
+IF
+pc: 0x40001c
+instruction: ['00010001011011001111111111111010', 4194332]
+jumping to: 0x40001c
+IFID: ['00010001011011001111111111111010', 4194332]
+IDEX: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 1}, 0, 4194328, [0, 16, 0, 7, 1048583, 0, 0]]
+EXMEM: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 0, 0, 11, 11]
+MEMWB: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 1, 0, 9, 9]
+{'$0': 0, '$1': 0, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 0, '$10': 8, '$11': 0, '$12': True, '$13': 0, '$14': 0, '$15': 0, '$16': 0, '$17': 0, '$18': 0, '$19': 0, '$20': 0, '$21': 0, '$22': 0, '$23': 0, '$24': 0, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}
+_________________________
+MEM
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+ALUResult: 0
+ReadData: 0
+rd: 11
+rt: 11
+
+0 0 0
+EX
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 1}
+ALUResult: 0
+WriteData: 0
+rd: 16
+rt: 16
+
+IF
+pc: 0x40001c
+instruction: ['00010001011011001111111111111010', 4194332]
+IFID: ['00010001011011001111111111111010', 4194332]
+IDEX: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 1}, 0, 4194328, [0, 16, 0, 7, 1048583, 0, 0]]
+EXMEM: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 1}, 0, 0, 16, 16]
+MEMWB: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 0, 0, 11, 11]
+{'$0': 0, '$1': 0, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 1, '$10': 8, '$11': 0, '$12': True, '$13': 0, '$14': 0, '$15': 0, '$16': 0, '$17': 0, '$18': 0, '$19': 0, '$20': 0, '$21': 0, '$22': 0, '$23': 0, '$24': 0, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}
+_________________________
+MEM
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 1}
+ALUResult: 0
+ReadData: 0
+rd: 16
+rt: 16
+
+ID
+control_signals: {'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 1, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}
+alucontrol_singals: 10
+take_branch: 0
+rs, rt, rd, imm, address, rd1, rd2: [11, 12, 31, -6, 23920634, 0, True]
+
+IF
+pc: 0x400020
+instruction: ['10001101011100010000000000000000', 4194336]
+IFID: ['10001101011100010000000000000000', 4194336]
+IDEX: [{'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 1, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}, 10, 4194332, [11, 12, 31, -6, 23920634, 0, True]]
+EXMEM: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 1}, 0, 0, 16, 16]
+MEMWB: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 1}, 0, 0, 16, 16]
+{'$0': 0, '$1': 0, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 1, '$10': 8, '$11': 0, '$12': True, '$13': 0, '$14': 0, '$15': 0, '$16': 0, '$17': 0, '$18': 0, '$19': 0, '$20': 0, '$21': 0, '$22': 0, '$23': 0, '$24': 0, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}
+_________________________
+0 0 True
+EX
+control_signals: {'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 1, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}
+ALUResult: False
+WriteData: True
+rd: 12
+rt: 12
+
+ID
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 3, 'MemtoReg': 1, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+alucontrol_singals: 0
+take_branch: 0
+rs, rt, rd, imm, address, rd1, rd2: [11, 17, 0, 0, 24182784, 0, 0]
+
+IF
+pc: 0x400024
+instruction: ['00100001011010110000000000000001', 4194340]
+IFID: ['00100001011010110000000000000001', 4194340]
+IDEX: [{'RegDst': 0, 'Branch': 0, 'MemRead': 3, 'MemtoReg': 1, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 0, 4194336, [11, 17, 0, 0, 24182784, 0, 0]]
+EXMEM: [{'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 1, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}, False, True, 12, 12]
+MEMWB: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 1}, 0, 0, 16, 16]
+{'$0': 0, '$1': 0, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 1, '$10': 8, '$11': 0, '$12': True, '$13': 0, '$14': 0, '$15': 0, '$16': 0, '$17': 0, '$18': 0, '$19': 0, '$20': 0, '$21': 0, '$22': 0, '$23': 0, '$24': 0, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}
+_________________________
+MEM
+control_signals: {'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 1, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}
+ALUResult: False
+ReadData: 0
+rd: 12
+rt: 12
+
+1 0 0
+EX
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 3, 'MemtoReg': 1, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+ALUResult: 0
+WriteData: 0
+rd: 17
+rt: 17
+
+ID
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+alucontrol_singals: 0
+take_branch: 0
+rs, rt, rd, imm, address, rd1, rd2: [11, 11, 0, 1, 23789569, 0, 0]
+
+IF
+pc: 0x400028
+instruction: ['10001101011100100000000000000000', 4194344]
+IFID: ['10001101011100100000000000000000', 4194344]
+IDEX: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 0, 4194340, [11, 11, 0, 1, 23789569, 0, 0]]
+EXMEM: [{'RegDst': 0, 'Branch': 0, 'MemRead': 3, 'MemtoReg': 1, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 0, 0, 17, 17]
+MEMWB: [{'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 1, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}, False, 0, 12, 12]
+{'$0': 0, '$1': 0, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 1, '$10': 8, '$11': 0, '$12': True, '$13': 0, '$14': 0, '$15': 0, '$16': 0, '$17': 0, '$18': 0, '$19': 0, '$20': 0, '$21': 0, '$22': 0, '$23': 0, '$24': 0, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}
+_________________________
+MEM
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 3, 'MemtoReg': 1, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+ALUResult: 0
+ReadData: 0
+rd: 17
+rt: 17
+
+1 0 1
+EX
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+ALUResult: 1
+WriteData: 0
+rd: 11
+rt: 11
+
+ID
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 3, 'MemtoReg': 1, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+alucontrol_singals: 0
+take_branch: 0
+rs, rt, rd, imm, address, rd1, rd2: [11, 18, 0, 0, 24248320, 0, 0]
+
+*** 1111 ***
+FORWARDING2rd1
+IF
+pc: 0x40002c
+instruction: ['00000010001100100000100000101010', 4194348]
+IFID: ['00000010001100100000100000101010', 4194348]
+IDEX: [{'RegDst': 0, 'Branch': 0, 'MemRead': 3, 'MemtoReg': 1, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 0, 4194344, [11, 18, 0, 0, 24248320, 1, 0]]
+EXMEM: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 1, 0, 11, 11]
+MEMWB: [{'RegDst': 0, 'Branch': 0, 'MemRead': 3, 'MemtoReg': 1, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 0, 0, 17, 17]
+{'$0': 0, '$1': 0, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 1, '$10': 8, '$11': 0, '$12': True, '$13': 0, '$14': 0, '$15': 0, '$16': 0, '$17': 0, '$18': 0, '$19': 0, '$20': 0, '$21': 0, '$22': 0, '$23': 0, '$24': 0, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}
+_________________________
+MEM
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+ALUResult: 1
+ReadData: 0
+rd: 11
+rt: 11
+
+1 1 0
+EX
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 3, 'MemtoReg': 1, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}
+ALUResult: 1
+WriteData: 0
+rd: 18
+rt: 18
+
+ID
+control_signals: {'RegDst': 1, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 2, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 1, 'Jump': 0}
+alucontrol_singals: 9
+take_branch: 0
+rs, rt, rd, imm, address, rd1, rd2: [17, 18, 1, 2090, 36833322, 0, 0]
+
+*** 2222 ***
+FORWARDING2rd2
+IF
+pc: 0x400030
+instruction: ['00010100001000001111111111111010', 4194352]
+IFID: ['00010100001000001111111111111010', 4194352]
+IDEX: [{'RegDst': 1, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 2, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 1, 'Jump': 0}, 9, 4194348, [17, 18, 1, 2090, 36833322, 0, 1]]
+EXMEM: [{'RegDst': 0, 'Branch': 0, 'MemRead': 3, 'MemtoReg': 1, 'ALUOp': 0, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 1, 0, 18, 18]
+MEMWB: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 4, 'MemWrite': 0, 'ALUSrc': 1, 'RegWrite': 1, 'Jump': 0}, 1, 0, 11, 11]
+{'$0': 0, '$1': 0, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 1, '$10': 8, '$11': 0, '$12': True, '$13': 0, '$14': 0, '$15': 0, '$16': 0, '$17': 0, '$18': 0, '$19': 0, '$20': 0, '$21': 0, '$22': 0, '$23': 0, '$24': 0, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}
+_________________________
+stalling
+_________________________
+MEM
+control_signals: 0
+ALUResult: 0
+ReadData: 0
+rd: 0
+rt: 0
+
+0 0 1
+EX
+control_signals: {'RegDst': 1, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 2, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 1, 'Jump': 0}
+ALUResult: 1
+WriteData: 1
+rd: 1
+rt: 18
+
+ID
+control_signals: {'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 14, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}
+alucontrol_singals: 11
+take_branch: 0
+rs, rt, rd, imm, address, rd1, rd2: [1, 0, 31, -6, 2162682, 0, 0]
+
+*** 1111 ***
+FORWARDING2rd1
+IF
+pc: 0x400034
+instruction: ['10101101011100010000000000000000', 4194356]
+IFID: ['10101101011100010000000000000000', 4194356]
+IDEX: [{'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 14, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}, 11, 4194352, [1, 0, 31, -6, 2162682, 1, 0]]
+EXMEM: [{'RegDst': 1, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 2, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 1, 'Jump': 0}, 1, 1, 1, 18]
+MEMWB: [0, 0, 0, 0, 0]
+{'$0': 0, '$1': 0, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 1, '$10': 8, '$11': 1, '$12': True, '$13': 0, '$14': 0, '$15': 0, '$16': 0, '$17': 0, '$18': 0, '$19': 0, '$20': 0, '$21': 0, '$22': 0, '$23': 0, '$24': 0, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}
+_________________________
+MEM
+control_signals: {'RegDst': 1, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 2, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 1, 'Jump': 0}
+ALUResult: 1
+ReadData: 0
+rd: 1
+rt: 18
+
+0 1 0
+EX
+control_signals: {'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 14, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}
+ALUResult: True
+WriteData: 0
+rd: 0
+rt: 0
+
+ID
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 0, 'MemWrite': 3, 'ALUSrc': 1, 'RegWrite': 0, 'Jump': 0}
+alucontrol_singals: 0
+take_branch: 0
+rs, rt, rd, imm, address, rd1, rd2: [11, 17, 0, 0, 24182784, 1, 0]
+
+IF
+pc: 0x400038
+instruction: ['10101101011100101111111111111111', 4194360]
+flushing pipeline
+IFID: ['10101101011100101111111111111111', 4194360]
+IDEX: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 0, 'MemWrite': 3, 'ALUSrc': 1, 'RegWrite': 0, 'Jump': 0}, 0, 4194356, [11, 17, 0, 0, 24182784, 1, 0]]
+EXMEM: [{'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 14, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}, True, 0, 0, 0]
+MEMWB: [{'RegDst': 1, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 2, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 1, 'Jump': 0}, 1, 0, 1, 18]
+{'$0': 0, '$1': 0, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 1, '$10': 8, '$11': 1, '$12': True, '$13': 0, '$14': 0, '$15': 0, '$16': 0, '$17': 0, '$18': 0, '$19': 0, '$20': 0, '$21': 0, '$22': 0, '$23': 0, '$24': 0, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}
+_________________________
+MEM
+control_signals: {'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 14, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}
+ALUResult: True
+ReadData: 0
+rd: 0
+rt: 0
+
+1 1 0
+EX
+control_signals: {'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 0, 'MemWrite': 3, 'ALUSrc': 1, 'RegWrite': 0, 'Jump': 0}
+ALUResult: 1
+WriteData: 0
+rd: 17
+rt: 17
+
+IF
+pc: 0x400038
+instruction: ['10101101011100101111111111111111', 4194360]
+IFID: ['10101101011100101111111111111111', 4194360]
+IDEX: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 0, 'MemWrite': 3, 'ALUSrc': 1, 'RegWrite': 0, 'Jump': 0}, 0, 4194356, [11, 17, 0, 0, 24182784, 1, 0]]
+EXMEM: [{'RegDst': 0, 'Branch': 0, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 0, 'MemWrite': 3, 'ALUSrc': 1, 'RegWrite': 0, 'Jump': 0}, 1, 0, 17, 17]
+MEMWB: [{'RegDst': 0, 'Branch': 1, 'MemRead': 0, 'MemtoReg': 0, 'ALUOp': 14, 'MemWrite': 0, 'ALUSrc': 0, 'RegWrite': 0, 'Jump': 0}, True, 0, 0, 0]
+{'$0': 0, '$1': 1, '$2': 0, '$3': 0, '$4': 0, '$5': 0, '$6': 0, '$7': 0, '$8': 0, '$9': 1, '$10': 8, '$11': 1, '$12': True, '$13': 0, '$14': 0, '$15': 0, '$16': 0, '$17': 0, '$18': 0, '$19': 0, '$20': 0, '$21': 0, '$22': 0, '$23': 0, '$24': 0, '$25': 0, '$26': 0, '$27': 0, '$28': 0, '$29': 0, '$30': 0, '$31': 0, 'hi': 0, 'lo': 0}
+_________________________
