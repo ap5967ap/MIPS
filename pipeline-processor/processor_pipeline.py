@@ -512,7 +512,7 @@ class Pipeline:
     '''This class implements the pipeline interface for MIPS Pipeline Processor.'''
     pc=0x400000
     def __init__(self): #?initializing the pipeline
-        self.pipeline=[]
+        self.pipeline=[]#?pipeline which can hold upto 5 instructions in 5 distinct stages
         self.ifid=[0,0] #?pipelined registers
         self.idex=[0,0,0,0]
         self.exmem=[0,0,0,0,0]
@@ -537,7 +537,7 @@ class Pipeline:
         print("jumping to:",hex(Pipeline.pc),file=q)
         
     
-    def sw(self)->bool: #?dependencies in case of sw
+    def sw(self)->bool: #? tells if there is a dependencies in case of sw
         return self.exmem[0] and self.exmem[0]['MemWrite']!=0 and self.memwb[3]==self.exmem[4]
     def forwarding_unit(self)->bool: #?returns select lines if forwarding is needed 
             return_value=[0,0]
