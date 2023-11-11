@@ -526,7 +526,9 @@ def mips_processor():
         processor.append(f"CLOCK : {clock}\n")
         
         processor.append("________________________________________________________________________________________________________________\n")
-mips_processor()
+    return clock
+clock=mips_processor()
+print("Total clock cycles :", clock)
 # def cc(binary:str):
 #     return hex(int(binary,2))
 processor.append(register_file)
@@ -536,9 +538,10 @@ with open(processor_output, 'w') as f:
     f.close()
 ff=open(memory11,'w')
 for i in data_mem.keys():
-    # c=binary_to_string([data_mem[i][0:8],data_mem[i][8:16],data_mem[i][16:24],data_mem[i][24:32]])
-    # s=''
-    # for j in c:
-    #     s+=j
-    #     s+=' '
+    c=binary_to_string([data_mem[i][0:8],data_mem[i][8:16],data_mem[i][16:24],data_mem[i][24:32]])
+    s=''
+    for j in c:
+        s+=j
+        s+=' '
     print(hex(i),int(data_mem[i],2),file=ff)
+    # print(hex(i),s,file=ff)
